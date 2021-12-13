@@ -45,13 +45,20 @@ h1 {
 }
 
 .container {
-    background-color: rgb(74, 51, 155);
     position: relative;
     width: 100%;
     height: 100%;
+    object-fit: fill;
     align-items: center;
-    justify-content: center;
     overflow: hidden;
+}
+
+.video-container {
+    z-index: -10;
+}
+
+.container .first-title {
+    z-index: 10;
 }
 
 nav {
@@ -60,7 +67,7 @@ nav {
     background-color: (transparent);
     position: relative;
     text-align: center;
-
+    z-index: 10;
 }
 
 nav ul {
@@ -69,10 +76,12 @@ nav ul {
     list-style-type: none;
     justify-content: center;
     justify-content: space-between;
+    z-index: 10;
 }
 
 nav ul li {
     padding: 30px;
+    z-index: 10;
 }
 
 nav ul li a {
@@ -80,6 +89,7 @@ nav ul li a {
     font-size: 20px;
     letter-spacing: 1px;
     text-decoration: none;
+    z-index: 10;
 }
 
 nav a:hover {
