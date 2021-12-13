@@ -15,6 +15,7 @@
     font-size: 6rem;
     color: rgb(76, 199, 240);
     font-weight: 200;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9);
 }
 
 /* H1 styling */
@@ -26,6 +27,7 @@ h1 {
     padding: 50px;
     color: rgb(129, 217, 247);
     font-weight: 200;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9);
 }
 
 .first-title {
@@ -93,6 +95,7 @@ nav ul {
     list-style-type: none;
     justify-content: center;
     justify-content: space-between;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9);
     z-index: 10;
 }
 
