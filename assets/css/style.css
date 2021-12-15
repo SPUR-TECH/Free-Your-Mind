@@ -118,11 +118,11 @@ nav ul li a {
 }
 
 nav a:hover {
-    color: rgb(2, 2, 2);
+    color: rgb(129, 217, 247);
 }
 
 .active {
-    color: rgb(0, 0, 0);
+    color: rgb(129, 217, 247);
 }
 
 .footer {
