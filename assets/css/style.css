@@ -42,7 +42,7 @@ nav ul li {
 
 nav ul li a {
     color: rgb(255, 255, 255);
-    font-size: 30px;
+    font-size: 1.6rem;
     letter-spacing: 1px;
     text-decoration: none;
     z-index: 10;
@@ -104,17 +104,18 @@ h1 {
 }
 
 .first-title {
-    height: 200px;
+    height: 11rem;
     background-color: rgb(99, 97, 97, 0.3);
     margin-top: 160px;
     z-index: 10;
+    margin-bottom: 5rem;
 
 }
 
 .meditation-image {
     background-image: url("med-pose.jpg") center, center;
     width: 100%;
-    height: 110rem;
+    height: 100rem;
     display: flex;
     position: relative;
     object-fit: contain;
@@ -122,10 +123,10 @@ h1 {
 }
 
 .second-title {
-    height: 200px;
+    height: 11rem;
     background-color: rgb(99, 97, 97, 0.3);
-    margin-top: 160px;
-    margin-bottom: 150px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .relaxation-image {
@@ -140,10 +141,10 @@ h1 {
 }
 
 .third-title {
-    height: 200px;
+    height: 11rem;
     background-color: rgb(99, 97, 97, 0.3);
-    margin-top: 160px;
-    margin-bottom: 50px;
+    margin-top: 5rem;
+    margin-bottom: 5rem;
 }
 
 .health-image {
@@ -190,5 +191,109 @@ h1 {
     text-align: center;
     padding: 10px;
     margin: 0;
-    font-size: 20px;
+    font-size: 1rem;
+}
+
+@media all and (max-width: 1280px) {
+    .meditation-image {
+        width: 100%;
+        height: 70rem;
+    }
+
+    .relaxation-image {
+        width: 100%;
+        height: 40rem;
+    }
+
+    .health-image {
+        width: 100%;
+        height: 40rem;
+    }
+}
+
+@media all and (max-width: 880px) {
+    .meditation-image {
+        width: 100%;
+        height: 70rem;
+    }
+
+    .relaxation-image {
+        width: 100%;
+        height: 30rem;
+    }
+
+    .health-image {
+        width: 100%;
+        height: 30rem;
+    }
+
+    .header h1 {
+        font-size: 4rem;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width: 680px) {
+    .meditation-image {
+        width: 100%;
+        height: 50rem;
+    }
+
+    .relaxation-image {
+        width: 100%;
+        height: 20rem;
+    }
+
+    .health-image {
+        width: 100%;
+        height: 20rem;
+    }
+
+}
+
+@media all and (max-width: 480px) {
+    .meditation-image {
+        width: 100%;
+        height: 30rem;
+    }
+
+    .relaxation-image {
+        width: 100%;
+        height: 15rem;
+    }
+
+    .health-image {
+        width: 100%;
+        height: 15rem;
+    }
+
+    .header h1 {
+        font-size: 3rem;
+    }
+}
+
+@media all and (max-width: 460px) {
+    nav ul li a {
+        font-size: 0.6rem;
+    }
+
+    nav ul li {
+        padding: 20px;
+
+    }
+
+    .header h1 {
+        padding: 0;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .copyright {
+        font-size: 0.7rem;
+    }
 }
