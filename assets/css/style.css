@@ -156,6 +156,7 @@ h1 {
     position: relative;
     object-fit: contain;
     padding-left: 20rem;
+    margin-bottom: 10rem;
 }
 
 .footer {
