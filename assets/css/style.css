@@ -171,7 +171,7 @@ h1 {
     display: flex;
     justify-content: center;
     justify-content: space-around;
-    font-size: 20px;
+    font-size: 1.7rem;
     padding-bottom: 10px;
 }
 
@@ -209,6 +209,10 @@ h1 {
         width: 100%;
         height: 40rem;
     }
+
+    .footer-list {
+        font-size: 1.4rem;
+    }
 }
 
 @media all and (max-width: 880px) {
@@ -234,6 +238,10 @@ h1 {
     nav ul li a {
         font-size: 1rem;
     }
+
+    .footer-list {
+        font-size: 1.2rem;
+    }
 }
 
 @media all and (max-width: 680px) {
@@ -257,7 +265,7 @@ h1 {
 @media all and (max-width: 480px) {
     .meditation-image {
         width: 100%;
-        height: 30rem;
+        height: 40rem;
     }
 
     .relaxation-image {
@@ -295,5 +303,9 @@ h1 {
 
     .copyright {
         font-size: 0.7rem;
+    }
+
+    .footer-list {
+        font-size: 1rem;
     }
 }
