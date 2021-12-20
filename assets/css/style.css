@@ -155,7 +155,7 @@ h1 {
 .second-title {
     position: absolute;
     justify-content: center;
-    top: 56%;
+    top: 32%;
     width: 100%;
     height: 11rem;
     background-color: rgb(99, 97, 97, 0.3);
@@ -191,7 +191,7 @@ h1 {
 .third-title {
     position: absolute;
     justify-content: center;
-    top: 78%;
+    top: 44%;
     width: 100%;
     height: 11rem;
     background-color: rgb(99, 97, 97, 0.3);
