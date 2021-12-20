@@ -103,6 +103,12 @@ h1 {
     text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9);
 }
 
+.first-title button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 .first-title {
     height: 11rem;
     background-color: rgb(99, 97, 97, 0.3);
@@ -122,6 +128,12 @@ h1 {
     justify-content: center;
 }
 
+.second-title button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
 .second-title {
     height: 11rem;
     background-color: rgb(99, 97, 97, 0.3);
@@ -138,6 +150,12 @@ h1 {
     object-fit: contain;
     justify-content: center;
 
+}
+
+.third-title button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
 }
 
 .third-title {
