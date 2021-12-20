@@ -116,7 +116,7 @@ h1 {
 .meditation-image {
     background-image: url("med-pose.jpg") center, center;
     width: 100%;
-    height: 100rem;
+    height: 110rem;
     display: flex;
     position: relative;
     object-fit: contain;
@@ -131,12 +131,14 @@ h1 {
 }
 
 .relaxation-image {
+    background-image: url("relaxation.jpg") center, center;
     width: 100%;
-    height: 100px;
+    height: 50rem;
+    display: flex;
     position: relative;
     object-fit: contain;
-    object-position: center;
-    z-index: -10;
+    padding-left: 20rem;
+
 }
 
 .third-title {
@@ -147,12 +149,13 @@ h1 {
 }
 
 .health-image {
+    background-image: url("health.jpg") center, center;
     width: 100%;
-    height: 400px;
-    position: absolute;
-    object-fit: cover;
-    object-position: center;
-    z-index: -10;
+    height: 50rem;
+    display: flex;
+    position: relative;
+    object-fit: contain;
+    padding-left: 20rem;
 }
 
 .footer {
