@@ -115,7 +115,7 @@ h1 {
 .meditation-image {
     background-image: url("med-pose.jpg") center, center;
     width: 100%;
-    height: 100rem;
+    height: 110rem;
     display: flex;
     position: relative;
     object-fit: contain;
