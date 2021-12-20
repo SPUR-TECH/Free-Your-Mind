@@ -221,7 +221,7 @@ h1 {
     text-align: center;
     padding: 10px;
     margin: 0;
-    font-size: 1rem;
+    font-size: 1.5rem;
 }
 
 @media all and (max-width: 1280px) {
@@ -290,6 +290,9 @@ h1 {
         height: 20rem;
     }
 
+    .copyright {
+        font-size: 0.8rem;
+    }
 }
 
 @media all and (max-width: 480px) {
@@ -331,11 +334,11 @@ h1 {
         font-size: 2rem;
     }
 
-    .copyright {
-        font-size: 0.7rem;
-    }
-
     .footer-list {
         font-size: 0.8rem;
+    }
+
+    .copyright {
+        font-size: 0.7rem;
     }
 }
