@@ -122,7 +122,6 @@ h1 {
     top: 8%;
     width: 100%;
     height: 11rem;
-    background-color: rgb(99, 97, 97, 0.3);
     margin-top: 160px;
     z-index: 10;
     margin-bottom: 5rem;
@@ -158,7 +157,6 @@ h1 {
     top: 32%;
     width: 100%;
     height: 11rem;
-    background-color: rgb(99, 97, 97, 0.3);
     margin-top: 5rem;
     margin-bottom: 5rem;
     z-index: 10;
@@ -194,7 +192,6 @@ h1 {
     top: 44%;
     width: 100%;
     height: 11rem;
-    background-color: rgb(99, 97, 97, 0.3);
     margin-top: 5rem;
     margin-bottom: 5rem;
     z-index: 10;
@@ -345,7 +342,6 @@ h1 {
     }
 
     .first-title {
-        height: 1rem;
         padding-top: 40px;
     }
 }
