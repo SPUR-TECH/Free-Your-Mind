@@ -9,12 +9,45 @@
     box-sizing: border-box;
 }
 
-p {
+button p {
     font-size: 30px;
     color: rgb(20, 115, 150);
     background-color: rgb(171, 198, 224);
     width: 20%;
-    margin-left: 46rem;
+    margin-left: 42rem;
+    margin-bottom: 200px;
+    border-radius: 20%;
+    padding: 15px;
+}
+
+.second-title button p {
+    font-size: 30px;
+    color: rgb(20, 115, 150);
+    background-color: rgb(171, 198, 224);
+    width: 20%;
+    margin-left: 35rem;
+    margin-bottom: 200px;
+    border-radius: 20%;
+    padding: 15px;
+}
+
+.third-title button p {
+    font-size: 30px;
+    color: rgb(20, 115, 150);
+    background-color: rgb(171, 198, 224);
+    width: 20%;
+    margin-left: 35rem;
+    margin-bottom: 200px;
+    border-radius: 20%;
+    padding: 15px;
+}
+
+.forth-title button p {
+    font-size: 30px;
+    color: rgb(20, 115, 150);
+    background-color: rgb(171, 198, 224);
+    width: 20%;
+    margin-left: 27rem;
     margin-bottom: 200px;
     border-radius: 20%;
     padding: 15px;
@@ -66,6 +99,7 @@ nav ul li a {
 
 nav a:hover {
     color: rgb(20, 115, 150);
+    transform: scale(1.2);
 }
 
 .active {
@@ -136,7 +170,7 @@ h1 {
 .first-title {
     position: absolute;
     justify-content: center;
-    top: 8%;
+    top: 5%;
     width: 100%;
     margin-top: 160px;
     z-index: 10;
@@ -151,7 +185,7 @@ h1 {
     position: relative;
     object-fit: contain;
     justify-content: center;
-    padding-bottom: 200px;
+    padding-bottom: 500px;
 }
 
 /* Second button link */
@@ -170,22 +204,21 @@ h1 {
 .second-title {
     position: absolute;
     justify-content: center;
-    top: 32%;
+    top: 20%;
     width: 100%;
-    margin-top: 5rem;
     z-index: 10;
 }
 
 .relaxation-image {
     background-image: url("relaxation.jpg") center, center;
     width: 100%;
-    height: 50rem;
+    height: 100%;
     display: flex;
     position: relative;
     object-fit: contain;
     justify-content: center;
     z-index: 8;
-
+    padding-bottom: 100px;
 }
 
 /* Third button link */
@@ -204,23 +237,58 @@ h1 {
 .third-title {
     position: absolute;
     justify-content: center;
-    top: 44%;
+    top: 28%;
     width: 100%;
     margin-top: 5rem;
     z-index: 10;
 }
 
-.health-image {
-    background-image: url("health.jpg") center, center;
+.healthy-food-image {
+    background-image: url("healthy-food.jpg") center, center;
     width: 100%;
     height: 100rem;
-    padding-top: 200px;
     display: flex;
     position: relative;
     object-fit: contain;
     justify-content: center;
-    margin-bottom: 10rem;
-    z-index: 8;
+    padding-bottom: 200px;
+    padding-top: 200px;
+    z-index: -8;
+}
+
+/* Forth button link */
+
+.forth-title button {
+    background-color: transparent;
+    border: none;
+    cursor: pointer;
+}
+
+.forth-title button h1:hover {
+    color: rgb(20, 115, 150);
+    transform: scale(1.2);
+}
+
+.forth-title {
+    position: absolute;
+    justify-content: center;
+    top: 42%;
+    width: 100%;
+    margin-top: 5rem;
+    z-index: 10;
+
+}
+
+.fitness-image {
+    background-image: url("fitness-image.jpg") center, center;
+    width: 100%;
+    height: 100rem;
+    display: flex;
+    position: relative;
+    object-fit: contain;
+    justify-content: center;
+    padding-bottom: 200px;
+    z-index: -8;
 }
 
 /* Meditation page styling */
@@ -229,12 +297,6 @@ h1 {
     padding-top: 50px;
     margin-bottom: 200px;
     z-index: 10;
-}
-
-.meditation-video {
-    transform: scale(3.5);
-    margin-bottom: 15rem;
-    z-index: -1;
 }
 
 /* Footer styling */
@@ -401,30 +463,31 @@ h1 {
     h1 {
         font-size: 2.5rem;
     }
+}
 
-    @media all and (max-width: 460px) {
-        nav ul li a {
-            font-size: 0.6rem;
-        }
-
-        nav ul li {
-            padding: 20px;
-
-        }
-
-        .header h1 {
-            padding-top: 50px;
-        }
-
-        h1 {
-            font-size: 2rem;
-        }
-
-        .footer-list {
-            font-size: 0.8rem;
-        }
-
-        .copyright {
-            font-size: 0.7rem;
-        }
+@media all and (max-width: 460px) {
+    nav ul li a {
+        font-size: 0.6rem;
     }
+
+    nav ul li {
+        padding: 20px;
+
+    }
+
+    .header h1 {
+        padding-top: 50px;
+    }
+
+    h1 {
+        font-size: 2rem;
+    }
+
+    .footer-list {
+        font-size: 0.8rem;
+    }
+
+    .copyright {
+        font-size: 0.7rem;
+    }
+}
