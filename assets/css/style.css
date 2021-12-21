@@ -587,7 +587,7 @@ button p {
     }
 
     .forth-title {
-        top: 55%;
+        top: 50%;
     }
 
     .forth-title button p {
@@ -603,6 +603,7 @@ button p {
 }
 
 @media all and (max-width: 460px) {
+
     nav ul li a {
         font-size: 0.6rem;
     }
@@ -629,6 +630,10 @@ button p {
     .second-title button p {
         width: 140px;
         padding: 10px;
+    }
+
+    .forth-title {
+        top: 50%;
     }
 
     .footer-list {
