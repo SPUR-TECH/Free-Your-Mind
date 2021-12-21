@@ -13,44 +13,41 @@ button p {
     font-size: 30px;
     color: rgb(20, 115, 150);
     background-color: rgb(171, 198, 224);
-    width: 20%;
-    margin-left: 42rem;
-    margin-bottom: 200px;
+    width: 200px;
     border-radius: 20%;
     padding: 15px;
+    position: absolute;
+    margin-left: 50px;
 }
 
 .second-title button p {
     font-size: 30px;
     color: rgb(20, 115, 150);
     background-color: rgb(171, 198, 224);
-    width: 20%;
-    margin-left: 35rem;
-    margin-bottom: 200px;
+    width: 200px;
     border-radius: 20%;
     padding: 15px;
+    margin-left: 50px;
 }
 
 .third-title button p {
     font-size: 30px;
     color: rgb(20, 115, 150);
     background-color: rgb(171, 198, 224);
-    width: 20%;
-    margin-left: 35rem;
-    margin-bottom: 200px;
+    width: 200px;
     border-radius: 20%;
     padding: 15px;
+    margin-left: 50px;
 }
 
 .forth-title button p {
     font-size: 30px;
     color: rgb(20, 115, 150);
     background-color: rgb(171, 198, 224);
-    width: 20%;
-    margin-left: 27rem;
-    margin-bottom: 200px;
+    width: 200px;
     border-radius: 20%;
     padding: 15px;
+    margin-left: 50px;
 }
 
 p :hover {
@@ -353,6 +350,22 @@ h1 {
     margin-bottom: 20rem;
 }
 
+button p {
+    font-size: 20px;
+}
+
+.second-title button p {
+    font-size: 20px;
+}
+
+.third-title button p {
+    font-size: 20px;
+}
+
+.forth-title button p {
+    font-size: 20px;
+}
+
 .second-title {
     margin-bottom: 10rem;
 
@@ -419,7 +432,7 @@ h1 {
 
     .meditation-image {
         width: 100%;
-        height: 60rem;
+        height: 65rem;
         margin-bottom: 2rem;
     }
 
@@ -443,25 +456,60 @@ h1 {
 @media all and (max-width: 480px) {
     .meditation-image {
         width: 100%;
-        height: 50rem;
+        height: 70rem;
+        margin-bottom: 10px;
     }
 
     .relaxation-image {
         width: 100%;
-        height: 16rem;
+        height: 25rem;
+
     }
 
     .health-image {
-        width: 100%;
-        height: 28rem;
+        width: 20%;
+        height: 18rem;
     }
 
     .header h1 {
         font-size: 3rem;
+        padding-top: 20px;
     }
 
     h1 {
         font-size: 2.5rem;
+    }
+
+    .first-title {
+        top: 0.5%;
+    }
+
+    button p {
+        font-size: 10px;
+        margin-left: 0;
+        top: 50%;
+        padding: 5px;
+        width: 170px;
+
+    }
+
+    .second-title {
+        top: 15%;
+    }
+
+    .second-title button p {
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+    .third-title button p {
+        font-size: 10px;
+        margin-left: 0;
+    }
+
+    .forth-title button p {
+        font-size: 20px;
+        margin-left: 0;
     }
 }
 
