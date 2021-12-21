@@ -9,47 +9,6 @@
     box-sizing: border-box;
 }
 
-button p {
-    font-size: 30px;
-    color: rgb(20, 115, 150);
-    background-color: rgb(171, 198, 224);
-    width: 200px;
-    border-radius: 20%;
-    padding: 15px;
-    position: absolute;
-    margin-left: 50px;
-}
-
-.second-title button p {
-    font-size: 30px;
-    color: rgb(20, 115, 150);
-    background-color: rgb(171, 198, 224);
-    width: 200px;
-    border-radius: 20%;
-    padding: 15px;
-    margin-left: 50px;
-}
-
-.third-title button p {
-    font-size: 30px;
-    color: rgb(20, 115, 150);
-    background-color: rgb(171, 198, 224);
-    width: 200px;
-    border-radius: 20%;
-    padding: 15px;
-    margin-left: 50px;
-}
-
-.forth-title button p {
-    font-size: 30px;
-    color: rgb(20, 115, 150);
-    background-color: rgb(171, 198, 224);
-    width: 200px;
-    border-radius: 20%;
-    padding: 15px;
-    margin-left: 50px;
-}
-
 p :hover {
     transform: scale(1.3);
     cursor: pointer;
@@ -153,6 +112,18 @@ h1 {
 
 /* First button link */
 
+button p {
+    font-size: 30px;
+    color: rgb(20, 115, 150);
+    background-color: rgb(171, 198, 224);
+    width: 200px;
+    border-radius: 20%;
+    padding: 15px;
+    position: absolute;
+    margin-left: 50px;
+    top: 50%;
+}
+
 .first-title button {
     background-color: transparent;
     border: none;
@@ -167,7 +138,7 @@ h1 {
 .first-title {
     position: absolute;
     justify-content: center;
-    top: 5%;
+    top: 6%;
     width: 100%;
     margin-top: 160px;
     z-index: 10;
@@ -182,10 +153,20 @@ h1 {
     position: relative;
     object-fit: contain;
     justify-content: center;
-    padding-bottom: 500px;
+    padding-bottom: 400px;
 }
 
 /* Second button link */
+
+.second-title button p {
+    font-size: 30px;
+    color: rgb(20, 115, 150);
+    background-color: rgb(171, 198, 224);
+    width: 200px;
+    border-radius: 20%;
+    padding: 15px;
+    margin-left: 50px;
+}
 
 .second-title button {
     background-color: transparent;
@@ -201,7 +182,7 @@ h1 {
 .second-title {
     position: absolute;
     justify-content: center;
-    top: 20%;
+    top: 25%;
     width: 100%;
     z-index: 10;
 }
@@ -220,6 +201,17 @@ h1 {
 
 /* Third button link */
 
+.third-title button p {
+    font-size: 30px;
+    color: rgb(20, 115, 150);
+    background-color: rgb(171, 198, 224);
+    width: 200px;
+    border-radius: 20%;
+    padding: 15px;
+    position: absolute;
+    margin-left: 0px;
+}
+
 .third-title button {
     background-color: transparent;
     border: none;
@@ -234,7 +226,7 @@ h1 {
 .third-title {
     position: absolute;
     justify-content: center;
-    top: 28%;
+    top: 33%;
     width: 100%;
     margin-top: 5rem;
     z-index: 10;
@@ -243,7 +235,7 @@ h1 {
 .healthy-food-image {
     background-image: url("healthy-food.jpg") center, center;
     width: 100%;
-    height: 100rem;
+    height: 97rem;
     display: flex;
     position: relative;
     object-fit: contain;
@@ -254,6 +246,17 @@ h1 {
 }
 
 /* Forth button link */
+
+.forth-title button p {
+    font-size: 30px;
+    color: rgb(20, 115, 150);
+    background-color: rgb(171, 198, 224);
+    width: 200px;
+    border-radius: 20%;
+    padding: 15px;
+    margin-left: 0px;
+    top: 50%;
+}
 
 .forth-title button {
     background-color: transparent;
@@ -269,7 +272,7 @@ h1 {
 .forth-title {
     position: absolute;
     justify-content: center;
-    top: 42%;
+    top: 47%;
     width: 100%;
     margin-top: 5rem;
     z-index: 10;
@@ -279,7 +282,7 @@ h1 {
 .fitness-image {
     background-image: url("fitness-image.jpg") center, center;
     width: 100%;
-    height: 100rem;
+    height: 50rem;
     display: flex;
     position: relative;
     object-fit: contain;
