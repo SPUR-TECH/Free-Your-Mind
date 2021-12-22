@@ -54,12 +54,12 @@ nav ul li a {
 }
 
 nav a:hover {
-    color: rgb(106, 225, 255);
+    color: rgb(255, 255, 255);
     transform: scale(1.2);
 }
 
 .active {
-    color: rgb(106, 225, 255);
+    color: rgb(255, 255, 255);
 }
 
 /* Main container */
@@ -106,7 +106,7 @@ h1 {
     font-size: 8rem;
     font-family: smooch, san-serif;
     text-align: center;
-    color: rgb(106, 225, 255);
+    color: rgb(24, 158, 192);
     font-weight: 200;
     text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9);
 }
@@ -175,11 +175,6 @@ button p {
     cursor: pointer;
 }
 
-.second-title button h1:hover {
-    color: rgb(20, 115, 150);
-    transform: scale(1.2);
-}
-
 .relaxation-image {
     background-image: url("relaxation.jpg") center, center;
     width: 100%;
@@ -217,11 +212,6 @@ button p {
     cursor: pointer;
 }
 
-.third-title button h1:hover {
-    color: rgb(20, 115, 150);
-    transform: scale(1.2);
-}
-
 .healthy-food-image {
     background-image: url("healthy-food.jpg") center, center;
     width: 100%;
@@ -249,11 +239,6 @@ button p {
     background-color: transparent;
     border: none;
     cursor: pointer;
-}
-
-.forth-title button h1:hover {
-    color: rgb(20, 115, 150);
-    transform: scale(1.2);
 }
 
 .forth-title {
@@ -316,7 +301,7 @@ button p {
 }
 
 .copyright {
-    background-color: rgb(150, 132, 99);
+    background-color: rgb(110, 104, 92);
     text-align: center;
     padding: 10px;
     margin: 0;
