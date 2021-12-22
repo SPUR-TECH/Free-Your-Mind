@@ -195,7 +195,6 @@ button p {
     position: relative;
     object-fit: contain;
     justify-content: center;
-    z-index: 8;
     padding-bottom: 100px;
 }
 
@@ -242,7 +241,6 @@ button p {
     justify-content: center;
     padding-bottom: 200px;
     padding-top: 200px;
-    z-index: -8;
 }
 
 /* Forth button link */
@@ -288,7 +286,6 @@ button p {
     object-fit: contain;
     justify-content: center;
     padding-bottom: 200px;
-    z-index: -8;
 }
 
 /* Meditation page styling */
