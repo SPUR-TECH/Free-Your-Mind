@@ -527,15 +527,6 @@ button p {
 }
 
 @media all and (max-width: 480px) {
-    .meditation-image {
-        width: 100%;
-        height: 60rem;
-    }
-
-    .relaxation-image {
-        width: 100%;
-        height: 23rem;
-    }
 
     .header h1 {
         font-size: 3rem;
@@ -558,6 +549,11 @@ button p {
         width: 170px;
     }
 
+    .meditation-image {
+        width: 100%;
+        height: 60rem;
+    }
+
     .second-title {
         top: 20%;
     }
@@ -568,6 +564,11 @@ button p {
         width: 160px;
     }
 
+    .relaxation-image {
+        width: 100%;
+        height: 23rem;
+    }
+
     .third-title button p {
         font-size: 10px;
         margin-left: 0;
@@ -575,7 +576,7 @@ button p {
     }
 
     .third-title {
-        top: 36%;
+        top: 30%;
     }
 
     .healthy-food-image {
