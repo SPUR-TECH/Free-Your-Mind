@@ -15,7 +15,7 @@ p :hover {
 }
 
 b {
-    color: rgb(230, 24, 24);
+    color: rgb(231, 0, 0);
 }
 
 /* nav styling */
@@ -46,7 +46,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(255, 255, 255);
+    color: rgb(0, 0, 0);
     font-size: 1.6rem;
     letter-spacing: 1px;
     text-decoration: none;
@@ -54,12 +54,12 @@ nav ul li a {
 }
 
 nav a:hover {
-    color: rgb(20, 115, 150);
+    color: rgb(89, 171, 201);
     transform: scale(1.2);
 }
 
 .active {
-    color: rgb(20, 115, 150);
+    color: rgb(89, 171, 201);
 }
 
 /* Main container */
@@ -76,6 +76,7 @@ nav a:hover {
 
 .video-container {
     z-index: -10;
+
 }
 
 .video-container video {
@@ -93,7 +94,7 @@ nav a:hover {
 .header h1 {
     padding-top: 130px;
     font-size: 6rem;
-    color: rgb(76, 199, 240);
+    color: rgb(106, 225, 255);
     font-weight: 200;
     text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9);
 }
@@ -105,7 +106,7 @@ h1 {
     font-size: 4.5rem;
     font-family: smooch, san-serif;
     text-align: center;
-    color: rgb(129, 217, 247);
+    color: rgb(106, 225, 255);
     font-weight: 200;
     text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9);
 }
@@ -114,7 +115,7 @@ h1 {
 
 button p {
     font-size: 30px;
-    color: rgb(20, 115, 150);
+    color: rgb(12, 66, 85);
     background-color: rgb(171, 198, 224);
     width: 200px;
     border-radius: 20%;
@@ -305,7 +306,7 @@ button p {
 }
 
 .footer-list {
-    color: rgb(233, 184, 92);
+    color: rgb(150, 132, 99);
     list-style: none;
     display: flex;
     justify-content: center;
@@ -316,7 +317,7 @@ button p {
 
 .footer-list li a {
     font-weight: 400;
-    color: rgb(233, 184, 92);
+    color: rgb(150, 132, 99);
     opacity: .5;
     text-decoration: none;
 }
@@ -326,7 +327,7 @@ button p {
 }
 
 .copyright {
-    background-color: rgb(233, 164, 86);
+    background-color: rgb(150, 132, 99);
     text-align: center;
     padding: 10px;
     margin: 0;
