@@ -9,13 +9,8 @@
     box-sizing: border-box;
 }
 
-p :hover {
-    transform: scale(1.3);
-    cursor: pointer;
-}
-
 b {
-    color: rgb(231, 0, 0);
+    color: rgb(153, 0, 0);
 }
 
 /* nav styling */
@@ -54,12 +49,11 @@ nav ul li a {
 }
 
 nav a:hover {
-    color: rgb(255, 255, 255);
-    transform: scale(1.2);
+    color: rgb(24, 158, 192);
 }
 
 .active {
-    color: rgb(255, 255, 255);
+    color: rgb(24, 158, 192);
 }
 
 /* Main container */
@@ -91,8 +85,13 @@ nav a:hover {
 
 /* Header styling */
 
-.header h1 {
-    padding-top: 130px;
+.header {
+    padding-top: 100px;
+}
+
+.heading h1 {
+    padding-top: 450px;
+    padding-bottom: 200px;
     font-size: 10rem;
     color: rgb(24, 158, 192);
     font-weight: 200;
@@ -122,7 +121,6 @@ button p {
     padding: 15px;
     position: absolute;
     margin-left: 50px;
-    top: 50%;
 }
 
 .first-title {
@@ -132,10 +130,11 @@ button p {
     width: 100%;
     margin-top: 160px;
     z-index: 10;
+    padding-bottom: 100px;
 }
 
 .first-title button {
-    background-color: transparent;
+    margin-right: 250px;
     border: none;
     cursor: pointer;
 }
@@ -159,18 +158,11 @@ button p {
     top: 20%;
     width: 100%;
     z-index: 10;
-}
-
-.second-title button p {
-    font-size: 30px;
-    width: 200px;
-    border-radius: 20%;
-    padding: 15px;
-    margin-left: 50px;
+    padding-bottom: 100px;
 }
 
 .second-title button {
-    background-color: transparent;
+    margin-right: 250px;
     border: none;
     cursor: pointer;
 }
@@ -195,19 +187,12 @@ button p {
     width: 100%;
     margin-top: 5rem;
     z-index: 10;
+    padding-bottom: 100px;
 }
 
-.third-title button p {
-    font-size: 30px;
-    width: 200px;
-    border-radius: 20%;
-    padding: 15px;
-    position: absolute;
-    margin-left: 0px;
-}
 
 .third-title button {
-    background-color: transparent;
+    margin-right: 250px;
     border: none;
     cursor: pointer;
 }
@@ -226,21 +211,6 @@ button p {
 
 /* Forth button link */
 
-.forth-title button p {
-    font-size: 30px;
-    width: 200px;
-    border-radius: 20%;
-    padding: 15px;
-    margin-left: 0px;
-    top: 50%;
-}
-
-.forth-title button {
-    background-color: transparent;
-    border: none;
-    cursor: pointer;
-}
-
 .forth-title {
     position: absolute;
     justify-content: center;
@@ -248,7 +218,13 @@ button p {
     width: 100%;
     margin-top: 5rem;
     z-index: 10;
+    padding-bottom: 100px;
+}
 
+.forth-title button {
+    margin-right: 250px;
+    border: none;
+    cursor: pointer;
 }
 
 .fitness-image {
@@ -339,19 +315,31 @@ h1 {
 }
 
 .first-title button p {
-    font-size: 20px;
+    font-size: 15px;
+    padding: 5px;
+    top: 30%;
+    width: 180px;
 }
 
 .second-title button p {
-    font-size: 20px;
+    font-size: 15px;
+    padding: 5px;
+    top: 30%;
+    width: 180px;
 }
 
 .third-title button p {
-    font-size: 20px;
+    font-size: 15px;
+    padding: 5px;
+    top: 30%;
+    width: 180px;
 }
 
 .forth-title button p {
-    font-size: 20px;
+    font-size: 15px;
+    padding: 5px;
+    top: 30%;
+    width: 180px;
 }
 
 .second-title {
@@ -373,7 +361,15 @@ h1 {
     font-size: 1.4rem;
 }
 
+@media all and (max-width: 1000px) {
+    .header h1 {
+        font-size: 6rem;
+    }
 
+    h1 {
+        font-size: 5rem;
+    }
+}
 
 @media all and (max-width: 880px) {
 
@@ -387,9 +383,9 @@ h1 {
 
     .first-title button p {
         font-size: 10px;
-        margin-left: 10;
         padding: 10px;
-        width: 200px;
+        width: 150px;
+        top: 30%;
     }
 
     .meditation-image {
@@ -399,8 +395,9 @@ h1 {
 
     .second-title button p {
         font-size: 10px;
-        margin-left: 20;
-        width: 200px;
+        width: 160px;
+        padding: 5px;
+        top: 30%;
     }
 
     .relaxation-image {
@@ -410,8 +407,9 @@ h1 {
 
     .third-title button p {
         font-size: 10px;
-        margin-left: 0;
-        width: 200px;
+        width: 150px;
+        top: 30%;
+        padding: 5px;
     }
 
     .healthy-food-image {
@@ -420,9 +418,10 @@ h1 {
     }
 
     .forth-title button p {
-        font-size: 15px;
-        margin-left: 0;
-        width: 200px;
+        font-size: 10px;
+        width: 150px;
+        top: 30%;
+        padding: 5px;
     }
 
     .fitness-image {
@@ -442,6 +441,7 @@ h1 {
 @media all and (max-width: 680px) {
     .header h1 {
         font-size: 5rem;
+        padding-top: 0px;
     }
 
     h1 {
@@ -449,11 +449,10 @@ h1 {
     }
 
     .first-title button p {
-        font-size: 20px;
-        margin-left: 0;
-        top: 50%;
+        font-size: 10px;
         padding: 10px;
-        width: 170px;
+        width: 150px;
+        top: 30%;
     }
 
     .first-title {
@@ -468,8 +467,9 @@ h1 {
 
     .second-title button p {
         font-size: 10px;
-        margin-left: 0;
-        width: 160px;
+        padding: 10px;
+        width: 150px;
+        top: 30%;
     }
 
     .second-title {
@@ -484,8 +484,9 @@ h1 {
 
     .third-title button p {
         font-size: 10px;
-        margin-left: 0;
-        width: 100px;
+        padding: 10px;
+        width: 150px;
+        top: 30%;
     }
 
     .third-title {
@@ -503,8 +504,9 @@ h1 {
 
     .forth-title button p {
         font-size: 10px;
-        margin-left: 0;
-        width: 110px;
+        padding: 10px;
+        width: 150px;
+        top: 30%;
     }
 
     .fitness-image {
@@ -519,14 +521,17 @@ h1 {
 
 @media all and (max-width: 480px) {
 
+    .header {
+        padding-top: 0px;
+    }
+
     .header h1 {
         font-size: 4rem;
-        top: 5%;
+        padding-bottom: 10rem;
     }
 
     h1 {
         font-size: 3rem;
-        padding-top: 100px;
     }
 
     .first-title {
@@ -535,10 +540,9 @@ h1 {
 
     .first-title button p {
         font-size: 10px;
-        margin-left: 0;
-        top: 45%;
-        padding: 5px;
-        width: 170px;
+        padding: 7px;
+        width: 150px;
+        top: 20%;
     }
 
     .meditation-image {
@@ -552,8 +556,9 @@ h1 {
 
     .second-title button p {
         font-size: 10px;
-        margin-left: 0;
-        width: 160px;
+        padding: 7px;
+        width: 150px;
+        top: 20%;
     }
 
     .relaxation-image {
@@ -563,12 +568,13 @@ h1 {
 
     .third-title button p {
         font-size: 10px;
-        margin-left: 0;
-        width: 100px;
+        padding: 7px;
+        width: 150px;
+        top: 20%;
     }
 
     .third-title {
-        top: 30%;
+        top: 28%;
     }
 
     .healthy-food-image {
@@ -577,13 +583,14 @@ h1 {
     }
 
     .forth-title {
-        top: 50%;
+        top: 48%;
     }
 
     .forth-title button p {
         font-size: 10px;
-        margin-left: 0;
-        width: 110px;
+        padding: 7px;
+        width: 150px;
+        top: 20%;
     }
 
     .fitness-image {
@@ -605,25 +612,44 @@ h1 {
 
     .header h1 {
         padding-top: 50px;
+        font-size: 4rem;
+        padding-bottom: 100px;
     }
 
     h1 {
-        font-size: 2rem;
+        font-size: 3rem;
+    }
+
+    .first-title {
+        top: 2%;
     }
 
     .first-title button p {
         width: 150px;
-        padding: 10px;
-
+        padding: 7px;
+        top: 25%;
     }
 
     .second-title button p {
-        width: 140px;
-        padding: 10px;
+        width: 150px;
+        padding: 7px;
+        top: 25%;
+    }
+
+    .third-title button p {
+        width: 150px;
+        padding: 7px;
+        top: 25%;
     }
 
     .forth-title {
         top: 50%;
+    }
+
+    .forth-title button p {
+        width: 150px;
+        padding: 7px;
+        top: 25%;
     }
 
     .footer-list {
@@ -632,5 +658,11 @@ h1 {
 
     .copyright {
         font-size: 0.7rem;
+    }
+}
+
+@media all and (max-width: 360px) {
+    .header h1 {
+        font-size: 3rem;
     }
 }
