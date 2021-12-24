@@ -32,11 +32,13 @@ nav ul {
     justify-content: center;
     justify-content: space-between;
     text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9);
+    background-color: rgb(189, 189, 189);
+    margin-top: 20px;
     z-index: 10;
 }
 
 nav ul li {
-    padding: 30px;
+    padding: 10px;
     z-index: 10;
 }
 
@@ -49,11 +51,11 @@ nav ul li a {
 }
 
 nav a:hover {
-    color: rgb(24, 158, 192);
+    color: rgb(4, 43, 114);
 }
 
 .active {
-    color: rgb(24, 158, 192);
+    color: rgb(4, 43, 114);
 }
 
 /* Main container */
@@ -63,7 +65,6 @@ nav a:hover {
     text-align: center;
     display: flex;
     flex-direction: column;
-    background-color: rgb(114, 114, 114);
 }
 
 .med-container {
@@ -144,7 +145,7 @@ nav a:hover {
     font-size: 10rem;
     color: rgb(24, 158, 192);
     font-weight: 200;
-    text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9);
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
 }
 
 /* H1 styling */
@@ -488,6 +489,12 @@ h1 {
 }
 
 @media all and (max-width: 680px) {
+
+    .header {
+        padding-top: 20px;
+        padding-bottom: 10px;
+    }
+
     .header h1 {
         font-size: 5rem;
         padding-top: 0px;
@@ -505,7 +512,7 @@ h1 {
     }
 
     .first-title {
-        margin-top: 10rem;
+        margin-top: 2rem;
     }
 
     .meditation-image {
@@ -571,12 +578,12 @@ h1 {
 @media all and (max-width: 480px) {
 
     .header {
-        padding-top: 0px;
+        padding-top: 50px;
     }
 
     .header h1 {
         font-size: 4rem;
-        padding-bottom: 10rem;
+        padding-bottom: 5rem;
     }
 
     h1 {
@@ -584,7 +591,7 @@ h1 {
     }
 
     .first-title {
-        top: 3%;
+        top: 8%;
     }
 
     .first-title button p {
