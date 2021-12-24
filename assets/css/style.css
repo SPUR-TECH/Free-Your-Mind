@@ -88,32 +88,44 @@ nav a:hover {
 }
 
 .med-paragraph {
-    width: 25%;
-    height: 50%;
+    width: 350px;
+    height: 650px;
     color: rgb(2, 2, 2);
     background-color: rgb(179, 152, 228);
-    top: 19%;
-    display: flex;
-    justify-content: left;
+    top: 20%;
+    justify-content: center;
     align-items: center;
     position: absolute;
-    padding: 20px;
+    padding: 30px;
     border-radius: 10%;
+    margin-left: 50px;
+    list-style-type: none;
 }
 
+.med-paragraph h2 {
+    padding-bottom: 20px;
+}
+
+
+
 .med-paragraph2 {
-    width: 25%;
-    height: 50%;
+    width: 350px;
+    height: 650px;
     color: rgb(2, 2, 2);
     background-color: rgb(179, 152, 228);
-    top: 19%;
-    display: flex;
-    justify-content: right;
+    top: 20%;
+    justify-content: center;
     align-items: center;
     position: absolute;
     padding: 20px;
+    padding-left: 30px;
     border-radius: 10%;
     margin-left: 75%;
+    list-style-type: none;
+}
+
+.med-paragraph2 h2 {
+    padding-bottom: 20px;
 }
 
 /* Video container styling */
