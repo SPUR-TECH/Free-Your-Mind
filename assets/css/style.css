@@ -63,7 +63,56 @@ nav a:hover {
     text-align: center;
     display: flex;
     flex-direction: column;
+    background-color: rgb(114, 114, 114);
+}
+
+.med-container {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
     overflow: hidden;
+    background-image: linear-gradient(rgb(241, 149, 72), rgb(255, 8, 0));
+}
+
+.meditation-image {
+    background-image: url("med-pose.jpg") center, center;
+    width: 100%;
+    height: 100rem;
+    display: flex;
+    position: relative;
+    object-fit: cover;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.med-paragraph {
+    width: 25%;
+    height: 50%;
+    color: rgb(2, 2, 2);
+    background-color: rgb(179, 152, 228);
+    top: 19%;
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    position: absolute;
+    padding: 20px;
+    border-radius: 10%;
+}
+
+.med-paragraph2 {
+    width: 25%;
+    height: 50%;
+    color: rgb(2, 2, 2);
+    background-color: rgb(179, 152, 228);
+    top: 19%;
+    display: flex;
+    justify-content: right;
+    align-items: center;
+    position: absolute;
+    padding: 20px;
+    border-radius: 10%;
+    margin-left: 75%;
 }
 
 /* Video container styling */
@@ -89,8 +138,8 @@ nav a:hover {
     padding-top: 100px;
 }
 
-.heading h1 {
-    padding-top: 450px;
+.header h1 {
+    padding-top: 0px;
     padding-bottom: 200px;
     font-size: 10rem;
     color: rgb(24, 158, 192);
