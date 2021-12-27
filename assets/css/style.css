@@ -22,6 +22,7 @@ nav {
     position: relative;
     text-align: center;
     z-index: 10;
+    padding: 20px;
 }
 
 nav ul {
@@ -32,9 +33,11 @@ nav ul {
     justify-content: center;
     justify-content: space-between;
     text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9);
-    background-color: rgb(189, 189, 189);
+    background-color: rgb(208, 173, 218, .3);
     margin-top: 20px;
     z-index: 10;
+    padding-left: 20px;
+    padding-right: 20px;
 }
 
 nav ul li {
@@ -58,7 +61,7 @@ nav a:hover {
     color: rgb(4, 43, 114);
 }
 
-/* Main container */
+/* Main page container */
 
 .container {
     position: relative;
@@ -67,65 +70,82 @@ nav a:hover {
     flex-direction: column;
 }
 
-.med-container {
-    position: relative;
-    text-align: center;
-    display: flex;
-    flex-direction: column;
-    overflow: hidden;
-    background-image: linear-gradient(rgb(241, 149, 72), rgb(255, 8, 0));
-}
-
 .meditation-image {
     background-image: url("med-pose.jpg") center, center;
     width: 100%;
     height: 100rem;
-    display: flex;
     position: relative;
     object-fit: cover;
     justify-content: center;
     margin-top: 150px;
 }
 
-.med-paragraph {
-    width: 350px;
-    height: 650px;
-    color: rgb(2, 2, 2);
-    background-color: rgb(179, 152, 228);
-    top: 20%;
-    justify-content: center;
+/* Med page container */
+
+.med-container {
+    overflow: hidden;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(60, 2, 83));
+    z-index: -10;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card-container {
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
     align-items: center;
-    position: absolute;
-    padding: 30px;
-    border-radius: 10%;
-    margin-left: 50px;
-    list-style-type: none;
+    justify-content: center;
+}
+
+.med-container .first-title {
+    top: .3%;
+
+}
+
+.card {
+    width: 80%;
+    min-height: 80vh;
+    background: rgba(131, 131, 131, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    object-fit: cover;
+    box-shadow: 0, 20px, 20px rgb(0, 0, 0, 0.2), 0, 0, 50px rgb(0, 0, 0, 0.2);
+    flex: 1;
+}
+
+.med-2-image {
+    background-image: url("med-2.jpg") center, center;
+    max-width: 80%;
+    height: 25rem;
+    display: flex;
+    flex: 1;
 }
 
 .med-paragraph h2 {
     padding-bottom: 20px;
 }
 
-
-
-.med-paragraph2 {
-    width: 350px;
-    height: 650px;
-    color: rgb(2, 2, 2);
-    background-color: rgb(179, 152, 228);
-    top: 20%;
+.med-paragraph {
+    color: rgb(58, 1, 110);
     justify-content: center;
     align-items: center;
-    position: absolute;
-    padding: 20px;
-    padding-left: 30px;
-    border-radius: 10%;
-    margin-left: 75%;
     list-style-type: none;
+    padding: 20px;
 }
 
 .med-paragraph2 h2 {
     padding-bottom: 20px;
+}
+
+.med-paragraph2 {
+    color: rgb(58, 1, 110);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
 }
 
 /* Video container styling */
@@ -183,6 +203,12 @@ button p {
     padding: 15px;
     position: absolute;
     margin-left: 50px;
+
+}
+
+button p a {
+    text-decoration: none;
+    list-style: none;
 }
 
 .first-title {
@@ -313,7 +339,7 @@ button p {
 .footer {
     width: 100%;
     margin-top: auto;
-    background-color: rgba(19, 2, 2, 0.8);
+    background-color: rgba(19, 2, 2, 0.9);
     padding: 20px;
 }
 
@@ -330,7 +356,7 @@ button p {
 .footer-list li a {
     font-weight: 400;
     color: rgb(150, 132, 99);
-    opacity: .5;
+    opacity: .7;
     text-decoration: none;
 }
 
@@ -452,7 +478,7 @@ h1 {
 
     .meditation-image {
         width: 100%;
-        height: 60rem;
+        height: 55rem;
     }
 
     .second-title button p {
@@ -529,8 +555,10 @@ h1 {
 
     .meditation-image {
         width: 100%;
-        height: 50rem;
+        height: 45rem;
         margin-bottom: 2rem;
+        margin-top: 20px;
+
     }
 
     .second-title button p {
@@ -679,7 +707,7 @@ h1 {
     }
 
     .header h1 {
-        padding-top: 50px;
+
         font-size: 4rem;
         padding-bottom: 100px;
     }
@@ -689,7 +717,12 @@ h1 {
     }
 
     .first-title {
-        top: 2%;
+        top: 6%;
+    }
+
+    .meditation-image {
+        margin-top: 20px;
+        height: 40rem;
     }
 
     .first-title button p {
@@ -698,16 +731,28 @@ h1 {
         top: 25%;
     }
 
+    .relaxation-image {
+        height: 19rem;
+    }
+
     .second-title button p {
         width: 150px;
         padding: 7px;
         top: 25%;
     }
 
+    .healthy-food-image {
+        height: 55rem;
+    }
+
     .third-title button p {
         width: 150px;
         padding: 7px;
         top: 25%;
+    }
+
+    .fitness-image {
+        height: 25rem;
     }
 
     .forth-title {
@@ -732,5 +777,9 @@ h1 {
 @media all and (max-width: 360px) {
     .header h1 {
         font-size: 3rem;
+    }
+
+    .meditation-image {
+        height: 40rem;
     }
 }
