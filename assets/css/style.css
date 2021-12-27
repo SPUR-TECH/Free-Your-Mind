@@ -983,11 +983,15 @@ button p a {
 @media all and (max-width: 380px) {
     .five-reasons {
         font-size: 10px;
-        margin-left: 10%;
+        margin-left: 20%;
     }
 
     nav ul li a {
         font-size: 0.55rem;
+    }
+
+    .med-container {
+        padding: 10px;
     }
 
     .med-2-image {
