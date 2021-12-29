@@ -34,7 +34,6 @@ nav ul {
     justify-content: space-between;
     text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9);
     background-color: rgba(131, 131, 131, 0.9);
-    ;
     margin-top: 20px;
     z-index: 10;
     padding-left: 20px;
@@ -67,16 +66,6 @@ nav a:hover {
     text-align: center;
     display: flex;
     flex-direction: column;
-}
-
-.meditation-image {
-    background-image: url("med-pose.jpg") center, center;
-    width: 100%;
-    height: 100rem;
-    position: relative;
-    object-fit: cover;
-    justify-content: center;
-    margin-top: 150px;
 }
 
 /* Video container styling */
@@ -154,14 +143,12 @@ button p a {
 }
 
 .first-title button {
-
     margin-right: 150px;
     border: none;
     cursor: pointer;
 }
 
 .meditation-image {
-    background-image: url("med-pose.jpg") center, center;
     width: 100%;
     height: 70rem;
     display: flex;
@@ -169,6 +156,7 @@ button p a {
     object-fit: contain;
     justify-content: center;
     padding-bottom: 400px;
+    margin-top: 200px;
 }
 
 /* Second button link */
@@ -187,7 +175,6 @@ button p a {
 }
 
 .relaxation-image {
-    background-image: url("relaxation.jpg") center, center;
     width: 100%;
     height: 45rem;
     display: flex;
@@ -204,10 +191,8 @@ button p a {
     justify-content: center;
     top: 44%;
     width: 100%;
-
     z-index: 10;
 }
-
 
 .third-title button {
     margin-right: 150px;
@@ -216,7 +201,6 @@ button p a {
 }
 
 .healthy-food-image {
-    background-image: url("healthy-food.jpg") center, center;
     width: 100%;
     height: 110rem;
     display: flex;
@@ -244,7 +228,6 @@ button p a {
 }
 
 .fitness-image {
-    background-image: url("fitness-image.jpg") center, center;
     width: 100%;
     height: 50rem;
     display: flex;
@@ -271,6 +254,8 @@ button p a {
     display: flex;
     align-items: center;
     justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
 }
 
 .med-container .first-title {
@@ -287,12 +272,10 @@ button p a {
     justify-content: center;
     border-radius: 10px;
     object-fit: cover;
-    box-shadow: 0, 20px, 20px rgb(0, 0, 0, 0.2), 0, 0, 50px rgb(0, 0, 0, 0.2);
     flex: 1;
 }
 
 .med-2-image {
-    background-image: url("med-2.jpg") center, center;
     max-width: 80%;
     height: 25rem;
     display: flex;
