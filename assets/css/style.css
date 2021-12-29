@@ -327,12 +327,12 @@ button p a {
 .footer {
     width: 100%;
     margin-top: auto;
-    background-color: rgba(19, 2, 2, 0.9);
+    background-color: rgba(0, 0, 0, 0.9);
     padding: 20px;
 }
 
 .footer-list {
-    color: rgb(150, 132, 99);
+    color: rgb(24, 158, 192);
     list-style: none;
     display: flex;
     justify-content: center;
@@ -343,7 +343,7 @@ button p a {
 
 .footer-list li a {
     font-weight: 400;
-    color: rgb(150, 132, 99);
+    color: rgb(24, 158, 192);
     opacity: .7;
     text-decoration: none;
 }
@@ -353,7 +353,7 @@ button p a {
 }
 
 .copyright {
-    background-color: rgb(110, 104, 92);
+    background-color: rgba(131, 131, 131, 0.9);
     text-align: center;
     padding: 10px;
     margin: 0;
