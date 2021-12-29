@@ -567,6 +567,10 @@ button p a {
         top: 18%;
     }
 
+    .med-container {
+        padding: 10px;
+    }
+
     .med-paragraph {
         font-size: 10px;
     }
@@ -833,10 +837,6 @@ button p a {
         font-size: 0.55rem;
     }
 
-    .med-container {
-        padding: 10px;
-    }
-
     .med-2-image {
         height: 8rem;
         justify-content: center;
@@ -846,6 +846,7 @@ button p a {
     .med-container .first-title h1 {
         font-size: 2rem;
         padding-left: 100px;
+        padding-top: 50px;
     }
 
     .header h1 {
@@ -870,5 +871,11 @@ button p a {
 
     .fitness-image {
         height: 26rem;
+    }
+
+    .card-container {
+        padding: 10px;
+        margin-top: 200px;
+        padding-bottom: 200px;
     }
 }
