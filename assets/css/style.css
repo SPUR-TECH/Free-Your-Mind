@@ -243,8 +243,12 @@ button p a {
     font-family: Libre Baskerville, sans-serif;
     overflow: hidden;
     background-image: linear-gradient(rgb(175, 59, 241), rgb(60, 2, 83));
-    padding-left: 50px;
-    padding-right: 50px;
+}
+
+.med-header {
+    padding-top: 50px;
+    margin-bottom: 200px;
+    z-index: 10;
 }
 
 .card-container {
@@ -256,6 +260,8 @@ button p a {
     justify-content: center;
     margin-bottom: 70px;
     margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .med-container .first-title {
@@ -288,6 +294,8 @@ button p a {
     align-items: center;
     list-style-type: none;
     padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
 }
 
 .med-paragraph2 {
@@ -295,6 +303,7 @@ button p a {
     justify-content: center;
     align-items: center;
     padding: 20px;
+    padding-right: 50px;
 }
 
 .five-reasons {
@@ -316,10 +325,88 @@ button p a {
     font-size: 15px;
 }
 
-.med-header {
-    padding-top: 50px;
-    margin-bottom: 200px;
-    z-index: 10;
+/* Relax page styling */
+
+.relax-container {
+    font-family: Libre Baskerville, sans-serif;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(60, 2, 83));
+}
+
+.relax-card-container {
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.relax-container .second-title {
+    top: 25%;
+    right: 30%;
+}
+
+.relax-card {
+    width: 80%;
+    min-height: 80vh;
+    background: rgba(131, 131, 131, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    object-fit: cover;
+    flex: 1;
+}
+
+.relaxation-page-image {
+    max-width: 80%;
+    height: 25rem;
+    display: flex;
+    padding-left: 20px;
+}
+
+.relax-paragraph {
+    color: rgb(58, 1, 110);
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.relax-paragraph2 {
+    color: rgb(58, 1, 110);
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px;
+    padding-right: 50px;
+
+}
+
+.five-relaxation {
+    width: 300px;
+    max-height: 300px;
+    background: rgba(131, 131, 131, 0.9);
+    color: rgb(58, 1, 110);
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-bottom: 40px;
+}
+
+.five-relaxation li {
+    font-size: 15px;
 }
 
 /* Footer styling */
@@ -363,6 +450,9 @@ button p a {
 /* media queries for responsive control */
 
 @media all and (max-width: 1600px) {
+
+    /* Meditation page */
+
     .med-container .first-title h1 {
         font-size: 6rem;
     }
@@ -378,9 +468,27 @@ button p a {
     .med-2-image {
         height: 20rem;
     }
+
+    /* relaxation page */
+
+    .relax-container .second-title {
+        top: 25%;
+        right: 28%;
+    }
+
+    .relax-paragraph {
+        font-size: 15px;
+    }
+
+    .relax-paragraph2 {
+        font-size: 15px;
+    }
 }
 
 @media all and (max-width: 1500px) {
+
+    /* Meditation page */
+
     .med-container .header h1 {
         font-size: 2rem;
     }
@@ -388,9 +496,22 @@ button p a {
     .med-2-image {
         height: 15rem;
     }
+
+    /* relaxation page */
+
+    .relax-paragraph {
+        font-size: 13px;
+    }
+
+    .relax-paragraph2 {
+        font-size: 13px;
+    }
 }
 
 @media all and (max-width: 1280px) {
+
+    /* Meditation page */
+
     .med-container .header h1 {
         font-size: 3rem;
     }
@@ -400,31 +521,63 @@ button p a {
     }
 
     .med-paragraph {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .med-paragraph2 {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .five-reasons {
-        font-size: 12px;
+        font-size: 11px;
     }
 
     .five-reasons h3 {
-        font-size: 12px;
+        font-size: 11px;
+    }
+
+    /* relaxation page */
+
+    .relax-container .second-title {
+        top: 27%;
+    }
+
+    .relax-container .second-title h1 {
+        font-size: 5.5rem;
+    }
+
+    .relax-container .relax-card {
+        display: inline-block;
+        padding-top: 50px;
+    }
+
+    .relaxation-page-image {
+        height: 22rem;
+        justify-content: center;
+        padding-left: 20%;
+    }
+
+    .relax-paragraph {
+        font-size: 13px;
+    }
+
+    .relax-paragraph2 {
+        font-size: 13px;
+        padding-left: 50px;
+    }
+
+    .five-relaxation {
+        font-size: 13px;
+    }
+
+    .five-relaxation li h3 {
+        font-size: 13px;
     }
 }
 
 @media all and (max-width: 1000px) {
-    .med-container .first-title h1 {
-        font-size: 5rem;
-        padding-left: 10px;
-    }
 
-    .med-2-image {
-        height: 12rem;
-    }
+    /* landing page */
 
     .header h1 {
         font-size: 7rem;
@@ -453,37 +606,64 @@ button p a {
     .forth-title {
         top: 70%;
     }
-}
 
-@media all and (max-width: 880px) {
+    /* meditation page */
+
     .med-container .first-title h1 {
-        font-size: 4rem;
-        padding-left: 100px;
-    }
-
-    .med-container .card {
-        display: inline-block;
-        padding-top: 50px;
-        padding-right: 10%;
+        font-size: 5rem;
+        padding-left: 10px;
     }
 
     .med-2-image {
-        height: 15rem;
-        justify-content: center;
-        padding-left: 180px;
+        height: 12rem;
     }
 
     .med-paragraph {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .med-paragraph2 {
-        font-size: 10px;
+        font-size: 9px;
     }
 
     .five-reasons {
-        width: 200px;
-        font-size: 10px;
+        font-size: 9px;
+    }
+
+    .five-reasons h3 {
+        font-size: 9px;
+    }
+
+    /* relaxation page */
+
+    .relax-container .second-title {
+        padding-left: 80px;
+    }
+
+    .relax-paragraph {
+        font-size: 11px;
+    }
+
+    .relax-paragraph2 {
+        font-size: 11px;
+    }
+
+    .five-relaxation {
+        font-size: 11px;
+        width: 170px;
+    }
+
+    .five-relaxation li h3 {
+        font-size: 11px;
+    }
+}
+
+@media all and (max-width: 880px) {
+
+    /* landing page */
+
+    nav ul li a {
+        font-size: 1rem;
     }
 
     .header h1 {
@@ -514,16 +694,48 @@ button p a {
         height: 40rem;
     }
 
-    nav ul li a {
-        font-size: 1rem;
-    }
-
     .footer-list {
         font-size: 1.2rem;
+    }
+
+    /* Meditation page */
+
+    .med-container .first-title h1 {
+        font-size: 4rem;
+        padding-left: 100px;
+    }
+
+    .med-container .card {
+        display: inline-block;
+        padding-top: 50px;
+        padding-right: 10%;
+    }
+
+    .med-2-image {
+        height: 15rem;
+        justify-content: center;
+        padding-left: 180px;
+    }
+
+    .med-paragraph {
+        font-size: 10px;
+    }
+
+    .med-paragraph2 {
+        font-size: 10px;
+        padding-left: 50px;
+    }
+
+    .five-reasons {
+        width: 200px;
+        font-size: 10px;
     }
 }
 
 @media all and (max-width: 800px) {
+
+    /* meditation page */
+
     .five-reasons {
         font-size: 8px;
         margin-left: 35%;
@@ -550,34 +762,21 @@ button p a {
     .med-paragraph2 {
         font-size: 10px;
     }
+
+    /* relaxation page */
+
+    .relax-container .second-title h1 {
+        font-size: 5rem;
+    }
+
+    .relaxation-page-image {
+        height: 20rem;
+    }
 }
 
 @media all and (max-width: 680px) {
-    .five-reasons {
-        font-size: 10px;
-        margin-left: 30%;
-    }
 
-    .med-container .first-title h1 {
-        font-size: 4rem;
-        padding-left: 100px;
-    }
-
-    .med-container .first-title {
-        top: 18%;
-    }
-
-    .med-container {
-        padding: 10px;
-    }
-
-    .med-paragraph {
-        font-size: 10px;
-    }
-
-    .med-paragraph2 {
-        font-size: 10px;
-    }
+    /* landing page */
 
     .header {
         padding-top: 20px;
@@ -624,13 +823,63 @@ button p a {
     .copyright {
         font-size: 0.9rem;
     }
+
+    /* meditation page */
+
+    .five-reasons {
+        font-size: 10px;
+        margin-left: 30%;
+    }
+
+    .med-container .first-title h1 {
+        font-size: 4rem;
+        padding-left: 100px;
+    }
+
+    .med-container .first-title {
+        top: 18%;
+    }
+
+    .med-container {
+        padding: 10px;
+    }
+
+    .med-paragraph {
+        font-size: 10px;
+    }
+
+    .med-paragraph2 {
+        font-size: 10px;
+    }
+
+    /* relaxation page */
+
+    .relax-container .second-title h1 {
+        font-size: 4rem;
+    }
+
+    .five-relaxation {
+        margin-left: 30%;
+    }
 }
 
 @media all and (max-width: 600px) {
-    .five-reasons {
-        font-size: 8px;
-        margin-left: 30%;
+
+    /* landing page */
+
+    .meditation-image {
+        height: 46rem;
     }
+
+    .relaxation-image {
+        height: 25rem;
+    }
+
+    .fitness-image {
+        height: 30rem;
+    }
+
+    /* meditation page */
 
     .med-container .first-title h1 {
         font-size: 3rem;
@@ -651,34 +900,43 @@ button p a {
         font-size: 9px;
     }
 
-    .meditation-image {
-        height: 46rem;
+    .five-reasons {
+        font-size: 8px;
+        margin-left: 30%;
     }
 
-    .relaxation-image {
-        height: 25rem;
+    /* relaxation page */
+
+    .relaxation-page-image {
+        height: 15rem;
     }
 
-    .fitness-image {
-        height: 30rem;
+    .relax-container .second-title {
+        padding-left: 60px;
+    }
+
+    .relax-paragraph {
+        font-size: 10px;
+    }
+
+    .relax-paragraph2 {
+        font-size: 10px;
+    }
+
+    .five-relaxation {
+        font-size: 11px;
+        margin-left: 30%;
+    }
+
+    .five-relaxation li h3 {
+        font-size: 11px;
     }
 }
 
 @media all and (max-width: 480px) {
-    .five-reasons {
-        font-size: 10px;
-        margin-left: 20%;
-    }
 
-    .med-container .first-title h1 {
-        font-size: 2rem;
-        padding-left: 100px;
-    }
 
-    .med-2-image {
-        height: 10rem;
-        padding-left: 100px;
-    }
+    /* landing page */
 
     .header h1 {
         font-size: 4rem;
@@ -735,13 +993,8 @@ button p a {
     .fitness-image {
         height: 30rem;
     }
-}
 
-@media all and (max-width: 460px) {
-    .five-reasons {
-        font-size: 10px;
-        margin-left: 15%;
-    }
+    /* meditation page */
 
     .med-container .first-title h1 {
         font-size: 2rem;
@@ -749,17 +1002,48 @@ button p a {
     }
 
     .med-2-image {
-        padding-left: 80px;
+        height: 10rem;
+        padding-left: 100px;
     }
+
+    .five-reasons {
+        font-size: 10px;
+        margin-left: 20%;
+    }
+
+    /* relaxation page */
+
+    .relaxation-page-image {
+        height: 11rem;
+    }
+
+    .relax-container .second-title {
+        padding-left: 100px;
+        top: 20%;
+    }
+
+    .relax-paragraph {
+        font-size: 8px;
+    }
+
+    .relax-paragraph2 {
+        font-size: 8px;
+    }
+
+    .five-relaxation li h3 {
+        font-size: 8px;
+    }
+}
+
+@media all and (max-width: 460px) {
+
+    /* landing page */
 
     nav ul li a {
         font-size: 0.6rem;
     }
 
-    nav ul li {
-        padding: 10px;
 
-    }
 
     .header h1 {
 
@@ -825,28 +1109,30 @@ button p a {
     .copyright {
         font-size: 0.7rem;
     }
-}
 
-@media all and (max-width: 380px) {
-    .five-reasons {
-        font-size: 10px;
-        margin-left: 20%;
-    }
-
-    nav ul li a {
-        font-size: 0.55rem;
-    }
-
-    .med-2-image {
-        height: 8rem;
-        justify-content: center;
-        padding-left: 60px;
-    }
+    /* meditation page */
 
     .med-container .first-title h1 {
         font-size: 2rem;
         padding-left: 100px;
-        padding-top: 50px;
+    }
+
+    .med-2-image {
+        padding-left: 80px;
+    }
+
+    .five-reasons {
+        font-size: 10px;
+        margin-left: 25%;
+    }
+}
+
+@media all and (max-width: 380px) {
+
+    /* landing page */
+
+    nav ul li a {
+        font-size: 0.55rem;
     }
 
     .header h1 {
@@ -873,9 +1159,42 @@ button p a {
         height: 26rem;
     }
 
+    /* meditation page */
+
     .card-container {
         padding: 10px;
         margin-top: 200px;
         padding-bottom: 200px;
+    }
+
+    .med-container .first-title h1 {
+        font-size: 2rem;
+        padding-left: 100px;
+        padding-top: 50px;
+    }
+
+    .med-2-image {
+        height: 8rem;
+        justify-content: center;
+        padding-left: 60px;
+    }
+
+    .five-reasons {
+        font-size: 10px;
+        margin-left: 20%;
+    }
+
+    /* relaxation page */
+
+    .relaxation-page-image {
+        height: 9rem;
+    }
+
+    .relax-container .second-title h1 {
+        font-size: 3rem;
+    }
+
+    .five-relaxation {
+        margin-left: 25%;
     }
 }
