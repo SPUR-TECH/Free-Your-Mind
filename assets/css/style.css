@@ -494,6 +494,96 @@ button p a {
     font-size: 15px;
 }
 
+/* Fitness page */
+
+.fitness-container {
+    font-family: Libre Baskerville, sans-serif;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(60, 2, 83));
+}
+
+.fitness-header {
+    padding-top: 50px;
+    margin-bottom: 200px;
+    z-index: 10;
+}
+
+.fitness-card-container {
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.fitness-container .forth-title {
+    top: 20%;
+    right: 10%;
+}
+
+.fitness-card {
+    width: 80%;
+    min-height: 80vh;
+    background: rgba(131, 131, 131, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    object-fit: cover;
+    flex: 1;
+}
+
+.fitness-page-image {
+    max-width: 80%;
+    height: 21rem;
+    display: flex;
+    padding-left: 20px;
+}
+
+.fitness-paragraph {
+    font-size: 13px;
+    color: rgb(58, 1, 110);
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.fitness-paragraph2 {
+    font-size: 13px;
+    color: rgb(58, 1, 110);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-right: 50px;
+}
+
+.five-solo-exercises {
+    width: 300px;
+    max-height: 300px;
+    background: rgba(131, 131, 131, 0.9);
+    color: rgb(58, 1, 110);
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-bottom: 40px;
+}
+
+.five-solo-exercises li {
+    font-size: 13px;
+}
+
 /* Footer styling */
 
 .footer {
@@ -618,6 +708,24 @@ button p a {
     .relax-paragraph2 {
         font-size: 12px;
     }
+
+    /* Fitness page */
+
+    .fitness-paragraph {
+        font-size: 12px;
+    }
+
+    .fitness-paragraph2 {
+        font-size: 12px;
+    }
+
+    .five-solo-exercises {
+        font-size: 12px;
+    }
+
+    .five-solo-exercises li {
+        font-size: 12px;
+    }
 }
 
 @media all and (max-width: 1280px) {
@@ -708,6 +816,48 @@ button p a {
     .health-paragraph {
         font-size: 11px;
     }
+
+    /* Fitness page */
+
+    .fitness-card-container {
+        margin-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .fitness-container .fitness-card {
+        display: inline-block;
+        padding-top: 100px;
+        padding-bottom: 50px;
+    }
+
+    .fitness-container .forth-title {
+        top: 35%;
+        right: 25%;
+    }
+
+    .fitness-page-image {
+        height: 25rem;
+        justify-content: center;
+        margin-left: 12%;
+    }
+
+    .fitness-paragraph {
+        font-size: 11px;
+    }
+
+    .fitness-paragraph2 {
+        font-size: 11px;
+        padding-left: 50px;
+    }
+
+    .five-solo-exercises {
+        font-size: 12px;
+        width: 200px;
+    }
+
+    .five-solo-exercises li {
+        font-size: 12px;
+    }
 }
 
 @media all and (max-width: 1000px) {
@@ -791,6 +941,17 @@ button p a {
 
     .five-relaxation li h3 {
         font-size: 11px;
+    }
+
+    /* Fitness page */
+
+    .fitness-container .fitness-card {
+        padding-top: 50px;
+    }
+
+    .fitness-page-image {
+        height: 20rem;
+        margin-left: 8%;
     }
 }
 
@@ -879,6 +1040,12 @@ button p a {
 
     .five-healthy-foods {
         margin-left: 30%;
+    }
+
+    /* Fitness page */
+
+    .fitness-container .forth-title {
+        top: 25%;
     }
 }
 
@@ -1033,6 +1200,13 @@ button p a {
     .health-container .third-title h1 {
         font-size: 5rem;
     }
+
+    /* Fitness page */
+
+    .fitness-page-image {
+        height: 15rem;
+        margin-left: 8%;
+    }
 }
 
 @media all and (max-width: 600px) {
@@ -1127,6 +1301,26 @@ button p a {
 
     .five-healthy-foods {
         margin-left: 25%;
+    }
+
+    /* Fitness page */
+
+    .fitness-paragraph {
+        font-size: 10px;
+    }
+
+    .fitness-paragraph2 {
+        font-size: 10px;
+    }
+
+    .five-solo-exercises {
+        margin-left: 35%;
+        width: 180px;
+        font-size: 8px;
+    }
+
+    .five-solo-exercises li {
+        font-size: 10px;
     }
 }
 
@@ -1250,6 +1444,29 @@ button p a {
 
     .five-healthy-foods {
         margin-left: 15%;
+    }
+
+    /* Fitness page */
+
+    .fitness-card-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .fitness-page-image {
+        height: 13rem;
+    }
+
+    .fitness-paragraph {
+        font-size: 8px;
+    }
+
+    .fitness-paragraph2 {
+        font-size: 8px;
+    }
+
+    .five-solo-exercises {
+        margin-left: 32%;
     }
 }
 
@@ -1458,5 +1675,28 @@ button p a {
 
     .five-healthy-foods li {
         font-size: 8px;
+    }
+
+    /* Fitness page */
+
+    .fitness-page-image {
+        height: 9rem;
+        margin-left: 6%;
+    }
+
+    .fitness-paragraph {
+        font-size: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .fitness-paragraph2 {
+        font-size: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .five-solo-exercises {
+        margin-left: 22%;
     }
 }
