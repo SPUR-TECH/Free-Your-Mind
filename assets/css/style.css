@@ -409,6 +409,91 @@ button p a {
     font-size: 15px;
 }
 
+/* Healthy food page */
+
+.health-container {
+    font-family: Libre Baskerville, sans-serif;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(60, 2, 83));
+}
+
+.health-card-container {
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.health-container .third-title {
+    top: 15%;
+}
+
+.health-card {
+    width: 80%;
+    min-height: 80vh;
+    background: rgba(131, 131, 131, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    object-fit: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex: 1;
+}
+
+.healthy-food-page-image {
+    max-width: 80%;
+    height: 35rem;
+    display: flex;
+    padding-left: 100px;
+
+}
+
+.health-paragraph {
+    color: rgb(58, 1, 110);
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.health-paragraph2 {
+    color: rgb(58, 1, 110);
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px;
+    padding-right: 50px;
+}
+
+.five-healthy-foods {
+    width: 300px;
+    max-height: 300px;
+    background: rgba(131, 131, 131, 0.9);
+    color: rgb(58, 1, 110);
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-bottom: 40px;
+}
+
+.five-healthy-foods li {
+    font-size: 15px;
+}
+
 /* Footer styling */
 
 .footer {
@@ -449,6 +534,23 @@ button p a {
 
 /* media queries for responsive control */
 
+@media all and (max-width: 4000px) {
+
+    /* health page */
+
+    .health-container .third-title {
+        top: 17%;
+    }
+
+    .health-container h1 {
+        font-size: 7rem;
+    }
+
+    .health-container {
+        font-size: 15px;
+    }
+}
+
 @media all and (max-width: 1600px) {
 
     /* Meditation page */
@@ -483,6 +585,16 @@ button p a {
     .relax-paragraph2 {
         font-size: 15px;
     }
+
+    /* healthy food page */
+
+    .health-container h1 {
+        font-size: 7rem;
+    }
+
+    .health-paragraph {
+        font-size: 13px;
+    }
 }
 
 @media all and (max-width: 1500px) {
@@ -500,11 +612,11 @@ button p a {
     /* relaxation page */
 
     .relax-paragraph {
-        font-size: 13px;
+        font-size: 12px;
     }
 
     .relax-paragraph2 {
-        font-size: 13px;
+        font-size: 12px;
     }
 }
 
@@ -516,24 +628,32 @@ button p a {
         font-size: 3rem;
     }
 
+    .med-container .card {
+        display: inline-block;
+        padding-top: 50px;
+    }
+
     .med-2-image {
-        height: 15rem;
+        height: 25rem;
+        justify-content: center;
+        margin-left: 10%;
     }
 
     .med-paragraph {
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .med-paragraph2 {
-        font-size: 11px;
+        font-size: 13px;
+        padding-left: 50px;
     }
 
     .five-reasons {
-        font-size: 11px;
+        font-size: 13px;
     }
 
     .five-reasons h3 {
-        font-size: 11px;
+        font-size: 13px;
     }
 
     /* relaxation page */
@@ -572,6 +692,21 @@ button p a {
 
     .five-relaxation li h3 {
         font-size: 13px;
+    }
+
+    /* health page */
+
+    .health-container .third-title {
+        top: 17%;
+    }
+
+    .healthy-food-page-image {
+        height: 30rem;
+        padding-left: 50px;
+    }
+
+    .health-paragraph {
+        font-size: 11px;
     }
 }
 
@@ -615,23 +750,24 @@ button p a {
     }
 
     .med-2-image {
-        height: 12rem;
+        height: 20rem;
     }
 
     .med-paragraph {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .med-paragraph2 {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     .five-reasons {
-        font-size: 9px;
+        font-size: 12px;
+        margin-left: 30%;
     }
 
     .five-reasons h3 {
-        font-size: 9px;
+        font-size: 12px;
     }
 
     /* relaxation page */
@@ -675,22 +811,18 @@ button p a {
     }
 
     .meditation-image {
-        width: 100%;
         height: 55rem;
     }
 
     .relaxation-image {
-        width: 100%;
         height: 30rem;
     }
 
     .healthy-food-image {
-        max-width: 100%;
         height: 80rem;
     }
 
     .fitness-image {
-        width: 100%;
         height: 40rem;
     }
 
@@ -705,30 +837,48 @@ button p a {
         padding-left: 100px;
     }
 
-    .med-container .card {
-        display: inline-block;
-        padding-top: 50px;
-        padding-right: 10%;
-    }
-
     .med-2-image {
-        height: 15rem;
-        justify-content: center;
-        padding-left: 180px;
+        height: 18rem;
+        margin-left: 10%;
     }
 
     .med-paragraph {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .med-paragraph2 {
-        font-size: 10px;
-        padding-left: 50px;
+        font-size: 12px;
     }
 
     .five-reasons {
         width: 200px;
+        font-size: 12px;
+        margin-left: 40%;
+    }
+
+    /* health page */
+
+    .health-card {
+        display: inline-block;
+    }
+
+    .health-container .third-title {
+        top: 35%;
+
+    }
+
+    .healthy-food-page-image {
+        width: 100%;
+        height: 25rem;
+        padding-left: 100px;
+    }
+
+    .health-paragraph {
         font-size: 10px;
+    }
+
+    .five-healthy-foods {
+        margin-left: 30%;
     }
 }
 
@@ -736,19 +886,9 @@ button p a {
 
     /* meditation page */
 
-    .five-reasons {
-        font-size: 8px;
-        margin-left: 35%;
-    }
-
     .med-container .first-title h1 {
         font-size: 4rem;
         padding-left: 100px;
-    }
-
-    .med-container .card {
-        display: inline-block;
-        padding-right: 10%;
     }
 
     .med-2-image {
@@ -756,11 +896,16 @@ button p a {
     }
 
     .med-paragraph {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .med-paragraph2 {
+        font-size: 12px;
+    }
+
+    .five-reasons {
         font-size: 10px;
+        margin-left: 35%;
     }
 
     /* relaxation page */
@@ -771,6 +916,18 @@ button p a {
 
     .relaxation-page-image {
         height: 20rem;
+    }
+
+    /* health page */
+
+    .health-card-container {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .health-container .third-title {
+        top: 35%;
+        margin-left: 20%;
     }
 }
 
@@ -826,11 +983,6 @@ button p a {
 
     /* meditation page */
 
-    .five-reasons {
-        font-size: 10px;
-        margin-left: 30%;
-    }
-
     .med-container .first-title h1 {
         font-size: 4rem;
         padding-left: 100px;
@@ -844,12 +996,21 @@ button p a {
         padding: 10px;
     }
 
+    .med-2-image {
+        height: 12rem;
+    }
+
     .med-paragraph {
-        font-size: 10px;
+        font-size: 12px;
     }
 
     .med-paragraph2 {
+        font-size: 12px;
+    }
+
+    .five-reasons {
         font-size: 10px;
+        margin-left: 35%;
     }
 
     /* relaxation page */
@@ -860,6 +1021,17 @@ button p a {
 
     .five-relaxation {
         margin-left: 30%;
+    }
+
+    /* health page */
+
+    .health-container .third-title {
+        top: 35%;
+        margin-right: 80%;
+    }
+
+    .health-container .third-title h1 {
+        font-size: 5rem;
     }
 }
 
@@ -887,17 +1059,17 @@ button p a {
     }
 
     .med-2-image {
-        height: 12rem;
+        height: 11rem;
         justify-content: center;
-        padding-left: 100px;
+        padding-right: 20px;
     }
 
     .med-paragraph {
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .med-paragraph2 {
-        font-size: 9px;
+        font-size: 11px;
     }
 
     .five-reasons {
@@ -930,6 +1102,31 @@ button p a {
 
     .five-relaxation li h3 {
         font-size: 11px;
+    }
+
+    /* health page */
+
+    .health-card-container {
+        padding-bottom: 200px;
+        margin-top: 200px;
+    }
+
+    .health-card {
+        padding-top: 100px;
+    }
+
+    .health-container .third-title {
+        top: 18%;
+        margin-left: 0%;
+        padding-right: 25px;
+    }
+
+    .healthy-food-page-image {
+        justify-content: center;
+    }
+
+    .five-healthy-foods {
+        margin-left: 25%;
     }
 }
 
@@ -1003,7 +1200,7 @@ button p a {
 
     .med-2-image {
         height: 10rem;
-        padding-left: 100px;
+
     }
 
     .five-reasons {
@@ -1032,6 +1229,27 @@ button p a {
 
     .five-relaxation li h3 {
         font-size: 8px;
+    }
+
+    /* health page */
+
+    .health-card-container {
+        margin-top: 300px;
+        padding-bottom: 200px;
+    }
+
+    .health-container .third-title {
+        top: 15%;
+
+    }
+
+    .health-container .third-title h1 {
+        font-size: 5rem;
+        padding-right: 200px;
+    }
+
+    .five-healthy-foods {
+        margin-left: 15%;
     }
 }
 
@@ -1112,18 +1330,32 @@ button p a {
 
     /* meditation page */
 
-    .med-container .first-title h1 {
-        font-size: 2rem;
-        padding-left: 100px;
+    .card-container {
+        padding: 10px;
+        margin-top: 200px;
+        padding-bottom: 200px;
     }
 
-    .med-2-image {
-        padding-left: 80px;
+    .med-container .first-title {
+        top: 35%;
+    }
+
+    .med-container .first-title h1 {
+        font-size: 2rem;
+        padding-left: 50px;
+    }
+
+    .med-paragraph {
+        font-size: 9px;
+    }
+
+    .med-paragraph2 {
+        font-size: 9px;
     }
 
     .five-reasons {
         font-size: 10px;
-        margin-left: 25%;
+        margin-left: 26%;
     }
 }
 
@@ -1169,14 +1401,11 @@ button p a {
 
     .med-container .first-title h1 {
         font-size: 2rem;
-        padding-left: 100px;
-        padding-top: 50px;
+        padding-left: 50px;
     }
 
     .med-2-image {
         height: 8rem;
-        justify-content: center;
-        padding-left: 60px;
     }
 
     .five-reasons {
@@ -1196,5 +1425,16 @@ button p a {
 
     .five-relaxation {
         margin-left: 25%;
+    }
+
+    /* health page */
+
+    .healthy-food-page-image {
+        height: 20rem;
+        padding-left: 20%;
+    }
+
+    .five-healthy-foods {
+        margin-left: 10%;
     }
 }
