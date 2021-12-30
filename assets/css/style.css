@@ -243,6 +243,11 @@ button p a {
     font-family: Libre Baskerville, sans-serif;
     overflow: hidden;
     background-image: linear-gradient(rgb(175, 59, 241), rgb(60, 2, 83));
+    padding: 20px;
+}
+
+.med-container nav {
+    padding: 0px;
 }
 
 .med-header {
@@ -331,6 +336,11 @@ button p a {
     font-family: Libre Baskerville, sans-serif;
     overflow: hidden;
     background-image: linear-gradient(rgb(175, 59, 241), rgb(60, 2, 83));
+    padding: 20px;
+}
+
+.relax-container nav {
+    padding: 0px;
 }
 
 .relax-card-container {
@@ -387,7 +397,6 @@ button p a {
     list-style-type: none;
     padding: 20px;
     padding-right: 50px;
-
 }
 
 .five-relaxation {
@@ -415,6 +424,11 @@ button p a {
     font-family: Libre Baskerville, sans-serif;
     overflow: hidden;
     background-image: linear-gradient(rgb(175, 59, 241), rgb(60, 2, 83));
+    padding: 20px;
+}
+
+.health-container nav {
+    padding: 0px;
 }
 
 .health-card-container {
@@ -453,7 +467,6 @@ button p a {
     height: 35rem;
     display: flex;
     padding-left: 100px;
-
 }
 
 .health-paragraph {
@@ -500,6 +513,11 @@ button p a {
     font-family: Libre Baskerville, sans-serif;
     overflow: hidden;
     background-image: linear-gradient(rgb(175, 59, 241), rgb(60, 2, 83));
+    padding: 20px;
+}
+
+.fitness-container nav {
+    padding: 0px;
 }
 
 .fitness-header {
@@ -590,6 +608,10 @@ button p a {
     width: 100%;
     margin-top: auto;
     background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+
+.footer-padding {
     padding: 20px;
 }
 
@@ -777,17 +799,21 @@ button p a {
 
     /* relaxation page */
 
+    .relax-card-container {
+        margin-top: 150px;
+    }
+
+    .relax-container .relax-card {
+        display: inline-block;
+        padding-top: 50px;
+    }
+
     .relax-container .second-title {
         top: 27%;
     }
 
     .relax-container .second-title h1 {
         font-size: 5.5rem;
-    }
-
-    .relax-container .relax-card {
-        display: inline-block;
-        padding-top: 50px;
     }
 
     .relaxation-page-image {
@@ -1114,8 +1140,6 @@ button p a {
 
     /* health page */
 
-    .health-card-container {}
-
     .health-card {
         display: inline-block;
         margin-top: 200px;
@@ -1187,17 +1211,13 @@ button p a {
 
     /* meditation page */
 
-    .med-container .first-title h1 {
-        font-size: 4rem;
-        padding-left: 100px;
-    }
-
     .med-container .first-title {
         top: 18%;
     }
 
-    .med-container {
-        padding: 10px;
+    .med-container .first-title h1 {
+        font-size: 4rem;
+        padding-left: 100px;
     }
 
     .med-2-image {
@@ -1242,6 +1262,10 @@ button p a {
     .fitness-page-image {
         height: 15rem;
         margin-left: 8%;
+    }
+
+    .five-solo-exercises {
+        margin-left: 33%;
     }
 }
 
@@ -1335,6 +1359,11 @@ button p a {
     }
 
     /* Fitness page */
+
+    .fitness-card-container {
+        margin-top: 300px;
+        padding-bottom: 200px;
+    }
 
     .fitness-paragraph {
         font-size: 10px;
@@ -1482,6 +1511,11 @@ button p a {
         padding-right: 20px;
     }
 
+    .fitness-card .forth-title h1 {
+        font-size: 5rem;
+        margin-left: 10%;
+    }
+
     .fitness-page-image {
         height: 13rem;
     }
@@ -1621,7 +1655,7 @@ button p a {
     /* Landing page */
 
     nav ul li a {
-        font-size: 0.55rem;
+        font-size: 0.6rem;
     }
 
     .header h1 {
@@ -1654,6 +1688,10 @@ button p a {
         padding: 10px;
         margin-top: 200px;
         padding-bottom: 200px;
+    }
+
+    .med-container .first-title {
+        top: 21%;
     }
 
     .med-container .first-title h1 {
@@ -1730,6 +1768,11 @@ button p a {
     }
 
     /* Fitness page */
+
+    .fitness-card .forth-title h1 {
+        font-size: 4rem;
+        margin-left: 10%;
+    }
 
     .fitness-page-image {
         height: 9rem;
