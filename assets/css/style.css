@@ -1415,6 +1415,11 @@ button p a {
 
     /* relaxation page */
 
+    .relax-card-container {
+        margin-top: 220px;
+        padding-bottom: 200px;
+    }
+
     .relaxation-page-image {
         height: 9rem;
     }
@@ -1429,12 +1434,29 @@ button p a {
 
     /* health page */
 
+    .health-card-container {
+        margin-top: 600px;
+        padding-bottom: 600px;
+    }
+
+    .health-card {
+        padding-top: 50px;
+    }
+
     .healthy-food-page-image {
         height: 20rem;
         padding-left: 20%;
     }
 
     .five-healthy-foods {
-        margin-left: 10%;
+        margin-left: 20%;
+        font-size: 8px;
+        width: 200px;
+        height: 100px;
+        padding-top: 10px;
+    }
+
+    .five-healthy-foods li {
+        font-size: 8px;
     }
 }
