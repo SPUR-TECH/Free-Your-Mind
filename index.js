@@ -8,4 +8,5 @@ window.addEventListener("scroll", function () {
     parallax(".second-title", window.scrollY, 0.2);
     parallax(".third-title", window.scrollY, 0.2);
     parallax(".forth-title", window.scrollY, 0.2);
+    parallax(".about-title", window.scrollY, 0.2);
 });
