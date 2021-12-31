@@ -763,20 +763,28 @@ button p a {
     justify-content: center;
     line-height: 50px;
     border-radius: 10px;
-    padding-left: 20%;
-    padding-right: 20%;
+    padding-left: 10%;
+    padding-right: 10%;
     flex: 1;
 }
 
 .sign-up-card form .user-details {
     display: flex;
     flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
     justify-content: space-between;
+    font-size: 20px;
+    color: rgb(58, 1, 110);
 }
 
 form .user-details .input-box {
     width: calc(100% / 2 - 20px);
+}
 
+.user-details .input-box .details {
+    font-weight: 600;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
 }
 
 .user-details .input-box input {
@@ -784,6 +792,33 @@ form .user-details .input-box {
     width: 100%;
     border-radius: 10px;
     border: none;
+    font-size: 18px;
+    margin-left: 20px;
+    padding-left: 20px;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+
+form .user-details .button {
+    height: 45px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    font-size: 18px;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    color: rgb(24, 158, 192);
+    font-size: 20px;
+    font-family: Libre Baskerville, sans-serif;
 }
 
 /* media queries for responsive control */
