@@ -46,7 +46,7 @@ nav ul li {
 }
 
 nav ul li a {
-    color: rgb(0, 0, 0);
+    color: rgb(24, 158, 192);
     font-size: 1.6rem;
     letter-spacing: 1px;
     text-decoration: none;
@@ -54,11 +54,11 @@ nav ul li a {
 }
 
 nav a:hover {
-    color: rgb(24, 158, 192);
+    color: rgb(0, 204, 255);
 }
 
 .active {
-    color: rgb(24, 158, 192);
+    color: rgb(0, 204, 255);
 }
 
 .container {
@@ -235,6 +235,48 @@ button p a {
     object-fit: contain;
     justify-content: center;
     padding-bottom: 200px;
+}
+
+/* Footer styling */
+
+.footer {
+    width: 100%;
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+
+.footer-padding {
+    padding: 20px;
+}
+
+.footer-list {
+    color: rgb(24, 158, 192);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+}
+
+.footer-list li a {
+    font-weight: 400;
+    color: rgb(24, 158, 192);
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: rgb(0, 204, 255);
+    ;
+}
+
+.copyright {
+    background-color: rgba(131, 131, 131, 0.9);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.5rem;
 }
 
 /* Med page styling */
@@ -602,48 +644,6 @@ button p a {
     font-size: 13px;
 }
 
-/* Footer styling */
-
-.footer {
-    width: 100%;
-    margin-top: auto;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 20px;
-}
-
-.footer-padding {
-    padding: 20px;
-}
-
-.footer-list {
-    color: rgb(24, 158, 192);
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    font-size: 1.7rem;
-    padding-bottom: 10px;
-}
-
-.footer-list li a {
-    font-weight: 400;
-    color: rgb(24, 158, 192);
-    opacity: .7;
-    text-decoration: none;
-}
-
-.footer-list a:hover {
-    opacity: 1;
-}
-
-.copyright {
-    background-color: rgba(131, 131, 131, 0.9);
-    text-align: center;
-    padding: 10px;
-    margin: 0;
-    font-size: 1.5rem;
-}
-
 /* About page styling */
 
 .about-container {
@@ -771,6 +771,10 @@ button p a {
 
     /* healthy food page */
 
+    .health-card-container {
+        margin-top: 100px;
+    }
+
     .health-container h1 {
         font-size: 7rem;
     }
@@ -828,7 +832,7 @@ button p a {
     /* healthy food page */
 
     .health-container .third-title {
-        top: 13%;
+        top: 20%;
     }
 
     .health-container h1 {
@@ -932,7 +936,7 @@ button p a {
     /* health page */
 
     .health-container .third-title {
-        top: 17%;
+        top: 25%;
         right: 20%;
     }
 
@@ -1139,7 +1143,7 @@ button p a {
     }
 
     .healthy-food-image {
-        height: 80rem;
+        height: 85rem;
     }
 
     .fitness-image {
@@ -1185,8 +1189,9 @@ button p a {
 
     .health-card {
         display: inline-block;
-        margin-top: 200px;
-        padding-top: 100px;
+        margin-top: 300px;
+        margin-bottom: 100px;
+        padding-top: 50px;
     }
 
     .health-container .third-title {
@@ -1198,7 +1203,7 @@ button p a {
     .healthy-food-page-image {
         height: 35rem;
         justify-content: center;
-        margin-left: 8%;
+        margin-left: 5%;
     }
 
     .health-paragraph {
@@ -1271,16 +1276,6 @@ button p a {
     }
 
     /* health page */
-
-    .health-card {
-        display: inline-block;
-        margin-top: 200px;
-    }
-
-    .healthy-food-page-image {
-        width: 100%;
-        height: 40rem;
-    }
 
     .health-paragraph {
         font-size: 10px;
@@ -1497,6 +1492,11 @@ button p a {
 
     /* health page */
 
+    .health-card-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     .health-card {
         padding-top: 100px;
     }
@@ -1505,10 +1505,6 @@ button p a {
         top: 25%;
         margin-left: 0%;
         padding-right: 25px;
-    }
-
-    .healthy-food-page-image {
-        padding-left: 0px;
     }
 
     .five-healthy-foods {
@@ -1637,6 +1633,11 @@ button p a {
 
     /* relaxation page */
 
+    .relax-card-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
     .relaxation-page-image {
         height: 11rem;
     }
@@ -1670,7 +1671,6 @@ button p a {
 
     .healthy-food-page-image {
         height: 26rem;
-        margin-left: 10%;
     }
 
     .five-healthy-foods {
@@ -1755,7 +1755,7 @@ button p a {
     }
 
     .first-title button p {
-        top: 60%;
+        top: 70%;
     }
 
     .meditation-image {
@@ -1767,7 +1767,7 @@ button p a {
     }
 
     .second-title button p {
-        top: 60%;
+        top: 70%;
     }
 
     .relaxation-image {
@@ -1779,7 +1779,7 @@ button p a {
     }
 
     .third-title button p {
-        top: 60%;
+        top: 70%;
     }
 
     .healthy-food-image {
@@ -1791,7 +1791,7 @@ button p a {
     }
 
     .forth-title button p {
-        top: 60%;
+        top: 70%;
     }
 
     .fitness-image {
@@ -1837,11 +1837,6 @@ button p a {
     }
 
     /* Health page */
-
-    .health-card-container {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
 
     .health-card {
         padding-top: 50px;
@@ -1965,24 +1960,34 @@ button p a {
 
     /* health page */
 
-
+    .health-card-container {
+        margin-top: 500px;
+        padding-bottom: 500px;
+    }
 
     .health-card {
         padding-top: 50px;
     }
 
+    .health-card .third-title {
+        top: 80px;
+    }
+
     .health-card .third-title h1 {
         margin-left: 20%;
-        top: 10%;
     }
 
     .healthy-food-page-image {
         height: 20rem;
+        padding-left: 25px;
+    }
+
+    .health-paragraph {
+        font-size: 1 8px;
     }
 
     .five-healthy-foods {
-        margin-left: 25%;
-
+        margin-left: 20%;
     }
 
     .five-healthy-foods li {
@@ -2034,6 +2039,6 @@ button p a {
     }
 
     .about-image {
-        height: 7rem;
+        height: 9rem;
     }
 }
