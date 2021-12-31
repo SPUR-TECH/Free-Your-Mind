@@ -798,6 +798,10 @@ form .user-details .input-box {
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
 }
 
+.user-details .input-box input:hover {
+    transform: scale(1.1);
+}
+
 form .user-details .button {
     height: 45px;
     width: 100%;
@@ -818,7 +822,13 @@ form .button input {
     background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
     color: rgb(24, 158, 192);
     font-size: 20px;
+
     font-family: Libre Baskerville, sans-serif;
+}
+
+form .button input:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(rgb(175, -59, 241), rgb(0, 0, 0));
 }
 
 /* media queries for responsive control */
