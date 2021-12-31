@@ -284,7 +284,7 @@ button p a {
 .med-container {
     font-family: Libre Baskerville, sans-serif;
     overflow: hidden;
-    background-image: linear-gradient(rgb(175, 59, 241), rgb(60, 2, 83));
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
     padding: 20px;
 }
 
@@ -377,7 +377,7 @@ button p a {
 .relax-container {
     font-family: Libre Baskerville, sans-serif;
     overflow: hidden;
-    background-image: linear-gradient(rgb(175, 59, 241), rgb(60, 2, 83));
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
     padding: 20px;
 }
 
@@ -465,7 +465,7 @@ button p a {
 .health-container {
     font-family: Libre Baskerville, sans-serif;
     overflow: hidden;
-    background-image: linear-gradient(rgb(175, 59, 241), rgb(60, 2, 83));
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
     padding: 20px;
 }
 
@@ -554,7 +554,7 @@ button p a {
 .fitness-container {
     font-family: Libre Baskerville, sans-serif;
     overflow: hidden;
-    background-image: linear-gradient(rgb(175, 59, 241), rgb(60, 2, 83));
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
     padding: 20px;
 }
 
@@ -649,7 +649,7 @@ button p a {
 .about-container {
     font-family: Libre Baskerville, sans-serif;
     overflow: hidden;
-    background-image: linear-gradient(rgb(175, 59, 241), rgb(60, 2, 83));
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
     padding: 20px;
 }
 
@@ -713,6 +713,77 @@ button p a {
     list-style-type: none;
     padding: 20px;
     padding-right: 50px;
+}
+
+/* Sign up page */
+
+.sign-up-container {
+    font-family: Libre Baskerville, sans-serif;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    padding: 20px;
+}
+
+.sign-up-container nav {
+    padding: 0px;
+}
+
+.sign-up-header {
+    padding-top: 50px;
+    margin-bottom: 200px;
+    z-index: 10;
+}
+
+.sign-up-card-container {
+    width: 80%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    margin-left: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.sign-up-container h1 {
+    position: absolute;
+    top: 14%;
+    left: 40%;
+}
+
+.sign-up-card {
+    width: 80%;
+    min-height: 80vh;
+    background: rgba(131, 131, 131, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+    border-radius: 10px;
+    padding-left: 20%;
+    padding-right: 20%;
+    flex: 1;
+}
+
+.sign-up-card form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+form .user-details .input-box {
+    width: calc(100% / 2 - 20px);
+
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
 }
 
 /* media queries for responsive control */
