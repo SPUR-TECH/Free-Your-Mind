@@ -678,7 +678,7 @@ button p a {
 
 .about-card {
     width: 80%;
-    min-height: 80vh;
+    height: 80vh;
     background: rgba(131, 131, 131, 0.9);
     display: flex;
     border-radius: 10px;
@@ -750,7 +750,7 @@ button p a {
 
 .sign-up-card {
     width: 80%;
-    min-height: 80vh;
+    height: 80vh;
     background: rgba(131, 131, 131, 0.9);
     display: flex;
     align-items: center;
@@ -822,6 +822,116 @@ form .button input:hover {
     transform: scale(1.1);
     background-image: linear-gradient(rgb(175, -59, 241), rgb(0, 0, 0));
 }
+
+/* Sign in page */
+
+.sign-in-container {
+    font-family: Libre Baskerville, sans-serif;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    padding: 20px;
+}
+
+.sign-in-container nav {
+    padding: 0px;
+}
+
+.sign-in-card-container {
+    width: 80%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    margin-left: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.sign-in-container h1 {
+    position: absolute;
+    top: 14%;
+    left: 40%;
+}
+
+.sign-in-card {
+    width: 80%;
+    min-height: 80vh;
+    background: rgba(131, 131, 131, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    line-height: 50px;
+    border-radius: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex: 1;
+}
+
+.sign-in-card form .user-details2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(58, 1, 110);
+}
+
+form .user-details2 .input-box2 {
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details2 .input-box2 .details {
+    font-weight: 600;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+
+.user-details2 .input-box2 input {
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    margin-left: 20px;
+    padding-left: 20px;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+
+.user-details2 .input-box2 input:hover {
+    transform: scale(1.1);
+}
+
+form .user-details2 .button {
+    height: 45px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    color: rgb(24, 158, 192);
+    font-size: 20px;
+    font-family: Libre Baskerville, sans-serif;
+}
+
+form .button input:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(rgb(175, -59, 241), rgb(0, 0, 0));
+}
+
 
 /* media queries for responsive control */
 
@@ -1261,6 +1371,12 @@ form .button input:hover {
         height: 35px;
         margin-top: 20px;
     }
+
+    /* sign in page */
+
+    .sign-in-container h1 {
+        font-size: 7rem;
+    }
 }
 
 @media all and (max-width: 880px) {
@@ -1381,6 +1497,34 @@ form .button input:hover {
     .about-image {
         height: 20rem;
         margin-left: 0%;
+    }
+
+    /* Sign in page */
+
+    .sign-in-container h1 {
+
+        top: 14%;
+        left: 20%;
+    }
+
+    .sign-in-card form .user-details2 {
+        display: block;
+    }
+
+    form .user-details2 .input-box2 {
+        width: 100%;
+        padding-right: 10%;
+    }
+
+    .user-details2 .input-box2 input {
+        height: 25px;
+        font-size: 12px;
+    }
+
+    form .user-details2 .button {
+        width: 50%;
+        margin-top: 30px;
+        margin-left: 25%;
     }
 }
 
@@ -1575,6 +1719,12 @@ form .button input:hover {
 
     .sign-up-container h1 {
         font-size: 5rem;
+    }
+
+    /* sign in page */
+
+    .sign-in-container h1 {
+        font-size: 6rem;
     }
 }
 
@@ -1917,6 +2067,32 @@ form .button input:hover {
         padding-left: 0px;
         padding-right: 0px;
         margin-left: 10%;
+    }
+
+    /* sign in page */
+
+    .sign-in-card-container {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 10%;
+    }
+
+    .sign-in-container h1 {
+        left: 10%;
+    }
+
+    .sign-in-card form .user-details2 {
+        margin-right: 10%;
+        font-size: 15px;
+    }
+
+    .user-details2 .input-box2 input {
+        font-size: 10px;
+    }
+
+    form .user-details2 .button {
+        height: 35px;
+        margin-top: 20px;
     }
 }
 
