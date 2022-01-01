@@ -932,6 +932,35 @@ form .button input:hover {
     background-image: linear-gradient(rgb(175, -59, 241), rgb(0, 0, 0));
 }
 
+/* Thank you page */
+
+.thank-you-container {
+    font-family: Libre Baskerville, sans-serif;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    padding: 20px;
+}
+
+.thank-you-container nav {
+    padding: 0px;
+}
+
+.thank-you-card-container {
+    width: 80%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-you-container h1 {
+    position: absolute;
+    top: 30%;
+    font-size: 7rem;
+}
+
+
 
 /* media queries for responsive control */
 
@@ -1377,6 +1406,17 @@ form .button input:hover {
     .sign-in-container h1 {
         font-size: 7rem;
     }
+
+    /* Thank you page */
+
+    .thank-you-card {
+        line-height: 80px;
+    }
+
+    .thank-you-container h1 {
+        font-size: 5rem;
+        left: 35%;
+    }
 }
 
 @media all and (max-width: 880px) {
@@ -1740,6 +1780,12 @@ form .button input:hover {
         top: 30%;
         font-size: 6rem;
     }
+
+    /* Thank you page */
+
+    .thank-you-container h1 {
+        left: 30%;
+    }
 }
 
 @media all and (max-width: 600px) {
@@ -1895,6 +1941,12 @@ form .button input:hover {
 
     form .button input {
         font-size: 15px;
+    }
+
+    /* Thank you page */
+
+    .thank-you-container h1 {
+        left: 25%;
     }
 }
 
@@ -2113,6 +2165,12 @@ form .button input:hover {
         height: 35px;
         margin-top: 20px;
     }
+
+    /* Thank you page */
+
+    .thank-you-container h1 {
+        left: 20%;
+    }
 }
 
 @media all and (max-width: 460px) {
@@ -2260,6 +2318,13 @@ form .button input:hover {
 
     form .button input {
         font-size: 12px;
+    }
+
+    /* Thank you page */
+
+    .thank-you-container h1 {
+        font-size: 4rem;
+        left: 20%;
     }
 }
 
@@ -2471,5 +2536,12 @@ form .button input:hover {
 
     .sign-in-card {
         height: 50vh;
+    }
+
+    /* Thank you page */
+
+    .thank-you-container h1 {
+        font-size: 4rem;
+        left: 15%;
     }
 }
