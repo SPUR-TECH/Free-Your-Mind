@@ -1005,6 +1005,13 @@ form .button input:hover {
     .health-container {
         font-size: 15px;
     }
+
+    /* About page */
+
+    .about-card-container {
+        margin-top: 200px;
+        padding-bottom: 200px;
+    }
 }
 
 @media all and (max-width: 1600px) {
@@ -1057,11 +1064,6 @@ form .button input:hover {
     }
 
     /* About page */
-
-    .about-card-container {
-        margin-top: 200px;
-        padding-bottom: 200px;
-    }
 
     .about-image {
         height: 25rem;
@@ -1148,6 +1150,10 @@ form .button input:hover {
 
     .med-container .header h1 {
         font-size: 3rem;
+    }
+
+    .card-container {
+        margin-top: 200px;
     }
 
     .med-container .card {
@@ -2071,7 +2077,6 @@ form .button input:hover {
     /* meditation page */
 
     .med-container .first-title h1 {
-        font-size: 2rem;
         padding-left: 100px;
     }
 
@@ -2428,7 +2433,7 @@ form .button input:hover {
 
     .card-container {
         padding: 10px;
-        margin-top: 200px;
+        margin-top: 250px;
         padding-bottom: 200px;
     }
 
@@ -2566,7 +2571,7 @@ form .button input:hover {
 
     .about-image {
         height: 9rem;
-        margin-left: 14%;
+        margin-left: 15%;
     }
 
     /* sign up page */
