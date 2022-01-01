@@ -960,7 +960,33 @@ form .button input:hover {
     font-size: 7rem;
 }
 
+/* Welcome back page */
 
+.welcome-back-container {
+    font-family: Libre Baskerville, sans-serif;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    padding: 20px;
+}
+
+.welcome-back-container nav {
+    padding: 0px;
+}
+
+.welcome-back-card-container {
+    width: 60%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-back-container h1 {
+    position: absolute;
+    top: 30%;
+    font-size: 7rem;
+}
 
 /* media queries for responsive control */
 
@@ -1272,6 +1298,12 @@ form .button input:hover {
         height: 25rem;
         margin-left: 15%;
     }
+
+    /* welcome back page */
+
+    .welcome-back-container h1 {
+        font-size: 6rem;
+    }
 }
 
 @media all and (max-width: 1000px) {
@@ -1416,6 +1448,13 @@ form .button input:hover {
     .thank-you-container h1 {
         font-size: 5rem;
         left: 35%;
+    }
+
+    /* welcome back page */
+
+    .welcome-back-container h1 {
+        font-size: 6rem;
+        left: 20%;
     }
 }
 
@@ -1635,6 +1674,12 @@ form .button input:hover {
     .sign-up-card {
         padding-right: 50px;
     }
+
+    /* welcome back page */
+
+    .welcome-back-container h1 {
+        left: 15%;
+    }
 }
 
 @media all and (max-width: 680px) {
@@ -1785,6 +1830,12 @@ form .button input:hover {
 
     .thank-you-container h1 {
         left: 30%;
+    }
+
+    /* welcome back page */
+
+    .welcome-back-container h1 {
+        font-size: 5rem;
     }
 }
 
@@ -1947,6 +1998,12 @@ form .button input:hover {
 
     .thank-you-container h1 {
         left: 25%;
+    }
+
+    /* welcome back page */
+
+    .welcome-back-container h1 {
+        font-size: 4rem;
     }
 }
 
@@ -2326,6 +2383,13 @@ form .button input:hover {
         font-size: 4rem;
         left: 20%;
     }
+
+    /* welcome back page */
+
+    .welcome-back-container h1 {
+        font-size: 3.5rem;
+        left: 10%;
+    }
 }
 
 @media all and (max-width: 380px) {
@@ -2543,5 +2607,12 @@ form .button input:hover {
     .thank-you-container h1 {
         font-size: 4rem;
         left: 15%;
+    }
+
+    /* welcome back page */
+
+    .welcome-back-container h1 {
+        font-size: 3rem;
+        left: 10%;
     }
 }
