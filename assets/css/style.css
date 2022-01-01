@@ -2429,9 +2429,10 @@ form .button input:hover {
     }
 
     .about-title h1 {
-        top: 25%;
-        font-size: 2.5rem;
-        line-height: 40px;
+        top: 18%;
+        font-size: 3rem;
+        line-height: 50px;
+        right: 5%;
     }
 
     .about-image {
