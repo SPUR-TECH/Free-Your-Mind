@@ -678,7 +678,7 @@ button p a {
 
 .about-card {
     width: 80%;
-    height: 80vh;
+    min-height: 80vh;
     background: rgba(131, 131, 131, 0.9);
     display: flex;
     border-radius: 10px;
@@ -858,7 +858,7 @@ form .button input:hover {
 
 .sign-in-card {
     width: 80%;
-    min-height: 80vh;
+    height: 60vh;
     background: rgba(131, 131, 131, 0.9);
     display: flex;
     align-items: center;
@@ -1501,6 +1501,10 @@ form .button input:hover {
 
     /* Sign in page */
 
+    .sign-in-card {
+        height: 50vh;
+    }
+
     .sign-in-container h1 {
 
         top: 14%;
@@ -1717,13 +1721,23 @@ form .button input:hover {
 
     /* sign up page */
 
+    .sign-up-card {
+        height: 70vh;
+    }
+
     .sign-up-container h1 {
         font-size: 5rem;
     }
 
     /* sign in page */
 
+    .sign-in-card {
+        height: 45vh;
+        padding-top: 0px;
+    }
+
     .sign-in-container h1 {
+        top: 30%;
         font-size: 6rem;
     }
 }
@@ -2078,7 +2092,12 @@ form .button input:hover {
     }
 
     .sign-in-container h1 {
+        font-size: 5rem;
         left: 10%;
+    }
+
+    .sign-up-card {
+        height: 65vh;
     }
 
     .sign-in-card form .user-details2 {
@@ -2423,10 +2442,13 @@ form .button input:hover {
 
     .sign-up-container h1 {
         font-size: 4rem;
+        right: 30%;
+        left: 0%;
+        top: 18%;
     }
 
     .sign-up-card {
-        line-height: 30px;
+        height: 75vh;
     }
 
     .user-details .input-box .details {
@@ -2437,5 +2459,15 @@ form .button input:hover {
     form .user-details .button {
         margin-left: 40%;
         margin-right: 20%;
+    }
+
+    /* sign in page */
+
+    .sign-in-container h1 {
+        font-size: 4rem;
+    }
+
+    .sign-in-card {
+        height: 50vh;
     }
 }
