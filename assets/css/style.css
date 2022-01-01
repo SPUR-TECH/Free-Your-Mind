@@ -2431,13 +2431,13 @@ form .button input:hover {
     .about-title h1 {
         top: 18%;
         font-size: 3rem;
-        line-height: 50px;
+        line-height: 55px;
         right: 5%;
     }
 
     .about-image {
         height: 9rem;
-        margin-left: 12%;
+        margin-left: 14%;
     }
 
     /* sign up page */
