@@ -33,7 +33,8 @@ nav ul {
     justify-content: center;
     justify-content: space-between;
     text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .9);
-    background-color: rgba(131, 131, 131, 0.9);
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    border-radius: 20px;
     margin-top: 20px;
     z-index: 10;
     padding-left: 20px;
@@ -62,10 +63,11 @@ nav a:hover {
 }
 
 .menu {
+    border-radius: 20px;
+    padding: 20px;
     position: fixed;
-    top: 40%;
+    top: 30%;
     left: 5%;
-    color: rgb(24, 158, 192);
     line-height: 60px;
     font-size: 35px;
     font-weight: lighter;
@@ -74,20 +76,24 @@ nav a:hover {
     z-index: 10;
 }
 
-.menu h1 {
-    font-size: 3rem;
-}
-
 .menu li {
+    border-radius: 20px;
+    margin: 10px;
+    height: 60px;
+    width: 20%;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    color: rgb(24, 158, 192);
     list-style: none;
-    text-align: left;
+    text-align: center;
+    justify-content: center;
     cursor: pointer;
 }
 
 .menu li:hover {
     color: rgb(0, 204, 255);
-
+    transform: scale(1.3);
 }
+
 
 .container {
     position: relative;
@@ -147,18 +153,21 @@ h1 {
 
 button p {
     font-size: 15px;
-    color: rgb(6, 18, 22);
-    background-color: rgb(185, 206, 226);
+    color: rgb(24, 158, 192);
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
     width: 150px;
     border-radius: 20px;
-    padding: 5px;
+    padding: 10px;
     position: absolute;
     z-index: 10;
 }
 
 button p a {
     text-decoration: none;
-    list-style: none;
+}
+
+button p a b {
+    color: rgb(0, 0, 0);
 }
 
 .first-title {
@@ -1252,6 +1261,11 @@ form .user-details3 .input-box3 {
 }
 
 @media all and (max-width: 1280px) {
+    /* menu */
+
+    .menu li a {
+        padding-bottom: 10px;
+    }
 
     /* Meditation page */
 
@@ -1427,15 +1441,14 @@ form .user-details3 .input-box3 {
 
 @media all and (max-width: 1000px) {
 
-    /* quick scroll */
-
-    .menu h1 {
-        font-size: 2.5rem;
-    }
+    /* menu */
 
     .menu {
         font-size: 30px;
-        line-height: 40px;
+    }
+
+    .menu li {
+        margin: 5px;
     }
 
     /* landing page */
@@ -1595,15 +1608,10 @@ form .user-details3 .input-box3 {
 
 @media all and (max-width: 880px) {
 
-    /* quick scroll */
-
-    .menu h1 {
-        font-size: 2rem;
-    }
+    /* menu */
 
     .menu {
         font-size: 30px;
-        line-height: 35px;
         top: 40%;
     }
 
@@ -1831,15 +1839,17 @@ form .user-details3 .input-box3 {
 
 @media all and (max-width: 680px) {
 
-    /* quick scroll */
-
-    .menu h1 {
-        font-size: 1.8rem;
-    }
+    /* menu */
 
     .menu {
         top: 30%;
         font-size: 20px;
+        padding: 10px;
+        line-height: 50px;
+    }
+
+    .menu li {
+        height: 40px;
     }
 
     /* landing page */
@@ -2183,15 +2193,10 @@ form .user-details3 .input-box3 {
 
 @media all and (max-width: 480px) {
 
-    /* quick scroll */
-
-    .menu h1 {
-        font-size: 1.3rem;
-    }
+    /* menu */
 
     .menu {
-        top: 30%;
-        line-height: 25px;
+        top: 33%;
     }
 
     /* landing page */
