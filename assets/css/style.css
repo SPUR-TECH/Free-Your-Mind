@@ -1112,6 +1112,17 @@ form .user-details3 .input-box3 {
 
 @media all and (max-width: 1600px) {
 
+    /* quick scroll */
+
+    .menu {
+        top: 50%;
+        font-size: 30px;
+    }
+
+    .menu h1 {
+        font-size: 3rem;
+    }
+
     /* Meditation page */
 
     .med-container .first-title h1 {
@@ -1416,6 +1427,17 @@ form .user-details3 .input-box3 {
 
 @media all and (max-width: 1000px) {
 
+    /* quick scroll */
+
+    .menu h1 {
+        font-size: 2.5rem;
+    }
+
+    .menu {
+        font-size: 30px;
+        line-height: 40px;
+    }
+
     /* landing page */
 
     .header h1 {
@@ -1572,6 +1594,18 @@ form .user-details3 .input-box3 {
 }
 
 @media all and (max-width: 880px) {
+
+    /* quick scroll */
+
+    .menu h1 {
+        font-size: 2rem;
+    }
+
+    .menu {
+        font-size: 30px;
+        line-height: 35px;
+        top: 40%;
+    }
 
     /* landing page */
 
@@ -1796,6 +1830,17 @@ form .user-details3 .input-box3 {
 }
 
 @media all and (max-width: 680px) {
+
+    /* quick scroll */
+
+    .menu h1 {
+        font-size: 1.8rem;
+    }
+
+    .menu {
+        top: 30%;
+        font-size: 20px;
+    }
 
     /* landing page */
 
@@ -2138,6 +2183,16 @@ form .user-details3 .input-box3 {
 
 @media all and (max-width: 480px) {
 
+    /* quick scroll */
+
+    .menu h1 {
+        font-size: 1.3rem;
+    }
+
+    .menu {
+        top: 30%;
+        line-height: 25px;
+    }
 
     /* landing page */
 
