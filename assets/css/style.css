@@ -1021,7 +1021,7 @@ form .button input:hover {
 }
 
 .welcome-back-card-container {
-    width: 60%;
+    width: 100%;
     height: 100vh;
     background: transparent;
     display: flex;
@@ -1029,18 +1029,48 @@ form .button input:hover {
     justify-content: center;
 }
 
-.welcome-back-card-container button {
-    background-color: aqua;
-    color: azure;
-    width: 100px;
-    height: 40px;
-    border-radius: 50px;
+.welcome-back-card {
+    width: 50%;
+    height: 60vh;
+    background: rgba(131, 131, 131, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
 }
 
 .welcome-back-container h1 {
-    position: absolute;
-    top: 30%;
     font-size: 7rem;
+    padding-bottom: 50px;
+    line-height: 90px;
+}
+
+.welcome-back-card .button {
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+    align-items: center;
+    justify-content: center;
+}
+
+.welcome-back-card .button input {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    color: rgb(24, 158, 192);
+    font-size: 20px;
+    font-family: Libre Baskerville, sans-serif;
+
+}
+
+.welcome-back-card .button input:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(rgb(175, -59, 241), rgb(0, 0, 0));
 }
 
 /* Your account page */
@@ -1801,6 +1831,12 @@ form .user-details3 .input-box3 {
         margin-top: 30px;
         margin-left: 25%;
     }
+
+    /* welcome page */
+
+    .welcome-back-container h1 {
+        font-size: 5rem;
+    }
 }
 
 @media all and (max-width: 800px) {
@@ -2040,7 +2076,13 @@ form .user-details3 .input-box3 {
     /* welcome back page */
 
     .welcome-back-container h1 {
-        font-size: 5rem;
+        font-size: 4rem;
+        line-height: 60px;
+    }
+
+    .welcome-back-card {
+        height: 300px;
+        width: 80%;
     }
 
     /* thank you page */
@@ -2223,12 +2265,6 @@ form .user-details3 .input-box3 {
 
     .thank-you-container h1 {
         left: 25%;
-    }
-
-    /* welcome back page */
-
-    .welcome-back-container h1 {
-        font-size: 4rem;
     }
 
     /* Your account page */
@@ -2468,10 +2504,15 @@ form .user-details3 .input-box3 {
         margin-top: 20px;
     }
 
-    /* Thank you page */
+    /* welcome back page */
 
-    .thank-you-container h1 {
-        left: 20%;
+    .welcome-back-container h1 {
+        font-size: 3rem;
+    }
+
+    .welcome-back-card .button {
+        height: 30px;
+        width: 100px;
     }
 
     /* your account page */
@@ -2635,13 +2676,6 @@ form .user-details3 .input-box3 {
     .thank-you-container h1 {
         font-size: 3rem;
         line-height: 50px;
-    }
-
-    /* welcome back page */
-
-    .welcome-back-container h1 {
-        font-size: 3.5rem;
-        left: 10%;
     }
 
     /* Your account page */
