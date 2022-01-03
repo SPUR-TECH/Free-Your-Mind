@@ -993,8 +993,35 @@ form .button input:hover {
 
 .thank-you-container h1 {
     position: absolute;
-    top: 30%;
+    top: 20%;
     font-size: 7rem;
+}
+
+.thank-you-card .button {
+    position: absolute;
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    top: 72%;
+    right: 47%;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+
+.thank-you-card .button input {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    color: rgb(24, 158, 192);
+    font-size: 20px;
+    font-family: Libre Baskerville, sans-serif;
+}
+
+.thank-you-card .button input:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(rgb(175, -59, 241), rgb(0, 0, 0));
 }
 
 /* Welcome back page */
@@ -1005,6 +1032,8 @@ form .button input:hover {
     background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
     padding: 20px;
 }
+
+
 
 .welcome-back-container nav {
     padding: 0px;
@@ -1017,6 +1046,14 @@ form .button input:hover {
     display: flex;
     align-items: center;
     justify-content: center;
+}
+
+.welcome-back-card-container button {
+    background-color: aqua;
+    color: azure;
+    width: 100px;
+    height: 40px;
+    border-radius: 50px;
 }
 
 .welcome-back-container h1 {
