@@ -1086,10 +1086,6 @@ form .button input:hover {
     padding: 20px;
 }
 
-.your-container nav {
-    padding: 0px;
-}
-
 .your-card-container {
     width: 100%;
     height: 130vh;
@@ -1102,7 +1098,7 @@ form .button input:hover {
 .your-container h1 {
     position: absolute;
     top: 15%;
-    font-size: 4rem;
+    font-size: 6rem;
 }
 
 .your-card form .user-details3 {
@@ -1650,6 +1646,11 @@ form .user-details3 .input-box3 {
 
     /* Your account page */
 
+    .your-container h1 {
+        left: 25%;
+        font-size: 5rem;
+    }
+
     .your-card form .user-details3 {
         padding: 0%;
         font-size: 10px;
@@ -1911,6 +1912,13 @@ form .user-details3 .input-box3 {
 
     .welcome-back-container h1 {
         left: 15%;
+    }
+
+    /* Your account page */
+
+    .your-container h1 {
+        left: 25%;
+        font-size: 4rem;
     }
 }
 
@@ -2524,7 +2532,7 @@ form .user-details3 .input-box3 {
     .your-container h1 {
         font-size: 3rem;
         left: 5%;
-        top: 12%;
+        top: 20%;
     }
 }
 
@@ -2952,6 +2960,6 @@ form .user-details3 .input-box3 {
     .your-container h1 {
         font-size: 2.5rem;
         left: 5%;
-        top: 12%;
+        top: 15%;
     }
 }
