@@ -1052,7 +1052,7 @@ form .button input:hover {
 
 .welcome-back-card .button {
     height: 40px;
-    width: 100px;
+    width: 120px;
     border-radius: 50px;
     border: none;
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
@@ -2524,7 +2524,7 @@ form .user-details3 .input-box3 {
 
     .welcome-back-card .button {
         height: 30px;
-        width: 100px;
+        width: 120px;
     }
 
     /* your account page */
