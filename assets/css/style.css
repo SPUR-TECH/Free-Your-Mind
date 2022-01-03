@@ -17,12 +17,16 @@ b {
 
 nav {
     display: flex;
-    width: 100%;
+    width: 98%;
     background-color: (transparent);
     position: relative;
     text-align: center;
     z-index: 10;
     padding: 20px;
+    padding-top: 0px;
+    margin: 20px;
+    background-color: rgba(131, 131, 131, 0.9);
+    border-radius: 10px;
 }
 
 nav ul {
@@ -100,6 +104,48 @@ nav a:hover {
     text-align: center;
     display: flex;
     flex-direction: column;
+}
+
+/* Footer styling */
+
+.footer {
+    width: 100%;
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+
+.footer-padding {
+    padding: 20px;
+    padding-left: 20px;
+}
+
+.footer-list {
+    color: rgb(24, 158, 192);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+}
+
+.footer-list li a {
+    font-weight: 400;
+    color: rgb(24, 158, 192);
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: rgb(0, 204, 255);
+}
+
+.copyright {
+    background-color: rgba(131, 131, 131, 0.9);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.5rem;
 }
 
 /* Video container styling */
@@ -272,48 +318,6 @@ button p a b {
     object-fit: contain;
     justify-content: center;
     padding-bottom: 200px;
-}
-
-/* Footer styling */
-
-.footer {
-    width: 100%;
-    margin-top: auto;
-    background-color: rgba(0, 0, 0, 0.9);
-    padding: 20px;
-}
-
-.footer-padding {
-    padding: 20px;
-}
-
-.footer-list {
-    color: rgb(24, 158, 192);
-    list-style: none;
-    display: flex;
-    justify-content: center;
-    justify-content: space-around;
-    font-size: 1.7rem;
-    padding-bottom: 10px;
-}
-
-.footer-list li a {
-    font-weight: 400;
-    color: rgb(24, 158, 192);
-    text-decoration: none;
-}
-
-.footer-list a:hover {
-    color: rgb(0, 204, 255);
-    ;
-}
-
-.copyright {
-    background-color: rgba(131, 131, 131, 0.9);
-    text-align: center;
-    padding: 10px;
-    margin: 0;
-    font-size: 1.5rem;
 }
 
 /* Med page styling */
@@ -762,7 +766,9 @@ button p a b {
 }
 
 .sign-up-container nav {
-    padding: 0px;
+    padding: 20px;
+    padding-top: 0px;
+
 }
 
 .sign-up-card-container {
@@ -870,7 +876,8 @@ form .button input:hover {
 }
 
 .sign-in-container nav {
-    padding: 0px;
+    padding: 20px;
+    padding-top: 0px;
 }
 
 .sign-in-card-container {
@@ -979,11 +986,11 @@ form .button input:hover {
 }
 
 .thank-you-container nav {
-    padding: 0px;
+    padding-top: 0px;
 }
 
 .thank-you-card-container {
-    width: 80%;
+    width: 100%;
     height: 100vh;
     background: transparent;
     display: flex;
@@ -991,21 +998,32 @@ form .button input:hover {
     justify-content: center;
 }
 
+.thank-you-card {
+    width: 40%;
+    height: 60vh;
+    background: rgba(131, 131, 131, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
 .thank-you-container h1 {
-    position: absolute;
-    top: 20%;
     font-size: 7rem;
+    padding-bottom: 50px;
+    line-height: 90px;
 }
 
 .thank-you-card .button {
-    position: absolute;
     height: 40px;
     width: 100px;
     border-radius: 50px;
     border: none;
-    top: 72%;
-    right: 47%;
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+    align-items: center;
+    justify-content: center;
 }
 
 .thank-you-card .button input {
@@ -1017,6 +1035,7 @@ form .button input:hover {
     color: rgb(24, 158, 192);
     font-size: 20px;
     font-family: Libre Baskerville, sans-serif;
+
 }
 
 .thank-you-card .button input:hover {
