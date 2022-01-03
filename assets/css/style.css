@@ -2942,12 +2942,17 @@ form .user-details3 .input-box3 {
 
     .thank-you-card {
         width: 80%;
+        margin-bottom: 200px;
     }
 
     /* welcome back page */
 
-    .welcome-back-container nav {
-        padding: 10px;
+    .welcome-back-card .button input {
+        font-size: 15px;
+    }
+
+    .welcome-back-card {
+        margin-bottom: 200px;
     }
 
     .welcome-back-container h1 {
