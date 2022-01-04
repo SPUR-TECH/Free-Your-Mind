@@ -1079,6 +1079,7 @@ form .button input:hover {
 /* Your account page */
 
 .your-container {
+    height: 100%;
     font-family: Libre Baskerville, sans-serif;
     overflow: hidden;
     background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
@@ -1086,23 +1087,18 @@ form .button input:hover {
 }
 
 .med-video-container {
-    padding-top: 4rem;
-    padding-bottom: 4rem;
     display: flex;
-    position: absolute;
+    position: inherit;
     justify-content: center;
     flex-wrap: wrap;
-    top: 15%;
-    left: 65%;
 }
 
 .med-video-container .med-video {
-    height: 10rem;
-    width: 15rem;
-    margin: 2rem;
+    height: 15rem;
+    width: 25rem;
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
     overflow: hidden;
-    border-radius: 1rem;
+    border-radius: 10px;
 }
 
 .med-video-container .med-video iframe {
@@ -1116,7 +1112,7 @@ form .button input:hover {
 
 .your-card-container {
     width: 100%;
-    height: 130vh;
+    height: 230vh;
     background: transparent;
     display: flex;
     align-items: center;
@@ -1124,9 +1120,10 @@ form .button input:hover {
 }
 
 .your-card-container h4 {
-    position: absolute;
-    left: 65%;
-    top: 20%;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
     color: rgb(24, 158, 192);
     text-shadow: 0 .3rem .3rem rgba(0, 0, 0, .9);
 }
@@ -1148,7 +1145,6 @@ form .button input:hover {
     font-weight: 600;
     color: rgb(24, 158, 192);
     padding: 10%;
-    margin-top: 10%;
     padding-bottom: 10%;
 }
 
@@ -1681,6 +1677,21 @@ form .user-details3 .input-box3 {
 
     /* Your account page */
 
+    .your-card-container h4 {
+        right: 30%;
+    }
+
+    .med-video-container {
+        margin-left: 90px;
+        margin-bottom: 200px;
+
+    }
+
+    .med-video-container .med-video {
+        height: 10rem;
+        width: 20rem;
+    }
+
     .your-container h1 {
         left: 25%;
         font-size: 5rem;
@@ -1688,13 +1699,13 @@ form .user-details3 .input-box3 {
 
     .your-card form .user-details3 {
         padding: 0%;
-        font-size: 10px;
+        font-size: 15px;
         display: block;
         line-height: 50px;
     }
 
     .user-details3 .input-box3 input {
-        font-size: 10px;
+        font-size: 18px;
         padding-bottom: 80px;
         height: 150px;
         width: 200%;
@@ -2311,6 +2322,19 @@ form .user-details3 .input-box3 {
     }
 
     /* Your account page */
+
+    .your-card-container h4 {
+        right: 25%;
+        padding-left: 20px;
+    }
+
+    .med-video-container {
+        margin-left: 0px;
+    }
+
+    .med-video-container .med-video {
+        width: 20rem;
+    }
 
     .your-container h1 {
         font-size: 4rem;
@@ -2997,5 +3021,14 @@ form .user-details3 .input-box3 {
         font-size: 2.5rem;
         left: 5%;
         top: 15%;
+    }
+
+    .your-card-container h4 {
+        right: 35%;
+        font-size: 10px;
+    }
+
+    .med-video-container .med-video {
+        width: 18rem;
     }
 }
