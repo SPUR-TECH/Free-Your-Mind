@@ -780,7 +780,6 @@ button p a b:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 50px;
     border-radius: 10px;
     padding-left: 10%;
     padding-right: 10%;
@@ -799,6 +798,7 @@ button p a b:hover {
 
 form .user-details .input-box {
     width: calc(100% / 2 - 20px);
+    margin: 10px;
 }
 
 .user-details .input-box .details {
@@ -884,7 +884,6 @@ form .button input:hover {
     display: flex;
     align-items: center;
     justify-content: center;
-    line-height: 50px;
     border-radius: 10px;
     padding-left: 10%;
     padding-right: 10%;
@@ -1608,7 +1607,6 @@ form .user-details3 .input-box3 {
     /* sign up page */
 
     .sign-up-card {
-        line-height: 35px;
         padding-left: 10%;
         padding-right: 10%;
     }
@@ -2060,7 +2058,7 @@ form .user-details3 .input-box3 {
     /* sign up page */
 
     .sign-up-card {
-        height: 70vh;
+        height: 80vh;
     }
 
     .sign-up-container h1 {
@@ -2254,10 +2252,6 @@ form .user-details3 .input-box3 {
     .sign-up-card-container {
         padding-left: 20px;
         padding-right: 20px;
-    }
-
-    .sign-up-card {
-        line-height: 30px;
     }
 
     .user-details .input-box input {
@@ -2499,7 +2493,7 @@ form .user-details3 .input-box3 {
     }
 
     .sign-up-card {
-        height: 65vh;
+        height: 75vh;
     }
 
     .sign-in-card form .user-details2 {
@@ -2911,7 +2905,7 @@ form .user-details3 .input-box3 {
     }
 
     .sign-up-card {
-        height: 75vh;
+        height: 80vh;
     }
 
     .user-details .input-box .details {
