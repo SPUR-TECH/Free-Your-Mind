@@ -178,6 +178,15 @@ button p a b:hover {
     color: rgb(189, 33, 33);
 }
 
+#scroll-stop1 {
+    background-color: transparent;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 50%;
+    margin-top: 150px;
+}
+
 .first-title {
     position: absolute;
     justify-content: center;
@@ -206,6 +215,15 @@ button p a b:hover {
 
 /* Second button link */
 
+#scroll-stop2 {
+    background-color: transparent;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 50%;
+    top: 33%;
+}
+
 .second-title {
     position: absolute;
     top: 30%;
@@ -230,6 +248,15 @@ button p a b:hover {
 }
 
 /* Third button link */
+
+#scroll-stop3 {
+    background-color: transparent;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 50%;
+    top: 55%;
+}
 
 .third-title {
     position: absolute;
@@ -257,6 +284,15 @@ button p a b:hover {
 }
 
 /* Forth button link */
+
+#scroll-stop4 {
+    background-color: transparent;
+    height: 5px;
+    width: 5px;
+    position: absolute;
+    right: 50%;
+    top: 82%;
+}
 
 .forth-title {
     position: absolute;
@@ -2810,20 +2846,37 @@ form .user-details3 .input-box3 {
         font-size: 4rem;
     }
 
+    #scroll-stop1 {
+        margin-top: 20%;
+    }
+
     .first-title {
-        top: 13%;
+        top: 11%;
     }
 
     .meditation-image {
         height: 40rem;
+        margin-bottom: 100px;
+    }
+
+    #scroll-stop2 {
+        top: 32%;
+        background-color: transparent;
     }
 
     .second-title {
-        top: 32%;
+        top: 31%;
     }
 
     .relaxation-image {
         height: 19rem;
+        margin-bottom: 300px;
+
+    }
+
+    #scroll-stop3 {
+        top: 57%;
+        background-color: transparent;
     }
 
     .healthy-food-image {
