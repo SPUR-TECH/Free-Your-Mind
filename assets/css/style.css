@@ -860,6 +860,11 @@ form .user-details .error i.fa-exclamation-circle {
     color: rgb(211, 32, 1);
 }
 
+form .user-details .error small {
+    visibility: visible;
+    color: rgb(211, 32, 1);
+}
+
 form .input-box i {
     position: absolute;
     top: 40px;
@@ -869,6 +874,7 @@ form .input-box i {
 
 form .input-box small {
     visibility: hidden;
+    padding-left: 50px;
 }
 
 .user-details .input-box .details {

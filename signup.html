@@ -57,12 +57,12 @@
 
             <div class="sign-up-card">
 
-                <form action="thankyou.html" method="get">
+                <form action="thankyou.html" method="get" id="form">
                     <div class="user-details">
                         <div class="input-box success">
                             <label for="First name"></label>
                             <span class="details">First Name:</span>
-                            <input type="text" placeholder="First name:" required="">
+                            <input type="text" placeholder="First name:" id="first-name">
                             <i class="fas fa-check-circle"></i>
                             <i class="fas fa-exclamation-circle"></i>
                             <small>Error message</small>
@@ -71,7 +71,7 @@
                         <div class="input-box error">
                             <label for="Last name"></label>
                             <span class="details">Last name:</span>
-                            <input type="text" placeholder="Last name:" required="">
+                            <input type="text" placeholder="Last name:" id="last-name">
                             <i class="fas fa-check-circle"></i>
                             <i class="fas fa-exclamation-circle"></i>
                             <small>Error message</small>
@@ -80,7 +80,7 @@
                         <div class="input-box">
                             <label for="Email"></label>
                             <span class="details">Email:</span>
-                            <input type="text" placeholder="Enter your Email:" required="">
+                            <input type="text" placeholder="Enter your Email:" id="email">
                             <i class="fas fa-check-circle"></i>
                             <i class="fas fa-exclamation-circle"></i>
                             <small>Error message</small>
@@ -89,7 +89,7 @@
                         <div class="input-box">
                             <label for="Username"></label>
                             <span class="details">Username:</span>
-                            <input type="text" placeholder="Create Username:" required="">
+                            <input type="text" placeholder="Create Username:" id="username">
                             <i class="fas fa-check-circle"></i>
                             <i class="fas fa-exclamation-circle"></i>
                             <small>Error message</small>
@@ -98,7 +98,7 @@
                         <div class="input-box">
                             <label for="Create Password"></label>
                             <span class="details">Create Password:</span>
-                            <input type="text" placeholder="Create Password:" required="">
+                            <input type="text" placeholder="Create Password:" id="password">
                             <i class="fas fa-check-circle"></i>
                             <i class="fas fa-exclamation-circle"></i>
                             <small>Error message</small>
@@ -107,14 +107,14 @@
                         <div class="input-box">
                             <label for="Confirm Password"></label>
                             <span class="details">Confirm Password:</span>
-                            <input type="text" placeholder="Confirm Password:" required="">
+                            <input type="text" placeholder="Confirm Password:" id="password2">
                             <i class="fas fa-check-circle"></i>
                             <i class="fas fa-exclamation-circle"></i>
                             <small>Error message</small>
                         </div>
 
-                        <div class="button">
-                            <input type="submit" value="Sign up">
+                        <div class="button" id="submit">
+                            <input type="submit" value="Submit">
                         </div>
 
                     </div>
@@ -145,7 +145,7 @@
 
     <script src="https://kit.fontawesome.com/c7dbda0798.js" crossorigin="anonymous"></script>
 
-    <script src="index.js"></script>
+    <script src="assets/js/signup.js"></script>
 
 </body>
 
