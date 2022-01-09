@@ -835,6 +835,40 @@ button p a b:hover {
 form .user-details .input-box {
     width: calc(100% / 2 - 20px);
     margin: 10px;
+    position: relative;
+}
+
+form .user-details .input-box input {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+form .user-details .success input {
+    border: 2px solid rgb(21, 211, 3);
+}
+
+form .user-details .success i.fa-check-circle {
+    visibility: visible;
+    color: rgb(21, 211, 3);
+}
+
+form .user-details .error input {
+    border: 2px solid rgb(211, 32, 1);
+}
+
+form .user-details .error i.fa-exclamation-circle {
+    visibility: visible;
+    color: rgb(211, 32, 1);
+}
+
+form .input-box i {
+    position: absolute;
+    top: 40px;
+    right: 10px;
+    visibility: hidden;
+}
+
+form .input-box small {
+    visibility: hidden;
 }
 
 .user-details .input-box .details {
