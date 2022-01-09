@@ -17,12 +17,12 @@ form.addEventListener("submit", (e) => {
 // get values from inputs 
 
 function checkInputs() {
-    const firstNameValue = "first-name".value();
-    const lastNameValue = "last-name".value();
-    const emailValue = "email".value();
-    const usernameValue = "username".value();
-    const passwordValue = "password".value();
-    const password2Value = "password2".value();
+    const firstNameValue = "first-name".value;
+    const lastNameValue = "last-name".value;
+    const emailValue = "email".value;
+    const usernameValue = "username".value;
+    const passwordValue = "password".value;
+    const password2Value = "password2".value;
 
 
     if (firstNameValue === "") {
@@ -35,6 +35,7 @@ function checkInputs() {
         // show success icon
 
         setSuccessFor("first-name")
+
     }
 }
 

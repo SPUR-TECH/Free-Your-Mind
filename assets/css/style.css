@@ -867,7 +867,7 @@ form .user-details .error small {
 
 form .input-box i {
     position: absolute;
-    top: 40px;
+    top: 38px;
     right: 10px;
     visibility: hidden;
 }
@@ -1445,6 +1445,10 @@ form .user-details3 .input-box3 {
 
     .user-details .input-box input {
         height: 35px;
+    }
+
+    form .input-box i {
+        top: 37%;
     }
 }
 
@@ -2069,6 +2073,10 @@ form .user-details3 .input-box3 {
         padding-right: 50px;
     }
 
+    form .input-box i {
+        left: 95%;
+    }
+
     /* welcome back page */
 
     .welcome-back-container h1 {
@@ -2420,6 +2428,16 @@ form .user-details3 .input-box3 {
     .user-details .input-box input {
         height: 25px;
         font-size: 13px;
+        line-height: 10px;
+    }
+
+    form .input-box i {
+        top: 42%;
+        font-size: 15px;
+    }
+
+    form .user-details .error small {
+        font-size: 11px;
     }
 
     form .user-details .button {
@@ -3107,6 +3125,10 @@ form .user-details3 .input-box3 {
 
     /* sign up page */
 
+    .sign-up-container nav {
+        margin-bottom: 200px;
+    }
+
     .sign-up-container h1 {
         font-size: 4rem;
         right: 30%;
@@ -3115,12 +3137,19 @@ form .user-details3 .input-box3 {
     }
 
     .sign-up-card {
-        height: 80vh;
+        height: 80%;
+        margin-bottom: 200px;
+    }
+
+    .user-details .input-box {
+        line-height: 7px;
     }
 
     .user-details .input-box .details {
         font-weight: 600;
         font-size: 12px;
+        position: absolute;
+        top: -30%;
     }
 
     form .user-details .button {
