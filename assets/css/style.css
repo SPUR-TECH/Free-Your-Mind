@@ -869,11 +869,11 @@ form .input-box i {
     position: absolute;
     top: 38px;
     right: 10px;
-    visibility: hidden;
+    visibility: visible;
 }
 
 form .input-box small {
-    visibility: hidden;
+    visibility: visible;
     padding-left: 50px;
 }
 
