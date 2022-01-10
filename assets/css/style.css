@@ -2942,7 +2942,7 @@ form .user-details3 .input-box3 {
     }
 
     #scroll-stop1 {
-        margin-top: 20%;
+        margin-top: 0%;
     }
 
     .first-title {
@@ -2960,7 +2960,7 @@ form .user-details3 .input-box3 {
     }
 
     .second-title {
-        top: 31%;
+        top: 30%;
     }
 
     .relaxation-image {
@@ -2974,8 +2974,16 @@ form .user-details3 .input-box3 {
         background-color: transparent;
     }
 
+    .third-title {
+        top: 49%;
+    }
+
     .healthy-food-image {
         height: 66rem;
+    }
+
+    .forth-title {
+        top: 70%;
     }
 
     .fitness-image {
