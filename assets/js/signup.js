@@ -8,6 +8,8 @@ const username = document.querySelector('#username');
 const password = document.querySelector('#password');
 const password2 = document.querySelector('#password2');
 
+// deactivate submit button
+
 form.addEventListener('submit', (event) => {
 
     validateForm();
@@ -16,16 +18,17 @@ form.addEventListener('submit', (event) => {
         form.submit();
     } else {
         event.preventDefault();
+
     }
 });
 
 // reactivate submit button
 
 function isFormValid() {
-    const inputContainers = form.querySelectorAll('form, .user-details, .input-box');
+    const inputContainers = form.querySelectorAll('.input-box');
     let result = true;
     inputContainers.forEach((container) => {
-        if (container.classList('.error')) {
+        if (container.classList.contains('error')) {
             result = false;
         }
     });
@@ -44,12 +47,16 @@ function validateForm() {
     }
 }
 
+// set error class
+
 function setError(element, errorMessage) {
     const parent = element.parentElement;
     parent.classList.add('error');
     const paragraph = parent.querySelector('p');
     paragraph.textContent = errorMessage;
 }
+
+// set success class
 
 function setSuccess(element) {
     const parent = element.parentElement;
