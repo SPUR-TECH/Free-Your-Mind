@@ -846,7 +846,7 @@ form .user-details .success input {
     border: 2px solid rgb(21, 211, 3);
 }
 
-form .user-details .success i.fa-check-circle {
+.success i.fa-check-circle {
     visibility: visible;
     color: rgb(21, 211, 3);
 }
@@ -855,25 +855,27 @@ form .user-details .error input {
     border: 2px solid rgb(211, 32, 1);
 }
 
-form .user-details .error i.fa-exclamation-circle {
+.error i.fa-exclamation-circle {
     visibility: visible;
     color: rgb(211, 32, 1);
 }
 
-form .user-details .error small {
+form .user-details .error p {
     visibility: visible;
     color: rgb(211, 32, 1);
+    text-transform: uppercase;
+    font-size: 15px;
 }
 
 form .input-box i {
     position: absolute;
     top: 38px;
     right: 10px;
-    visibility: visible;
+    visibility: hidden;
 }
 
-form .input-box small {
-    visibility: visible;
+form .input-box p {
+    visibility: hidden;
     padding-left: 50px;
 }
 
