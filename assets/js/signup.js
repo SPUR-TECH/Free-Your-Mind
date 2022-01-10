@@ -39,17 +39,23 @@ function setSuccess(element) {
 
 function validateForm() {
 
+    //First name
+
     if (firstName.value.trim() == '') {
         setError(firstName, 'Please enter Name')
     } else {
         setSuccess(firstName);
     }
 
+    //Last name
+
     if (lastName.value.trim() == '') {
         setError(lastName, 'Please enter last name')
     } else {
         setSuccess(lastName);
     }
+
+    // Email
 
     if (email.value.trim() == '') {
         setError(email, 'Please enter Email');
@@ -60,11 +66,15 @@ function validateForm() {
         setError(email, 'Invalid email');
     }
 
+    // Username
+
     if (username.value.trim() == '') {
         setError(username, 'Please enter Username')
     } else {
         setSuccess(username);
     }
+
+    // Password
 
     if (password.value.trim() == '') {
         setError(password, 'Please create Password')
@@ -72,12 +82,18 @@ function validateForm() {
         setSuccess(password);
     }
 
+    // Confirm password
+
     if (password2.value.trim() == '') {
-        setError(password2, 'Passwords must match')
+        setError(password2, 'Please confirm password');
+    } else if (password2.value !== password.value) {
+        setError(password2, 'Passwords must match');
     } else {
         setSuccess(password2);
     }
 }
+
+// Call error class
 
 function setError(element, errorMessage) {
     const parent = element.parentElement;
@@ -89,6 +105,8 @@ function setError(element, errorMessage) {
     paragraph.textContent = errorMessage;
 }
 
+// call success class
+
 function setSuccess(element) {
     const parent = element.parentElement;
     if (parent.classList.contains('error')) {
@@ -96,6 +114,8 @@ function setSuccess(element) {
     }
     parent.classList.add('success');
 }
+
+// Email validation
 
 function isEmailValid(email) {
     const reg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
