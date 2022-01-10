@@ -19,6 +19,27 @@ form.addEventListener('submit', (event) => {
 function validateForm() {
 
     if (firstName.value.trim() == '') {
+        setError(firstName, 'Name can not be empty')
+    } else {
+        setSuccess(firstName);
+    }
+}
+
+function setError(element, errorMessage) {
+    const parent = element.parentElement;
+    parent.classList.add('error');
+    const paragraph = parent.querySelector('p');
+    paragraph.textContent = errorMessage;
+}
+
+function setSuccess(element) {
+    const parent = element.parentElement;
+    parent.classList.add('success');
+}
+
+function validateForm() {
+
+    if (firstName.value.trim() == '') {
         setError(firstName, 'Please enter Name')
     } else {
         setSuccess(firstName);
@@ -31,9 +52,12 @@ function validateForm() {
     }
 
     if (email.value.trim() == '') {
-        setError(email, 'Please enter Email ')
-    } else {
+        setError(email, 'Please enter Email');
+
+    } else if (isEmailValid(email.value)) {
         setSuccess(email);
+    } else {
+        setError(email, 'Invalid email');
     }
 
     if (username.value.trim() == '') {
@@ -71,4 +95,9 @@ function setSuccess(element) {
         parent.classList.remove('error');
     }
     parent.classList.add('success');
+}
+
+function isEmailValid(email) {
+    const reg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return reg.test(email);
 }
