@@ -9,10 +9,29 @@ const password = document.querySelector('#password');
 const password2 = document.querySelector('#password2');
 
 form.addEventListener('submit', (event) => {
-    event.preventDefault();
 
     validateForm();
+
+    if (isFormValid() == true) {
+        form.submit();
+    } else {
+        event.preventDefault();
+    }
 });
+
+// reactivate submit button
+
+function isFormValid() {
+    const inputContainers = form.querySelectorAll('form, .user-details, .input-box');
+    let result = true;
+    inputContainers.forEach((container) => {
+        if (container.classList('.error')) {
+            result = false;
+        }
+    });
+
+    return result;
+}
 
 // Input values
 
