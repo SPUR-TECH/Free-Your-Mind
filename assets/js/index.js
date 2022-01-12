@@ -1,3 +1,5 @@
+// home page parallax effect
+
 function parallax(element, distance, speed) {
     const items = document.querySelector(element);
     items.style.transform = `translateY(${distance * speed}px)`;
