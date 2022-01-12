@@ -1202,7 +1202,7 @@ form .button input:hover {
     border-radius: 20px;
     display: flex;
     position: relative;
-    left: 42%;
+    margin-left: 3%;
     margin-top: 50px;
     overflow-x: auto;
 }
@@ -1490,6 +1490,12 @@ form .user-details3 .input-box3 {
     form .input-box i {
         top: 37%;
     }
+}
+
+/* your account page */
+
+.library-wrapper {
+    margin-left: 0%;
 }
 
 @media all and (max-width: 1280px) {
