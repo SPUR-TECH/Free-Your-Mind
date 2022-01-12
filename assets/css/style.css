@@ -1183,6 +1183,7 @@ form .button input:hover {
     box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
     overflow: hidden;
     border-radius: 10px;
+    margin-bottom: 100px;
 }
 
 .med-video-container .med-video iframe {
@@ -1199,10 +1200,9 @@ form .button input:hover {
     max-width: 300px;
     max-height: 160px;
     border: 1px solid rgb(24, 158, 192);
-    border-radius: 20px;
+    border-radius: 10px;
     display: flex;
     position: relative;
-    margin-left: 3%;
     margin-top: 50px;
     overflow-x: auto;
 }
@@ -1211,15 +1211,33 @@ form .button input:hover {
     width: 0;
 }
 
+.meditation-video-library i {
+    color: white;
+
+}
+
 .library-wrapper .library {
     min-width: 200px;
     height: 110px;
     line-height: 110px;
-    text-align: center;
-    background-color: rgb(24, 158, 192);
-    border-radius: 20px;
-    margin-right: 2px;
+    margin-right: 8px;
     margin-top: 20px;
+}
+
+.meditation-video-library {
+    font-size: 15px;
+    position: relative;
+}
+
+.library-wrapper .library iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
 }
 
 .your-card-container {
@@ -2775,520 +2793,519 @@ form .user-details3 .input-box3 {
         font-size: 3rem;
 
     }
+}
 
-    @media all and (max-width: 460px) {
+@media all and (max-width: 460px) {
 
-        /* landing page */
+    /* landing page */
 
-        nav ul li a {
-            font-size: 0.6rem;
-        }
-
-
-
-        .header h1 {
-
-            font-size: 4rem;
-        }
-
-        h1 {
-            font-size: 3rem;
-        }
-
-        .first-title {
-            top: 8%;
-        }
-
-        .first-title button p {
-            top: 70%;
-        }
-
-        .meditation-image {
-            height: 42rem;
-        }
-
-        .second-title {
-            top: 31%;
-        }
-
-        .second-title button p {
-            top: 70%;
-        }
-
-        .relaxation-image {
-            height: 21rem;
-        }
-
-        .third-title {
-            top: 46%;
-        }
-
-        .third-title button p {
-            top: 70%;
-        }
-
-        .healthy-food-image {
-            height: 68rem;
-        }
-
-        .forth-title {
-            top: 71%;
-        }
-
-        .forth-title button p {
-            top: 70%;
-        }
-
-        .fitness-image {
-            height: 27rem;
-        }
-
-        .footer-list {
-            font-size: 0.8rem;
-        }
-
-        .copyright {
-            font-size: 0.7rem;
-        }
-
-        /* meditation page */
-
-        .card-container {
-            padding: 10px;
-            margin-top: 200px;
-            padding-bottom: 200px;
-        }
-
-        .med-container .first-title {
-            top: 35%;
-        }
-
-        .med-container .first-title h1 {
-            font-size: 2rem;
-            padding-left: 50px;
-        }
-
-        .med-paragraph {
-            font-size: 9px;
-        }
-
-        .med-paragraph2 {
-            font-size: 9px;
-        }
-
-        .five-reasons {
-            font-size: 10px;
-            margin-left: 26%;
-        }
-
-        /* Health page */
-
-        .health-card {
-            padding-top: 50px;
-        }
-
-        /* About page */
-
-        .about-card {
-            padding-top: 50px;
-        }
-
-        .about-title h1 {
-            top: 25%;
-            font-size: 2.5rem;
-            line-height: 40px;
-        }
-
-        .about-image {
-            height: 9rem;
-        }
-
-        .about-paragraph {
-            font-size: 8px;
-        }
-
-        .about-paragraph2 {
-            font-size: 6px;
-        }
-
-        /* sign up page */
-
-        .user-details .input-box input {
-            height: 25px;
-            font-size: 10px;
-            padding-left: 10px;
-        }
-
-        form .user-details .error i {
-            top: 45%;
-        }
-
-        form .button input {
-            font-size: 12px;
-        }
-
-        /* Thank you page */
-
-        .thank-you-container h1 {
-            font-size: 3rem;
-            line-height: 50px;
-        }
-
-        /* Your account page */
-
-        /* your account page */
-
-        .library-wrapper {
-            left: 20%;
-            width: 250px;
-        }
-
-        .your-card form .user-details3 {
-            padding: 0%;
-        }
-
-        .user-details3 .input-box3 input {
-            margin-left: 20px;
-        }
-
-        .logout {
-            height: 25px;
-        }
-
-        .logout input {
-            font-size: 15px;
-        }
+    nav ul li a {
+        font-size: 0.6rem;
     }
 
-    @media all and (max-width: 380px) {
-        /* menu */
 
-        .menu {
-            left: 1%;
-            top: 40%;
-        }
 
-        .menu li {
-            margin: 5px;
-            height: 25px;
-            width: 20%;
-            font-size: 16px;
-            line-height: 30px;
-        }
+    .header h1 {
 
-        /* Landing page */
-
-        nav {
-            padding: 10px;
-        }
-
-        nav ul li {
-            padding-top: 5px;
-            padding-left: 5px;
-        }
-
-        nav ul li a {
-            font-size: 0.6rem;
-        }
-
-        .header h1 {
-            font-size: 4rem;
-        }
-
-        #scroll-stop1 {
-            margin-top: 0%;
-        }
-
-        .first-title {
-            top: 11%;
-        }
-
-        .meditation-image {
-            height: 40rem;
-            margin-bottom: 100px;
-        }
-
-        #scroll-stop2 {
-            top: 32%;
-            background-color: transparent;
-        }
-
-        .second-title {
-            top: 30%;
-        }
-
-        .relaxation-image {
-            height: 19rem;
-            margin-bottom: 300px;
-
-        }
-
-        #scroll-stop3 {
-            top: 57%;
-            background-color: transparent;
-        }
-
-        .third-title {
-            top: 49%;
-        }
-
-        .healthy-food-image {
-            height: 66rem;
-        }
-
-        .forth-title {
-            top: 70%;
-        }
-
-        .fitness-image {
-            height: 25rem;
-        }
-
-        /* meditation page */
-
-        .card-container {
-            padding: 10px;
-            margin-top: 250px;
-            padding-bottom: 200px;
-        }
-
-        .med-container .first-title {
-            top: 21%;
-        }
-
-        .med-container .first-title h1 {
-            font-size: 2rem;
-            padding-left: 50px;
-        }
-
-        .med-2-image {
-            height: 8rem;
-        }
-
-        .five-reasons {
-            font-size: 10px;
-            margin-left: 20%;
-        }
-
-        /* relaxation page */
-
-        .relax-card-container {
-            margin-top: 220px;
-            padding-bottom: 200px;
-        }
-
-        .relax-container .second-title {
-            top: 38%;
-        }
-
-        .relax-container .second-title h1 {
-            font-size: 3rem;
-        }
-
-        .relaxation-page-image {
-            height: 9rem;
-        }
-
-        .relax-paragraph {
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-
-        .relax-paragraph2 {
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-
-        .five-relaxation {
-            margin-left: 25%;
-        }
-
-        /* health page */
-
-        .health-card-container {
-            margin-top: 600px;
-            padding-bottom: 600px;
-        }
-
-        .health-card {
-            padding-top: 50px;
-        }
-
-        .health-card .third-title {
-            top: 80px;
-        }
-
-        .health-card .third-title h1 {
-            margin-left: 20%;
-        }
-
-        .healthy-food-page-image {
-            height: 20rem;
-            padding-left: 25px;
-        }
-
-        .health-paragraph {
-            font-size: 1 8px;
-        }
-
-        .five-healthy-foods {
-            margin-left: 20%;
-        }
-
-        .five-healthy-foods li {
-            font-size: 8px;
-        }
-
-        /* Fitness page */
-
-        .fitness-card .forth-title h1 {
-            font-size: 4rem;
-            margin-left: 10%;
-        }
-
-        .fitness-page-image {
-            height: 9rem;
-            margin-left: 6%;
-        }
-
-        .fitness-paragraph {
-            font-size: 8px;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-
-        .fitness-paragraph2 {
-            font-size: 8px;
-            padding-left: 20px;
-            padding-right: 20px;
-        }
-
-        .five-solo-exercises {
-            margin-left: 22%;
-        }
-
-        /* About page */
-
-        .about-card-container {
-            padding: 0px;
-        }
-
-        .about-title h1 {
-            top: 18%;
-            font-size: 3rem;
-            line-height: 55px;
-            right: 5%;
-        }
-
-        .about-image {
-            height: 9rem;
-            margin-left: 15%;
-        }
-
-        /* sign up page */
-
-        .sign-up-container nav {
-            margin-bottom: 200px;
-        }
-
-        .sign-up-container h1 {
-            font-size: 4rem;
-            right: 30%;
-            left: 0%;
-            top: 18%;
-        }
-
-        .sign-up-card {
-            height: 80%;
-            margin-bottom: 200px;
-        }
-
-        .user-details .input-box {
-            line-height: 7px;
-        }
-
-        .user-details .input-box .details {
-            font-weight: 600;
-            font-size: 12px;
-            position: absolute;
-            top: -30%;
-        }
-
-        form .user-details .error i {
-            font-size: 12px;
-            top: 17%;
-        }
-
-        form .user-details i {
-            font-size: 12px;
-            top: 17%;
-        }
-
-        form .user-details .error p {
-            font-size: 8px;
-            padding-left: 0px;
-        }
-
-        form .user-details .button {
-            margin-left: 40%;
-            margin-right: 20%;
-        }
-
-        /* sign in page */
-
-        .sign-in-container h1 {
-            font-size: 4rem;
-        }
-
-        .sign-in-card {
-            height: 40vh;
-            padding-bottom: 40px;
-        }
-
-        /* Thank you page */
-
-        .thank-you-container h1 {
-            font-size: 3rem;
-        }
-
-        .thank-you-card {
-            width: 80%;
-            margin-bottom: 200px;
-        }
-
-        /* welcome back page */
-
-        .welcome-back-card .button input {
-            font-size: 15px;
-        }
-
-        .welcome-back-card {
-            margin-bottom: 200px;
-        }
-
-        .welcome-back-container h1 {
-            font-size: 3rem;
-            left: 10%;
-        }
-
-        /* your account page */
-
-        .your-container h1 {
-            font-size: 2.5rem;
-            left: 5%;
-            top: 15%;
-        }
-
-        .your-card-container h4 {
-            font-size: 12px;
-        }
-
-        .med-video-container .med-video {
-            width: 18rem;
-        }
-
-        .library-wrapper {
-            left: 7%;
-
-        }
+        font-size: 4rem;
     }
+
+    h1 {
+        font-size: 3rem;
+    }
+
+    .first-title {
+        top: 8%;
+    }
+
+    .first-title button p {
+        top: 70%;
+    }
+
+    .meditation-image {
+        height: 42rem;
+    }
+
+    .second-title {
+        top: 31%;
+    }
+
+    .second-title button p {
+        top: 70%;
+    }
+
+    .relaxation-image {
+        height: 21rem;
+    }
+
+    .third-title {
+        top: 46%;
+    }
+
+    .third-title button p {
+        top: 70%;
+    }
+
+    .healthy-food-image {
+        height: 68rem;
+    }
+
+    .forth-title {
+        top: 71%;
+    }
+
+    .forth-title button p {
+        top: 70%;
+    }
+
+    .fitness-image {
+        height: 27rem;
+    }
+
+    .footer-list {
+        font-size: 0.8rem;
+    }
+
+    .copyright {
+        font-size: 0.7rem;
+    }
+
+    /* meditation page */
+
+    .card-container {
+        padding: 10px;
+        margin-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .med-container .first-title {
+        top: 35%;
+    }
+
+    .med-container .first-title h1 {
+        font-size: 2rem;
+        padding-left: 50px;
+    }
+
+    .med-paragraph {
+        font-size: 9px;
+    }
+
+    .med-paragraph2 {
+        font-size: 9px;
+    }
+
+    .five-reasons {
+        font-size: 10px;
+        margin-left: 26%;
+    }
+
+    /* Health page */
+
+    .health-card {
+        padding-top: 50px;
+    }
+
+    /* About page */
+
+    .about-card {
+        padding-top: 50px;
+    }
+
+    .about-title h1 {
+        top: 25%;
+        font-size: 2.5rem;
+        line-height: 40px;
+    }
+
+    .about-image {
+        height: 9rem;
+    }
+
+    .about-paragraph {
+        font-size: 8px;
+    }
+
+    .about-paragraph2 {
+        font-size: 6px;
+    }
+
+    /* sign up page */
+
+    .user-details .input-box input {
+        height: 25px;
+        font-size: 10px;
+        padding-left: 10px;
+    }
+
+    form .user-details .error i {
+        top: 45%;
+    }
+
+    form .button input {
+        font-size: 12px;
+    }
+
+    /* Thank you page */
+
+    .thank-you-container h1 {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+
+    /* your account page */
+
+    .library-wrapper {
+        left: 20%;
+        width: 250px;
+    }
+
+    .your-card form .user-details3 {
+        padding: 0%;
+    }
+
+    .user-details3 .input-box3 input {
+        margin-left: 20px;
+    }
+
+    .logout {
+        height: 25px;
+    }
+
+    .logout input {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 380px) {
+    /* menu */
+
+    .menu {
+        left: 1%;
+        top: 40%;
+    }
+
+    .menu li {
+        margin: 5px;
+        height: 25px;
+        width: 20%;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
+    /* Landing page */
+
+    nav {
+        padding: 10px;
+    }
+
+    nav ul li {
+        padding-top: 5px;
+        padding-left: 5px;
+    }
+
+    nav ul li a {
+        font-size: 0.6rem;
+    }
+
+    .header h1 {
+        font-size: 4rem;
+    }
+
+    #scroll-stop1 {
+        margin-top: 0%;
+    }
+
+    .first-title {
+        top: 11%;
+    }
+
+    .meditation-image {
+        height: 40rem;
+        margin-bottom: 100px;
+    }
+
+    #scroll-stop2 {
+        top: 32%;
+        background-color: transparent;
+    }
+
+    .second-title {
+        top: 30%;
+    }
+
+    .relaxation-image {
+        height: 19rem;
+        margin-bottom: 300px;
+
+    }
+
+    #scroll-stop3 {
+        top: 57%;
+        background-color: transparent;
+    }
+
+    .third-title {
+        top: 49%;
+    }
+
+    .healthy-food-image {
+        height: 66rem;
+    }
+
+    .forth-title {
+        top: 70%;
+    }
+
+    .fitness-image {
+        height: 25rem;
+    }
+
+    /* meditation page */
+
+    .card-container {
+        padding: 10px;
+        margin-top: 250px;
+        padding-bottom: 200px;
+    }
+
+    .med-container .first-title {
+        top: 21%;
+    }
+
+    .med-container .first-title h1 {
+        font-size: 2rem;
+        padding-left: 50px;
+    }
+
+    .med-2-image {
+        height: 8rem;
+    }
+
+    .five-reasons {
+        font-size: 10px;
+        margin-left: 20%;
+    }
+
+    /* relaxation page */
+
+    .relax-card-container {
+        margin-top: 220px;
+        padding-bottom: 200px;
+    }
+
+    .relax-container .second-title {
+        top: 38%;
+    }
+
+    .relax-container .second-title h1 {
+        font-size: 3rem;
+    }
+
+    .relaxation-page-image {
+        height: 9rem;
+    }
+
+    .relax-paragraph {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .relax-paragraph2 {
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .five-relaxation {
+        margin-left: 25%;
+    }
+
+    /* health page */
+
+    .health-card-container {
+        margin-top: 600px;
+        padding-bottom: 600px;
+    }
+
+    .health-card {
+        padding-top: 50px;
+    }
+
+    .health-card .third-title {
+        top: 80px;
+    }
+
+    .health-card .third-title h1 {
+        margin-left: 20%;
+    }
+
+    .healthy-food-page-image {
+        height: 20rem;
+        padding-left: 25px;
+    }
+
+    .health-paragraph {
+        font-size: 1 8px;
+    }
+
+    .five-healthy-foods {
+        margin-left: 20%;
+    }
+
+    .five-healthy-foods li {
+        font-size: 8px;
+    }
+
+    /* Fitness page */
+
+    .fitness-card .forth-title h1 {
+        font-size: 4rem;
+        margin-left: 10%;
+    }
+
+    .fitness-page-image {
+        height: 9rem;
+        margin-left: 6%;
+    }
+
+    .fitness-paragraph {
+        font-size: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .fitness-paragraph2 {
+        font-size: 8px;
+        padding-left: 20px;
+        padding-right: 20px;
+    }
+
+    .five-solo-exercises {
+        margin-left: 22%;
+    }
+
+    /* About page */
+
+    .about-card-container {
+        padding: 0px;
+    }
+
+    .about-title h1 {
+        top: 18%;
+        font-size: 3rem;
+        line-height: 55px;
+        right: 5%;
+    }
+
+    .about-image {
+        height: 9rem;
+        margin-left: 15%;
+    }
+
+    /* sign up page */
+
+    .sign-up-container nav {
+        margin-bottom: 200px;
+    }
+
+    .sign-up-container h1 {
+        font-size: 4rem;
+        right: 30%;
+        left: 0%;
+        top: 18%;
+    }
+
+    .sign-up-card {
+        height: 80%;
+        margin-bottom: 200px;
+    }
+
+    .user-details .input-box {
+        line-height: 7px;
+    }
+
+    .user-details .input-box .details {
+        font-weight: 600;
+        font-size: 12px;
+        position: absolute;
+        top: -30%;
+    }
+
+    form .user-details .error i {
+        font-size: 12px;
+        top: 17%;
+    }
+
+    form .user-details i {
+        font-size: 12px;
+        top: 17%;
+    }
+
+    form .user-details .error p {
+        font-size: 8px;
+        padding-left: 0px;
+    }
+
+    form .user-details .button {
+        margin-left: 40%;
+        margin-right: 20%;
+    }
+
+    /* sign in page */
+
+    .sign-in-container h1 {
+        font-size: 4rem;
+    }
+
+    .sign-in-card {
+        height: 40vh;
+        padding-bottom: 40px;
+    }
+
+    /* Thank you page */
+
+    .thank-you-container h1 {
+        font-size: 3rem;
+    }
+
+    .thank-you-card {
+        width: 80%;
+        margin-bottom: 200px;
+    }
+
+    /* welcome back page */
+
+    .welcome-back-card .button input {
+        font-size: 15px;
+    }
+
+    .welcome-back-card {
+        margin-bottom: 200px;
+    }
+
+    .welcome-back-container h1 {
+        font-size: 3rem;
+        left: 10%;
+    }
+
+    /* your account page */
+
+    .your-container h1 {
+        font-size: 2.5rem;
+        left: 5%;
+        top: 15%;
+    }
+
+    .your-card-container h4 {
+        font-size: 12px;
+    }
+
+    .med-video-container .med-video {
+        width: 18rem;
+    }
+
+    .library-wrapper {
+        left: 7%;
+
+    }
+}
