@@ -182,6 +182,7 @@ button p a b:hover {
     position: absolute;
     right: 50%;
     margin-top: 150px;
+    color: transparent;
 }
 
 .first-title {
@@ -219,6 +220,7 @@ button p a b:hover {
     position: absolute;
     right: 50%;
     top: 33%;
+    color: transparent;
 }
 
 .second-title {
@@ -253,6 +255,7 @@ button p a b:hover {
     position: absolute;
     right: 50%;
     top: 55%;
+    color: transparent;
 }
 
 .third-title {
@@ -289,6 +292,7 @@ button p a b:hover {
     position: absolute;
     right: 50%;
     top: 82%;
+    color: transparent
 }
 
 .forth-title {
