@@ -3329,7 +3329,8 @@ form .user-details3 .input-box3 {
     }
 
     .your-card form .user-details3 {
-        padding-left: 32%;
+        padding-left: 33%;
+        line-height: 40px;
     }
 
     .logout {
