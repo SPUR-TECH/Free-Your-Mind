@@ -18,7 +18,6 @@ b {
 nav {
     display: flex;
     width: 100%;
-    background-color: (transparent);
     position: relative;
     text-align: center;
     z-index: 10;
@@ -3156,7 +3155,7 @@ form .user-details3 .input-box3 {
     }
 
     .health-paragraph {
-        font-size: 1 8px;
+        font-size: 8px;
     }
 
     .five-healthy-foods {
