@@ -1212,7 +1212,7 @@ form .button input:hover {
 }
 
 .library-wrapper .library {
-    min-width: 220px;
+    min-width: 260px;
     height: 110px;
     line-height: 110px;
     margin-right: 8px;
@@ -1245,6 +1245,7 @@ form .button input:hover {
 }
 
 .your-card-container h4 {
+    font-size: 25px;
     position: relative;
     display: flex;
     justify-content: center;
@@ -1282,6 +1283,7 @@ form .button input:hover {
     color: rgb(24, 158, 192);
     padding: 10%;
     padding-bottom: 10%;
+    padding-top: 40px;
 }
 
 form .user-details3 .input-box3 {
@@ -1495,6 +1497,12 @@ form .user-details3 .input-box3 {
 
     form .input-box i {
         top: 37%;
+    }
+
+    /* your account page */
+
+    .your-container h1 {
+        left: 10%;
     }
 }
 
@@ -1830,6 +1838,18 @@ form .user-details3 .input-box3 {
         font-size: 7rem;
     }
 
+    /* thank you page */
+
+    .thank-you-container h1 {
+        font-size: 4rem;
+        line-height: 60px;
+    }
+
+    .thank-you-card {
+        height: 400px;
+        width: 60%;
+    }
+
     /* welcome back page */
 
     .welcome-back-container h1 {
@@ -1839,9 +1859,8 @@ form .user-details3 .input-box3 {
 
     /* Your account page */
 
-
-    .your-card-container h2 {
-        padding-bottom: 100px;
+    .trial-video {
+        margin-top: 500px;
     }
 
     .med-video-container .med-video {
@@ -1853,6 +1872,7 @@ form .user-details3 .input-box3 {
         display: flex;
         flex-direction: column;
         padding: 15%;
+        padding-top: 20px;
     }
 
     .user-details3 .input-box3 input {
@@ -1860,18 +1880,6 @@ form .user-details3 .input-box3 {
         padding-bottom: 80px;
         height: 150px;
         width: 80vw;
-    }
-
-    /* thank you page */
-
-    .thank-you-container h1 {
-        font-size: 4rem;
-        line-height: 60px;
-    }
-
-    .thank-you-card {
-        height: 400px;
-        width: 60%;
     }
 }
 
@@ -2053,6 +2061,10 @@ form .user-details3 .input-box3 {
         font-size: 15px;
         width: 100%;
         margin-left: 8%;
+    }
+
+    .logout {
+        margin-left: 30%;
     }
 }
 
@@ -2345,6 +2357,10 @@ form .user-details3 .input-box3 {
         width: 100%;
         padding-left: 20%;
     }
+
+    .logout {
+        margin-left: 25%;
+    }
 }
 
 @media all and (max-width: 600px) {
@@ -2537,7 +2553,8 @@ form .user-details3 .input-box3 {
     }
 
     .logout {
-        height: 25px;
+        height: 30px;
+        margin-left: 18%;
     }
 
     .logout input {
@@ -2966,11 +2983,7 @@ form .user-details3 .input-box3 {
     }
 
     .logout {
-        height: 25px;
-    }
-
-    .logout input {
-        font-size: 15px;
+        margin-left: 12%;
     }
 }
 
@@ -3294,7 +3307,12 @@ form .user-details3 .input-box3 {
     }
 
     .your-card-container h4 {
-        font-size: 12px;
+        font-size: 15px;
+    }
+
+    .your-card-container h2 {
+        font-size: 20px;
+        padding-bottom: 20px;
     }
 
     .med-video-container .med-video {
@@ -3302,10 +3320,9 @@ form .user-details3 .input-box3 {
     }
 
     .library-wrapper {
-        width: 24%;
+        width: 20%;
+        margin-left: 2%;
     }
-
-    /* your account page */
 
     .user-details3 .input-box3 input {
         width: 70vw;
@@ -3313,5 +3330,10 @@ form .user-details3 .input-box3 {
 
     .your-card form .user-details3 {
         padding-left: 32%;
+    }
+
+    .logout {
+        margin-left: 8%;
+        margin-bottom: 200px;
     }
 }
