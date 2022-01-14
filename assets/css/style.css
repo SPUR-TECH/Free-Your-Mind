@@ -2550,6 +2550,7 @@ form .user-details3 .input-box3 {
         font-size: 15px;
         width: 100%;
         padding-left: 25%;
+        line-height: 60px;
     }
 
     .logout {
@@ -3330,7 +3331,6 @@ form .user-details3 .input-box3 {
 
     .your-card form .user-details3 {
         padding-left: 33%;
-        line-height: 40px;
     }
 
     .logout {
