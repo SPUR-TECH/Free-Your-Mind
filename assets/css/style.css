@@ -1132,7 +1132,7 @@ form .button input:hover {
 
 /* Your account page */
 
-.your-container {
+.your-account-container {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -1208,7 +1208,7 @@ form .button input:hover {
     border-radius: 10px;
 }
 
-.your-card-container {
+.your-account-card-container {
     width: 100%;
     height: 270vh;
     background: transparent;
@@ -1217,7 +1217,7 @@ form .button input:hover {
     justify-content: center;
 }
 
-.your-card-container h4 {
+.your-account-card-container h4 {
     font-size: 25px;
     position: relative;
     display: flex;
@@ -1228,13 +1228,13 @@ form .button input:hover {
 
 }
 
-.your-container h1 {
+.your-account-container h1 {
     position: absolute;
     top: 15%;
     font-size: 6rem;
 }
 
-.your-card-container h2 {
+.your-account-card-container h2 {
     position: relative;
     display: flex;
     justify-content: center;
@@ -1244,7 +1244,7 @@ form .button input:hover {
     padding-top: 150px;
 }
 
-.your-card form .user-details3 {
+.your-account-card form .user-details3 {
     display: flex;
     flex-wrap: wrap;
     position: relative;
@@ -1474,7 +1474,7 @@ form .user-details3 .input-box3 {
 
     /* your account page */
 
-    .your-container h1 {
+    .your-account-container h1 {
         left: 10%;
     }
 }
@@ -1652,22 +1652,15 @@ form .user-details3 .input-box3 {
 
     /* Your account page */
 
-    .your-card form .user-details3 {
+    .your-account-card form .user-details3 {
         font-size: 25px;
     }
 
-    /* thank you page */
-
-    .thank-you-container h1 {
-        font-size: 5rem;
+    .library-wrapper {
+        left: 38%;
     }
 }
 
-/* your account page */
-
-.library-wrapper {
-    left: 38%;
-}
 
 @media all and (max-width: 1000px) {
 
@@ -1842,7 +1835,7 @@ form .user-details3 .input-box3 {
         width: 20rem;
     }
 
-    .your-card form .user-details3 {
+    .your-account-card form .user-details3 {
         display: flex;
         flex-direction: column;
         padding: 15%;
@@ -2031,7 +2024,7 @@ form .user-details3 .input-box3 {
 
     /* your account page */
 
-    .your-card form .user-details3 {
+    .your-account-card form .user-details3 {
         font-size: 15px;
         width: 100%;
         margin-left: 8%;
@@ -2118,12 +2111,12 @@ form .user-details3 .input-box3 {
 
     /* Your account page */
 
-    .your-container h1 {
+    .your-account-container h1 {
         left: 25%;
         font-size: 4rem;
     }
 
-    .your-card form .user-details3 {
+    .your-account-card form .user-details3 {
         width: 100%;
     }
 }
@@ -2294,23 +2287,6 @@ form .user-details3 .input-box3 {
 
     .thank-you-container h1 {
         left: 30%;
-    }
-
-    /* welcome back page */
-
-    .welcome-back-container h1 {
-        font-size: 4rem;
-        line-height: 60px;
-    }
-
-    .welcome-back-card {
-        height: 300px;
-        width: 80%;
-    }
-
-    /* thank you page */
-
-    .thank-you-container h1 {
         font-size: 3rem;
         line-height: 60px;
     }
@@ -2330,7 +2306,7 @@ form .user-details3 .input-box3 {
 
     /* your account page */
 
-    .your-card form .user-details3 {
+    .your-account-card form .user-details3 {
         font-size: 15px;
         width: 100%;
         padding-left: 20%;
@@ -2510,11 +2486,11 @@ form .user-details3 .input-box3 {
 
     /* Your account page */
 
-    .your-card-container h1 {
+    .your-account-card-container h1 {
         left: 10%;
     }
 
-    .your-card form .user-details3 {
+    .your-account-card form .user-details3 {
         font-size: 10px;
         line-height: 30px;
     }
@@ -2524,7 +2500,7 @@ form .user-details3 .input-box3 {
         width: 80vw;
     }
 
-    .your-card form .user-details3 {
+    .your-account-card form .user-details3 {
         font-size: 15px;
         width: 100%;
         padding-left: 25%;
@@ -2780,7 +2756,7 @@ form .user-details3 .input-box3 {
 
     /* your account page */
 
-    .your-container h1 {
+    .your-account-container h1 {
         font-size: 3rem;
     }
 
@@ -2950,7 +2926,7 @@ form .user-details3 .input-box3 {
         width: 70vw;
     }
 
-    .your-card form .user-details3 {
+    .your-account-card form .user-details3 {
         font-size: 15px;
         width: 100%;
         padding-left: 30%;
@@ -3118,7 +3094,7 @@ form .user-details3 .input-box3 {
 
     .health-card .third-title h1 {
         margin-left: 20%;
-        margin-top: 18%;
+        margin-top: 12%;
         font-size: 4rem;
     }
 
@@ -3274,17 +3250,17 @@ form .user-details3 .input-box3 {
 
     /* your account page */
 
-    .your-container h1 {
+    .your-account-container h1 {
         font-size: 2.5rem;
         left: 5%;
         top: 15%;
     }
 
-    .your-card-container h4 {
+    .your-account-card-container h4 {
         font-size: 15px;
     }
 
-    .your-card-container h2 {
+    .your-account-card-container h2 {
         font-size: 20px;
         padding-bottom: 20px;
     }
@@ -3302,7 +3278,7 @@ form .user-details3 .input-box3 {
         width: 70vw;
     }
 
-    .your-card form .user-details3 {
+    .your-account-card form .user-details3 {
         padding-left: 33%;
     }
 
