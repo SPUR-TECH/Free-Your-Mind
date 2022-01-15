@@ -1178,6 +1178,7 @@ form .button input:hover {
     position: relative;
     margin-top: 50px;
     overflow-x: auto;
+    left: 38%;
 }
 
 .library-wrapper::-webkit-scrollbar {
