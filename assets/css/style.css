@@ -1686,6 +1686,11 @@ form .user-details3 .input-box3 {
         font-size: 5rem;
     }
 
+    .container p a {
+        font-size: 10px;
+        left: 40%;
+    }
+
     /* menu */
 
     .menu {
@@ -2551,8 +2556,9 @@ form .user-details3 .input-box3 {
         top: 9%;
     }
 
-    .container p {
-        right: 30%;
+    .container p a {
+        width: 6rem;
+        left: 40%;
     }
 
     .meditation-image {
@@ -2993,8 +2999,8 @@ form .user-details3 .input-box3 {
         top: 11%;
     }
 
-    .container p {
-        width: 8rem;
+    .container p a {
+        left: 38%;
     }
 
     .meditation-image {
