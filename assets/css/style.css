@@ -91,7 +91,8 @@ nav a:hover {
 
 .menu a {
     color: rgb(0, 204, 255);
-    text-decoration: none;
+    text-decoration-color: rgb(85, 1, 134);
+    ;
 
 }
 
@@ -168,7 +169,7 @@ h1 {
 /* First title link */
 
 
-.container p {
+.container p a {
     font-size: 15px;
     color: rgb(24, 158, 192);
     background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
