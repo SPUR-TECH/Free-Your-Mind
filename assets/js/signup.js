@@ -141,7 +141,7 @@ function setSuccess(element) {
     parent.classList.add('success');
 }
 
-// Email validation retrieved from stack over flow
+// Email validation retrieved from stack overflow https://stackoverflow.com/questions/201323/how-can-i-validate-an-email-address-using-a-regular-expression
 
 function isEmailValid(email) {
     const reg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
