@@ -360,7 +360,7 @@ h1 {
 }
 
 .med-container .first-title {
-    top: 3%;
+    top: 25%;
     right: 30%;
 }
 
@@ -3079,12 +3079,11 @@ form .user-details3 .input-box3 {
     /* relaxation page */
 
     .relax-card-container {
-        margin-top: 220px;
-        padding-bottom: 200px;
+        margin-top: 40px;
     }
 
     .relax-container .second-title {
-        top: 38%;
+        top: 23%;
     }
 
     .relax-container .second-title h1 {
@@ -3106,26 +3105,21 @@ form .user-details3 .input-box3 {
     }
 
     .five-relaxation {
-        margin-left: 25%;
+        margin-left: 23%;
+        margin-top: 0px;
     }
 
     /* health page */
 
     .health-card-container {
-        margin-top: 600px;
+        margin-top: 500px;
         padding-bottom: 600px;
-    }
-
-    .health-card {
-        padding-top: 50px;
-    }
-
-    .health-card .third-title {
-        top: 80px;
     }
 
     .health-card .third-title h1 {
         margin-left: 20%;
+        margin-top: 18%;
+        font-size: 4rem;
     }
 
     .healthy-food-page-image {
@@ -3139,6 +3133,7 @@ form .user-details3 .input-box3 {
 
     .five-healthy-foods {
         margin-left: 20%;
+        margin-bottom: 100px;
     }
 
     .five-healthy-foods li {
