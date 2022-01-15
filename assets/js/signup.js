@@ -141,7 +141,7 @@ function setSuccess(element) {
     parent.classList.add('success');
 }
 
-// Email validation
+// Email validation retrieved from stack over flow
 
 function isEmailValid(email) {
     const reg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
