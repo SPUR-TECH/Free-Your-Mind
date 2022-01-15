@@ -1689,16 +1689,6 @@ form .user-details3 .input-box3 {
 
 @media all and (max-width: 1000px) {
 
-    /* menu */
-
-    .menu {
-        font-size: 30px;
-    }
-
-    .menu li {
-        margin: 5px;
-    }
-
     /* landing page */
 
     .header h1 {
@@ -1707,6 +1697,16 @@ form .user-details3 .input-box3 {
 
     h1 {
         font-size: 5rem;
+    }
+
+    /* menu */
+
+    .menu {
+        font-size: 30px;
+    }
+
+    .menu li {
+        margin: 5px;
     }
 
     .meditation-image {
@@ -1721,8 +1721,9 @@ form .user-details3 .input-box3 {
         height: 40rem;
     }
 
-    button p {
+    .container p {
         font-size: 10px;
+        right: 40%;
     }
 
     .forth-title {
@@ -1876,13 +1877,6 @@ form .user-details3 .input-box3 {
 
 @media all and (max-width: 880px) {
 
-    /* menu */
-
-    .menu {
-        font-size: 30px;
-        top: 40%;
-    }
-
     /* landing page */
 
     nav ul li a {
@@ -1895,6 +1889,13 @@ form .user-details3 .input-box3 {
 
     h1 {
         font-size: 5rem;
+    }
+
+    /* menu */
+
+    .menu {
+        font-size: 30px;
+        top: 40%;
     }
 
     .meditation-image {
@@ -2148,19 +2149,6 @@ form .user-details3 .input-box3 {
 
 @media all and (max-width: 680px) {
 
-    /* menu */
-
-    .menu {
-        top: 30%;
-        font-size: 20px;
-        padding: 10px;
-        line-height: 50px;
-    }
-
-    .menu li {
-        height: 40px;
-    }
-
     /* landing page */
 
     .header {
@@ -2177,8 +2165,25 @@ form .user-details3 .input-box3 {
         font-size: 4rem;
     }
 
+    /* menu */
+
+    .menu {
+        top: 30%;
+        font-size: 20px;
+        padding: 10px;
+        line-height: 50px;
+    }
+
+    .menu li {
+        height: 40px;
+    }
+
     .first-title {
         margin-top: 10%;
+    }
+
+    .container p {
+        right: 38%;
     }
 
     .meditation-image {
@@ -2576,8 +2581,8 @@ form .user-details3 .input-box3 {
         top: 9%;
     }
 
-    .first-title button p {
-        top: 60%;
+    .container p {
+        right: 30%;
     }
 
     .meditation-image {
@@ -2801,7 +2806,6 @@ form .user-details3 .input-box3 {
         width: 90vw;
         right: 10%;
     }
-
 }
 
 @media all and (max-width: 460px) {
@@ -2825,10 +2829,6 @@ form .user-details3 .input-box3 {
 
     .first-title {
         top: 8%;
-    }
-
-    .first-title button p {
-        top: 70%;
     }
 
     .meditation-image {
@@ -2980,20 +2980,6 @@ form .user-details3 .input-box3 {
 }
 
 @media all and (max-width: 380px) {
-    /* menu */
-
-    .menu {
-        left: 1%;
-        top: 40%;
-    }
-
-    .menu li {
-        margin: 5px;
-        height: 25px;
-        width: 20%;
-        font-size: 16px;
-        line-height: 30px;
-    }
 
     /* Landing page */
 
@@ -3014,12 +3000,31 @@ form .user-details3 .input-box3 {
         font-size: 4rem;
     }
 
+    /* menu */
+
+    .menu {
+        left: 1%;
+        top: 40%;
+    }
+
+    .menu li {
+        margin: 5px;
+        height: 25px;
+        width: 20%;
+        font-size: 16px;
+        line-height: 30px;
+    }
+
     #scroll-stop1 {
         margin-top: 0%;
     }
 
     .first-title {
         top: 11%;
+    }
+
+    .container p {
+        width: 8rem;
     }
 
     .meditation-image {
