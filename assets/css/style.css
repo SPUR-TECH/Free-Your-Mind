@@ -1182,7 +1182,7 @@ form .button input:hover {
     max-width: 25%;
     height: 170px;
     border: 1px solid rgb(24, 158, 192);
-    border-radius: 10px;
+    border-radius: 5px;
     display: flex;
     position: relative;
     margin-top: 50px;
@@ -1190,16 +1190,15 @@ form .button input:hover {
     left: 38%;
 }
 
-.library-wrapper::-webkit-scrollbar {
-    width: 50px;
+::-webkit-scrollbar {
+    width: 10px;
 }
 
-.library-wrapper::-webkit-scrollbar-track {
+::-webkit-scrollbar-track {
     background-color: rgb(24, 158, 192);
-    border-radius: 20px;
 }
 
-.library-wrapper::-webkit-scrollbar-thumb {
+::-webkit-scrollbar-thumb {
     background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
     border-radius: 20px;
     border: 1px solid rgb(24, 158, 192);
