@@ -1180,7 +1180,7 @@ form .button input:hover {
 
 .library-wrapper {
     max-width: 25%;
-    max-height: 160px;
+    height: 170px;
     border: 1px solid rgb(24, 158, 192);
     border-radius: 10px;
     display: flex;
@@ -1191,7 +1191,19 @@ form .button input:hover {
 }
 
 .library-wrapper::-webkit-scrollbar {
-    width: 0;
+    width: 1px;
+
+}
+
+.library-wrapper::-webkit-scrollbar-track {
+    background-color: rgb(24, 158, 192);
+    border-radius: 20px;
+}
+
+.library-wrapper::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    border-radius: 20px;
+    border: 1px solid rgb(24, 158, 192);
 }
 
 .library-wrapper .library {
@@ -3310,6 +3322,7 @@ form .user-details3 .input-box3 {
 
     .library-wrapper {
         width: 20%;
+        padding-bottom: 20px;
         margin-left: 2%;
     }
 
