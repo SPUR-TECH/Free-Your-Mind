@@ -1191,8 +1191,7 @@ form .button input:hover {
 }
 
 .library-wrapper::-webkit-scrollbar {
-    width: 1px;
-
+    width: 7px;
 }
 
 .library-wrapper::-webkit-scrollbar-track {
