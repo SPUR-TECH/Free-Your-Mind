@@ -3294,8 +3294,8 @@ form .user-details3 .input-box3 {
         line-height: 50px;
     }
 
-    .welcome-back-card .button {
-        font-size: 15px;
+    .welcome-back-card .button input {
+        font-size: 14px;
     }
 
     /* your account page */
@@ -3336,5 +3336,6 @@ form .user-details3 .input-box3 {
     .logout {
         margin-left: 8%;
         margin-bottom: 200px;
+
     }
 }
