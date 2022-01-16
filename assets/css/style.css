@@ -2278,6 +2278,12 @@ form .user-details3 .input-box3 {
         padding-left: 0px;
     }
 
+    /* welcome page */
+
+    .welcome-back-card {
+        height: 20rem;
+    }
+
     /* sign up page */
 
     .sign-up-card {
@@ -2499,6 +2505,17 @@ form .user-details3 .input-box3 {
 
     .thank-you-container h1 {
         left: 25%;
+    }
+
+    /* welcome page */
+
+    .welcome-back-container {
+        line-height: 20px;
+    }
+
+    .welcome-back-card {
+        height: 19rem;
+        width: 19rem;
     }
 
     /* Your account page */
@@ -3252,17 +3269,22 @@ form .user-details3 .input-box3 {
 
     /* welcome back page */
 
-    .welcome-back-card .button input {
-        font-size: 15px;
-    }
+
 
     .welcome-back-card {
         margin-bottom: 200px;
+        height: 14rem;
+        width: 14rem;
     }
 
     .welcome-back-container h1 {
         font-size: 3rem;
         left: 10%;
+        line-height: 50px;
+    }
+
+    .welcome-back-card .button {
+        font-size: 15px;
     }
 
     /* your account page */
