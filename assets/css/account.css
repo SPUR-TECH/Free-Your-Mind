@@ -1,0 +1,463 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Smooch&display=swap');
+
+/* Main page reset default settings */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+b {
+    color: rgb(153, 0, 0);
+}
+
+/* nav styling */
+
+nav {
+    display: flex;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    padding: 20px;
+    background-color: rgba(131, 131, 131, 0.9);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+
+nav ul {
+    font-family: Libre Baskerville, sans-serif;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    justify-content: space-between;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    border-radius: 20px;
+    z-index: 10;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul li {
+    padding: 10px;
+    z-index: 10;
+}
+
+nav ul li a {
+    color: rgb(24, 158, 192);
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+nav a:hover {
+    color: rgb(0, 204, 255);
+}
+
+.active {
+    color: rgb(0, 204, 255);
+}
+
+/* Your account page */
+
+.your-account-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    height: 100%;
+    font-family: Libre Baskerville, sans-serif;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    padding: 20px;
+}
+
+/* Header styling */
+
+.header {
+    padding-top: 100px;
+}
+
+.header h1 {
+    font-size: 10rem;
+    color: rgb(24, 158, 192);
+    font-weight: 200;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+/* H1 styling */
+
+h1 {
+    font-size: 8rem;
+    font-family: smooch, san-serif;
+    text-align: center;
+    color: rgb(24, 158, 192);
+    font-weight: 200;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+.med-video-container {
+    display: flex;
+    position: inherit;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.med-video-container .med-video {
+    height: 15rem;
+    width: 25rem;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+    overflow: hidden;
+    border-radius: 10px;
+    margin-bottom: 100px;
+}
+
+.med-video-container .med-video iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+}
+
+.trial-video {
+    margin-top: 400px;
+}
+
+.library-wrapper {
+    width: 25%;
+    height: 170px;
+    border: 1px solid rgb(24, 158, 192);
+    border-radius: 5px;
+    display: flex;
+    position: relative;
+    margin-top: 50px;
+    overflow-x: auto;
+    left: 38%;
+}
+
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(24, 158, 192);
+}
+
+::-webkit-scrollbar-thumb {
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    border-radius: 20px;
+    border: 1px solid rgb(24, 158, 192);
+}
+
+.library-wrapper .library {
+    min-width: 260px;
+    height: 110px;
+    line-height: 110px;
+    margin-right: 8px;
+    margin-top: 20px;
+}
+
+.meditation-video-library {
+    font-size: 15px;
+    position: relative;
+}
+
+.library-wrapper .library iframe {
+    width: 100%;
+    height: 100%;
+    object-fit: contain;
+    outline: none;
+    border: none;
+    cursor: pointer;
+    position: relative;
+    border-radius: 10px;
+}
+
+.your-account-card-container {
+    width: 100%;
+    height: 270vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.your-account-card-container h4 {
+    font-size: 25px;
+    position: relative;
+    display: flex;
+    justify-content: center;
+    margin-bottom: 20px;
+    color: rgb(24, 158, 192);
+    text-shadow: 0 .3rem .3rem rgba(0, 0, 0, .9);
+
+}
+
+.your-account-container h1 {
+    position: absolute;
+    top: 15%;
+    font-size: 6rem;
+}
+
+.your-account-card-container h2 {
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    color: rgb(24, 158, 192);
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+    padding-top: 150px;
+}
+
+.your-account-card form .user-details3 {
+    display: flex;
+    flex-wrap: wrap;
+    position: relative;
+    justify-content: center;
+    justify-content: space-between;
+    font-size: 30px;
+    line-height: 80px;
+    font-weight: 600;
+    color: rgb(24, 158, 192);
+    padding: 10%;
+    padding-bottom: 10%;
+    padding-top: 40px;
+}
+
+form .user-details3 .input-box3 {
+    width: calc(100% / 2 - 20px);
+}
+
+.user-details3 .input-box3 .details3 {
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+.user-details3 .input-box3 textarea {
+    height: 250px;
+    width: 80%;
+    border-radius: 10px;
+    border: none;
+    background-color: rgba(219, 133, 253);
+    font-size: 18px;
+    padding-bottom: 180px;
+    padding-left: 20px;
+    margin-left: 60px;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+
+.user-details3 .input-box3 input:hover {
+    transform: scale(1.1);
+}
+
+.logout {
+    width: 20%;
+    height: 40px;
+    display: flex;
+    justify-content: center;
+    margin-top: 100px;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    border-radius: 20px;
+    border: none;
+    margin-left: 40%;
+}
+
+.logout input {
+    color: rgb(24, 158, 192);
+    background-color: transparent;
+    border: none;
+    font-size: 20px;
+    font-family: "Libre Baskerville", sans-serif;
+}
+
+/* Footer styling */
+
+.footer {
+    width: 100%;
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+
+.footer-padding {
+    padding: 20px;
+}
+
+.footer-list {
+    color: rgb(24, 158, 192);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+}
+
+.footer-list li a {
+    font-weight: 400;
+    color: rgb(24, 158, 192);
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: rgb(0, 204, 255);
+    ;
+}
+
+.copyright {
+    background-color: rgba(131, 131, 131, 0.9);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+@media all and (max-width: 4000px) {
+
+    .your-account-container h1 {
+        left: 10%;
+    }
+}
+
+@media all and (max-width: 1400px) {
+
+    .your-account-card-container {
+        margin-top: 20%;
+        margin-bottom: 25%;
+    }
+
+    .your-account-card form .user-details3 {
+        font-size: 25px;
+    }
+
+    form .user-details3 .input-box3 {
+        width: 60%;
+        padding-left: 30%;
+    }
+
+    .user-details3 .input-box3 textarea {
+        width: 100%;
+        margin-right: 40%;
+    }
+}
+
+@media all and (max-width: 1000px) {
+
+    .your-account-card-container {
+        margin-top: 20%;
+        margin-bottom: 40%;
+    }
+}
+
+@media all and (max-width: 800px) {
+
+    nav {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    .your-account-container h1 {
+        left: 23%;
+        font-size: 4rem;
+    }
+
+    .footer-list {
+        font-size: 1rem;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width: 600px) {
+
+    .your-account-card-container {
+        margin-top: 25%;
+        margin-bottom: 55%;
+    }
+
+    .your-account-container h1 {
+        left: 10%;
+        font-size: 3.5rem;
+    }
+
+    .your-account-card form .user-details3 {
+        font-size: 20px;
+        margin-left: 8%;
+    }
+
+
+    .user-details3 .input-box3 textarea {
+        width: 70%;
+        height: 25vh;
+    }
+
+    .logout {
+        width: 15%;
+        height: 30px;
+        margin-left: 38%;
+    }
+}
+
+@media all and (max-width: 450px) {
+
+    .your-account-card-container {
+        margin-top: 125%;
+        margin-bottom: 165%;
+    }
+
+    nav ul li a {
+        font-size: 9px;
+    }
+
+    .your-account-container h1 {
+        left: 2%;
+        font-size: 2.8rem;
+    }
+
+    .med-video-container .med-video {
+        height: 10rem;
+        width: 19rem;
+    }
+
+    .library-wrapper {
+        width: 18%;
+        height: 150px;
+        margin-left: 3%;
+    }
+
+    .your-account-card form .user-details3 {
+        font-size: 20px;
+        margin-left: 10%;
+    }
+
+    .user-details3 .input-box3 textarea {
+        width: 70%;
+        height: 40vh;
+        margin-left: 10%;
+    }
+
+    .logout {
+        margin-left: 36%;
+    }
+
+    .copyright {
+        font-size: 9px;
+    }
+
+    .footer-list {
+        font-size: 9px;
+    }
+}
