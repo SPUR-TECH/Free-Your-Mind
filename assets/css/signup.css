@@ -1,0 +1,14 @@
+/* Sign up page */
+
+.user-details .input-box .details {
+    font-weight: 600;
+    font-size: 18px;
+}
+
+.user-details .input-box input {
+    height: 35px;
+}
+
+form .input-box i {
+    top: 37%;
+}
