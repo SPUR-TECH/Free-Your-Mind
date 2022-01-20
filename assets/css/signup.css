@@ -392,7 +392,7 @@ form .button input:hover {
     }
 
     nav ul li a {
-        font-size: .5rem;
+        font-size: 9px;
     }
 
     #sign-up-title {
@@ -439,5 +439,13 @@ form .button input:hover {
 
     form .user-details .button input {
         font-size: 1rem;
+    }
+
+    .footer-list {
+        font-size: 1rem;
+    }
+
+    .copyright {
+        font-size: 10px;
     }
 }
