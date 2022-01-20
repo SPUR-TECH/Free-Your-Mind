@@ -1,0 +1,329 @@
+/* Sign in page */
+
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Smooch&display=swap');
+
+/* Main page reset default settings */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+b {
+    color: rgb(153, 0, 0);
+}
+
+/* nav styling */
+
+nav {
+    display: flex;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    padding: 20px;
+    background-color: rgba(131, 131, 131, 0.9);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+
+nav ul {
+    font-family: Libre Baskerville, sans-serif;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    justify-content: space-between;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    border-radius: 20px;
+    z-index: 10;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul li {
+    padding: 10px;
+    z-index: 10;
+}
+
+nav ul li a {
+    color: rgb(24, 158, 192);
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+nav a:hover {
+    color: rgb(0, 204, 255);
+}
+
+.active {
+    color: rgb(0, 204, 255);
+}
+
+/* Header styling */
+
+.header {
+    padding-top: 100px;
+}
+
+.header h1 {
+    font-size: 10rem;
+    color: rgb(24, 158, 192);
+    font-weight: 200;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+/* H1 styling */
+
+h1 {
+    font-size: 8rem;
+    font-family: smooch, san-serif;
+    text-align: center;
+    color: rgb(24, 158, 192);
+    font-weight: 200;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+
+.sign-in-container {
+    font-family: Libre Baskerville, sans-serif;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    padding: 20px;
+}
+
+.sign-in-card-container {
+    width: 80%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    margin-left: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.sign-in-container h1 {
+    position: absolute;
+    top: 14%;
+    left: 40%;
+}
+
+.sign-in-card {
+    width: 80%;
+    height: 60vh;
+    background: rgba(131, 131, 131, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex: 1;
+}
+
+.sign-in-card form .user-details2 {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    font-weight: 600;
+    color: rgb(58, 1, 110);
+    line-height: 50px;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+
+form .user-details2 .input-box2 {
+    width: calc(100% / 2 - 20px);
+    margin-top: 50px;
+}
+
+.user-details2 .input-box2 .details {
+    font-weight: 600;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+
+.user-details2 .input-box2 input {
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    margin-left: 20px;
+    padding-left: 20px;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+
+.user-details2 .input-box2 input:hover {
+    transform: scale(1.1);
+}
+
+form .user-details2 .button {
+    height: 45px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    color: rgb(24, 158, 192);
+    font-size: 20px;
+    font-family: Libre Baskerville, sans-serif;
+}
+
+form .button input:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(rgb(175, -59, 241), rgb(0, 0, 0));
+}
+
+/* Footer styling */
+
+.footer {
+    width: 100%;
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+
+.footer-padding {
+    padding: 20px;
+}
+
+.footer-list {
+    color: rgb(24, 158, 192);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+}
+
+.footer-list li a {
+    font-weight: 400;
+    color: rgb(24, 158, 192);
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: rgb(0, 204, 255);
+    ;
+}
+
+.copyright {
+    background-color: rgba(131, 131, 131, 0.9);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+@media all and (max-width: 1000px) {
+
+    form .user-details2 .input-box2 {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 680px) {
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    .sign-in-card-container {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 10%;
+    }
+
+    .sign-in-container h1 {
+        left: 20%;
+        top: 25%;
+        font-size: 6rem;
+    }
+
+    .sign-in-card {
+        height: 25rem;
+        padding-bottom: 50px;
+        padding-right: 20%;
+    }
+
+    form .user-details2 .input-box2 {
+        line-height: 30px;
+    }
+
+    .user-details2 .input-box2 input {
+        height: 25px;
+        font-size: 13px;
+    }
+
+    form .user-details2 .button {
+        height: 30px;
+        margin-top: 30px;
+        line-height: 0px;
+        margin-left: 45%;
+        margin-right: 25%;
+    }
+
+    form .user-details2 .button input {
+        font-size: 15px;
+    }
+
+    .footer-list {
+        font-size: 1.3rem;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width: 680px) {
+    nav {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        font-size: 9px;
+    }
+
+    form .user-details2 .button {
+
+        margin-left: 35%;
+        margin-right: 25%;
+    }
+
+    form .user-details2 .button input {
+        font-size: 13px;
+    }
+
+    .footer-list {
+        font-size: 1rem;
+    }
+
+    .copyright {
+        font-size: 9px;
+    }
+}
