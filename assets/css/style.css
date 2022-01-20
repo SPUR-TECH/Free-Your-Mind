@@ -756,154 +756,6 @@ h1 {
     padding-right: 50px;
 }
 
-/* Sign up page */
-
-.sign-up-container {
-    font-family: Libre Baskerville, sans-serif;
-    overflow: hidden;
-    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
-    padding: 20px;
-}
-
-.sign-up-card-container {
-    width: 80%;
-    height: 100vh;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 70px;
-    margin-top: 20px;
-    margin-left: 10%;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.sign-up-container h1 {
-    position: absolute;
-    top: 14%;
-    left: 40%;
-}
-
-.sign-up-card {
-    width: 80%;
-    height: 80vh;
-    background: rgba(131, 131, 131, 0.9);
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    border-radius: 10px;
-    padding-left: 10%;
-    padding-right: 10%;
-    flex: 1;
-}
-
-.sign-up-card form .user-details {
-    display: flex;
-    flex-wrap: wrap;
-    justify-content: center;
-    align-items: center;
-    justify-content: space-between;
-    font-size: 20px;
-    color: rgb(58, 1, 110);
-}
-
-form .user-details .input-box {
-    width: calc(100% / 2 - 20px);
-    margin: 10px;
-    position: relative;
-}
-
-form .user-details .input-box input {
-    border: 2px solid rgb(255, 255, 255);
-}
-
-form .user-details .success input {
-    border: 2px solid rgb(21, 211, 3);
-}
-
-.success i.fa-check-circle {
-    visibility: visible;
-    color: rgb(21, 211, 3);
-}
-
-form .user-details .error input {
-    border: 2px solid rgb(211, 32, 1);
-}
-
-.error i.fa-exclamation-circle {
-    visibility: visible;
-    color: rgb(211, 32, 1);
-}
-
-form .user-details .error p {
-    visibility: visible;
-    color: rgb(211, 32, 1);
-    text-transform: uppercase;
-    font-size: 15px;
-    font-weight: 600;
-    margin-top: 10px;
-}
-
-form .input-box i {
-    position: absolute;
-    top: 38px;
-    right: 10px;
-    visibility: hidden;
-}
-
-form .input-box p {
-    visibility: hidden;
-    padding-left: 50px;
-}
-
-.user-details .input-box .details {
-    font-weight: 600;
-    text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
-}
-
-.user-details .input-box input {
-    height: 45px;
-    width: 100%;
-    border-radius: 10px;
-    border: none;
-    font-size: 18px;
-    margin-left: 20px;
-    padding-left: 20px;
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
-}
-
-.user-details .input-box input:hover {
-    transform: scale(1.1);
-}
-
-form .user-details .button {
-    height: 45px;
-    width: 100%;
-    border-radius: 50px;
-    border: none;
-    margin-top: 50px;
-    margin-left: 30%;
-    margin-right: 30%;
-    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
-}
-
-form .button input {
-    height: 100%;
-    width: 100%;
-    border-radius: 50px;
-    border: none;
-    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
-    color: rgb(24, 158, 192);
-    font-size: 20px;
-    font-family: Libre Baskerville, sans-serif;
-}
-
-form .button input:hover {
-    transform: scale(1.1);
-    background-image: linear-gradient(rgb(175, -59, 241), rgb(0, 0, 0));
-}
-
 /* Sign in page */
 
 .sign-in-container {
@@ -1669,7 +1521,6 @@ form .user-details3 .input-box3 {
     }
 }
 
-
 @media all and (max-width: 1000px) {
 
     /* landing page */
@@ -1785,13 +1636,6 @@ form .user-details3 .input-box3 {
     .about-image {
         height: 20rem;
         margin-left: 10%;
-    }
-
-    /* sign up page */
-
-    .sign-up-card {
-        padding-left: 10%;
-        padding-right: 10%;
     }
 
     form .user-details .input-box {
@@ -1990,12 +1834,6 @@ form .user-details3 .input-box3 {
         margin-left: 0%;
     }
 
-    /* Sign up page */
-
-    form .user-details .error p {
-        font-size: 12px;
-    }
-
     /* Sign in page */
 
     .sign-in-card {
@@ -2104,16 +1942,6 @@ form .user-details3 .input-box3 {
     .about-image {
         height: 15rem;
         margin-left: 8%;
-    }
-
-    /* sign up page */
-
-    .sign-up-card {
-        padding-right: 50px;
-    }
-
-    form .input-box i {
-        left: 95%;
     }
 
     /* welcome back page */
@@ -2278,16 +2106,6 @@ form .user-details3 .input-box3 {
 
     .welcome-back-card {
         height: 20rem;
-    }
-
-    /* sign up page */
-
-    .sign-up-card {
-        height: 80vh;
-    }
-
-    .sign-up-container h1 {
-        font-size: 5rem;
     }
 
     /* sign in page */
@@ -2465,36 +2283,6 @@ form .user-details3 .input-box3 {
     .about-card-container {
         padding-left: 20px;
         padding-right: 20px;
-    }
-
-    /* sign up page */
-
-    .sign-up-card-container {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
-    .user-details .input-box input {
-        height: 25px;
-        font-size: 13px;
-        line-height: 10px;
-    }
-
-    form .input-box i {
-        top: 42%;
-        font-size: 15px;
-    }
-
-    form .user-details .error p {
-        font-size: 11px;
-    }
-
-    form .user-details .button {
-        height: 30px;
-    }
-
-    form .button input {
-        font-size: 15px;
     }
 
     /* Thank you page */
@@ -2729,18 +2517,6 @@ form .user-details3 .input-box3 {
         padding-right: 20px;
     }
 
-    /* sign up page */
-
-    .sign-up-card-container {
-        padding-left: 0px;
-        padding-right: 0px;
-        margin-left: 10%;
-    }
-
-    .sign-up-card {
-        height: 75vh;
-    }
-
     /* sign in page */
 
     .sign-in-card-container {
@@ -2926,22 +2702,6 @@ form .user-details3 .input-box3 {
 
     .about-paragraph2 {
         font-size: 6px;
-    }
-
-    /* sign up page */
-
-    .user-details .input-box input {
-        height: 25px;
-        font-size: 10px;
-        padding-left: 10px;
-    }
-
-    form .user-details .error i {
-        top: 45%;
-    }
-
-    form .button input {
-        font-size: 12px;
     }
 
     /* Thank you page */
@@ -3192,55 +2952,6 @@ form .user-details3 .input-box3 {
         margin-left: 15%;
     }
 
-    /* sign up page */
-
-    .sign-up-container nav {
-        margin-bottom: 200px;
-    }
-
-    .sign-up-container h1 {
-        font-size: 4rem;
-        right: 30%;
-        left: 0%;
-        top: 18%;
-    }
-
-    .sign-up-card {
-        height: 80%;
-        margin-bottom: 200px;
-    }
-
-    .user-details .input-box {
-        line-height: 7px;
-    }
-
-    .user-details .input-box .details {
-        font-weight: 600;
-        font-size: 12px;
-        position: absolute;
-        top: -30%;
-    }
-
-    form .user-details .error i {
-        font-size: 12px;
-        top: 17%;
-    }
-
-    form .user-details i {
-        font-size: 12px;
-        top: 17%;
-    }
-
-    form .user-details .error p {
-        font-size: 8px;
-        padding-left: 0px;
-    }
-
-    form .user-details .button {
-        margin-left: 40%;
-        margin-right: 20%;
-    }
-
     /* sign in page */
 
     .sign-in-container h1 {
@@ -3321,6 +3032,5 @@ form .user-details3 .input-box3 {
     .logout {
         margin-left: 8%;
         margin-bottom: 200px;
-
     }
 }

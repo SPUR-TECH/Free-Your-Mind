@@ -1,14 +1,443 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Smooch&display=swap');
+
 /* Sign up page */
 
-.user-details .input-box .details {
-    font-weight: 600;
-    font-size: 18px;
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
 }
 
-.user-details .input-box input {
-    height: 35px;
+b {
+    color: rgb(153, 0, 0);
+}
+
+/* nav styling */
+
+nav {
+    display: flex;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    padding: 20px;
+    background-color: rgba(131, 131, 131, 0.9);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+
+nav ul {
+    font-family: Libre Baskerville, sans-serif;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    justify-content: space-between;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    border-radius: 20px;
+    z-index: 10;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul li {
+    padding: 10px;
+    z-index: 10;
+}
+
+nav ul li a {
+    color: rgb(24, 158, 192);
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+nav a:hover {
+    color: rgb(0, 204, 255);
+}
+
+.active {
+    color: rgb(0, 204, 255);
+}
+
+.menu {
+    border-radius: 20px;
+    padding: 20px;
+    position: fixed;
+    top: 30%;
+    left: 5%;
+    line-height: 60px;
+    font-size: 35px;
+    font-weight: lighter;
+    font-family: smooch, san-serif;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+    z-index: 15;
+}
+
+.menu li {
+    border-radius: 20px;
+    margin: 10px;
+    height: 60px;
+    width: 20%;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    list-style: none;
+    cursor: pointer;
+}
+
+.menu a {
+    color: rgb(0, 204, 255);
+    text-decoration-color: rgb(90, 1, 141);
+    ;
+
+}
+
+.menu li:hover {
+    transform: scale(1.3);
+}
+
+
+.container {
+    position: relative;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+}
+
+/* Header styling */
+
+.header {
+    padding-top: 100px;
+}
+
+.header h1 {
+    font-size: 10rem;
+    color: rgb(24, 158, 192);
+    font-weight: 200;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+/* H1 styling */
+
+h1 {
+    font-size: 8rem;
+    font-family: smooch, san-serif;
+    text-align: center;
+    color: rgb(24, 158, 192);
+    font-weight: 200;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+.sign-up-container {
+    font-family: Libre Baskerville, sans-serif;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    padding: 20px;
+}
+
+.sign-up-card-container {
+    width: 80%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    margin-left: 10%;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.sign-up-container h1 {
+    position: absolute;
+    top: 14%;
+    left: 40%;
+}
+
+.sign-up-card {
+    width: 80%;
+    height: 80vh;
+    background: rgba(131, 131, 131, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    padding-left: 10%;
+    padding-right: 10%;
+    flex: 1;
+}
+
+.sign-up-card form .user-details {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+    justify-content: space-between;
+    font-size: 20px;
+    color: rgb(58, 1, 110);
+}
+
+form .user-details .input-box {
+    width: calc(100% / 2 - 20px);
+    margin: 10px;
+    position: relative;
+}
+
+form .user-details .input-box input {
+    border: 2px solid rgb(255, 255, 255);
+}
+
+form .user-details .success input {
+    border: 2px solid rgb(21, 211, 3);
+}
+
+.success i.fa-check-circle {
+    visibility: visible;
+    color: rgb(21, 211, 3);
+}
+
+form .user-details .error input {
+    border: 2px solid rgb(211, 32, 1);
+}
+
+.error i.fa-exclamation-circle {
+    visibility: visible;
+    color: rgb(211, 32, 1);
+}
+
+form .user-details .error p {
+    visibility: visible;
+    color: rgb(211, 32, 1);
+    text-transform: uppercase;
+    font-size: 15px;
+    font-weight: 600;
+    margin-top: 10px;
 }
 
 form .input-box i {
-    top: 37%;
+    position: absolute;
+    top: 38px;
+    right: 10px;
+    visibility: hidden;
+}
+
+form .input-box p {
+    visibility: hidden;
+    padding-left: 50px;
+}
+
+.user-details .input-box .details {
+    font-weight: 600;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+
+.user-details .input-box input {
+    height: 45px;
+    width: 100%;
+    border-radius: 10px;
+    border: none;
+    font-size: 18px;
+    margin-left: 20px;
+    padding-left: 20px;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+
+.user-details .input-box input:hover {
+    transform: scale(1.1);
+}
+
+form .user-details .button {
+    height: 45px;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    margin-top: 50px;
+    margin-left: 30%;
+    margin-right: 30%;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+}
+
+form .button input {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    color: rgb(24, 158, 192);
+    font-size: 20px;
+    font-family: Libre Baskerville, sans-serif;
+}
+
+form .button input:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(rgb(175, -59, 241), rgb(0, 0, 0));
+}
+
+/* Footer styling */
+
+.footer {
+    width: 100%;
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+
+.footer-padding {
+    padding: 20px;
+}
+
+.footer-list {
+    color: rgb(24, 158, 192);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+}
+
+.footer-list li a {
+    font-weight: 400;
+    color: rgb(24, 158, 192);
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: rgb(0, 204, 255);
+    ;
+}
+
+.copyright {
+    background-color: rgba(131, 131, 131, 0.9);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+@media all and (max-width: 1280px) {
+
+    form .user-details .error p {
+        font-size: 12px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+
+    .sign-up-card {
+        width: 100%;
+        padding-left: 10%;
+        padding-right: 10%;
+    }
+
+    form .user-details .input-box {
+        width: 100%;
+        height: 60px;
+    }
+
+    .user-details .input-box input {
+        height: 35px;
+    }
+
+    form .input-box i {
+        top: 55%;
+    }
+}
+
+@media all and (max-width: 600px) {
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    h1 {
+        font-size: 6rem;
+    }
+
+    .sign-up-card {
+        padding-left: 5%;
+    }
+
+    .user-details .input-box .details {
+        font-size: 1rem;
+    }
+
+    form .user-details .error p {
+        font-size: .5rem;
+    }
+
+    form .user-details .button {
+        height: 35px;
+        width: 100%;
+    }
+
+    .footer-list {
+        font-size: 1.3rem;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width: 480px) {
+
+    nav {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        font-size: .5rem;
+    }
+
+    #sign-up-title {
+        left: 20px;
+    }
+
+    .sign-up-card-container {
+        padding: 0px;
+    }
+
+    .sign-up-card {
+        height: 30rem;
+        padding-right: 30px;
+    }
+
+    form .user-details .input-box {
+        height: 40px;
+    }
+
+    .user-details .input-box input {
+        height: 25px;
+    }
+
+    .user-details .input-box .details {
+        font-size: 0.8rem;
+    }
+
+    form .user-details .input-box {
+        font-size: 1rem;
+    }
+
+    .user-details .input-box input {
+        font-size: .8rem;
+    }
+
+    form .input-box i {
+        top: 60%;
+        left: 95%;
+    }
+
+    form .user-details .button {
+        height: 25px;
+    }
+
+    form .user-details .button input {
+        font-size: 1rem;
+    }
 }
