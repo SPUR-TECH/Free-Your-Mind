@@ -1,0 +1,514 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Smooch&display=swap');
+
+/* Main page reset default settings */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+b {
+    color: rgb(153, 0, 0);
+}
+
+/* nav styling */
+
+nav {
+    display: flex;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    padding: 20px;
+    background-color: rgba(131, 131, 131, 0.9);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+
+nav ul {
+    font-family: Libre Baskerville, sans-serif;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    justify-content: space-between;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    border-radius: 20px;
+    z-index: 10;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul li {
+    padding: 10px;
+    z-index: 10;
+}
+
+nav ul li a {
+    color: rgb(24, 158, 192);
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+nav a:hover {
+    color: rgb(0, 204, 255);
+}
+
+.active {
+    color: rgb(0, 204, 255);
+}
+
+/* H1 styling */
+
+h1 {
+    font-size: 8rem;
+    font-family: smooch, san-serif;
+    text-align: center;
+    color: rgb(24, 158, 192);
+    font-weight: 200;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+/* Med page styling */
+
+.med-container {
+    font-family: Libre Baskerville, sans-serif;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    padding: 20px;
+}
+
+.med-container .first-title {
+    position: absolute;
+    top: 15%;
+    right: 30%;
+}
+
+.med-header {
+    z-index: 10;
+}
+
+.card-container {
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.card {
+    width: 100%;
+    min-height: 80vh;
+    background: rgba(131, 131, 131, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    object-fit: cover;
+    flex: 1;
+}
+
+.med-2-image {
+    max-width: 80%;
+    height: 25rem;
+    display: flex;
+    padding-left: 20px;
+}
+
+.med-paragraph {
+    color: rgb(58, 1, 110);
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.med-paragraph2 {
+    color: rgb(58, 1, 110);
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-right: 50px;
+}
+
+.five-reasons {
+    width: 300px;
+    max-height: 300px;
+    background: rgba(131, 131, 131, 0.9);
+    color: rgb(58, 1, 110);
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-bottom: 40px;
+}
+
+.five-reasons li {
+    font-size: 15px;
+}
+
+/* Footer styling */
+
+.footer {
+    width: 100%;
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+
+.footer-padding {
+    padding: 20px;
+}
+
+.footer-list {
+    color: rgb(24, 158, 192);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+}
+
+.footer-list li a {
+    font-weight: 400;
+    color: rgb(24, 158, 192);
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: rgb(0, 204, 255);
+    ;
+}
+
+.copyright {
+    background-color: rgba(131, 131, 131, 0.9);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+@media all and (max-width: 1600px) {
+
+    .med-container .first-title h1 {
+        font-size: 6rem;
+    }
+
+    .med-paragraph {
+        font-size: 15px;
+    }
+
+    .med-paragraph2 {
+        font-size: 15px;
+    }
+
+    .med-2-image {
+        height: 20rem;
+    }
+}
+
+@media all and (max-width: 1500px) {
+
+    .med-container .header h1 {
+        font-size: 2rem;
+    }
+
+    .med-2-image {
+        height: 15rem;
+    }
+}
+
+@media all and (max-width: 1280px) {
+
+    .med-container .header h1 {
+        font-size: 3rem;
+    }
+
+    .card-container {
+        margin-top: 200px;
+    }
+
+    .med-container .card {
+        display: inline-block;
+        padding-top: 50px;
+        padding-bottom: 20px;
+    }
+
+    .med-2-image {
+        height: 25rem;
+        justify-content: center;
+        margin-left: 10%;
+    }
+
+    .med-paragraph {
+        font-size: 13px;
+    }
+
+    .med-paragraph2 {
+        font-size: 13px;
+        padding-left: 50px;
+    }
+
+    .five-reasons h3 {
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+
+    nav {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    .med-container .first-title h1 {
+        font-size: 5rem;
+        margin-top: 50%;
+    }
+
+    .med-2-image {
+        height: 20rem;
+    }
+
+    .med-paragraph {
+        font-size: 12px;
+    }
+
+    .med-paragraph2 {
+        font-size: 12px;
+    }
+
+    .five-reasons {
+        font-size: 12px;
+        margin-left: 30%;
+    }
+
+    .five-reasons h3 {
+        font-size: 12px;
+    }
+
+    .footer-list {
+        font-size: 1rem;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width: 880px) {
+
+    .med-container .first-title h1 {
+        font-size: 4rem;
+        padding-left: 100px;
+    }
+
+    .med-2-image {
+        height: 18rem;
+        margin-left: 10%;
+    }
+
+    .med-paragraph {
+        font-size: 12px;
+    }
+
+    .med-paragraph2 {
+        font-size: 12px;
+    }
+
+    .five-reasons {
+        width: 200px;
+        font-size: 12px;
+        margin-left: 40%;
+    }
+}
+
+@media all and (max-width: 800px) {
+
+    .med-container .first-title h1 {
+        font-size: 4rem;
+        padding-left: 100px;
+    }
+
+    .med-2-image {
+        height: 15rem
+    }
+
+    .med-paragraph {
+        font-size: 12px;
+    }
+
+    .med-paragraph2 {
+        font-size: 12px;
+    }
+
+    .five-reasons {
+        font-size: 10px;
+        margin-left: 35%;
+    }
+}
+
+@media all and (max-width: 680px) {
+
+    .med-container .first-title {
+        top: 18%;
+    }
+
+    .med-container .first-title h1 {
+        font-size: 4rem;
+        padding-left: 100px;
+    }
+
+    .med-2-image {
+        height: 12rem;
+    }
+
+    .med-paragraph {
+        font-size: 12px;
+    }
+
+    .med-paragraph2 {
+        font-size: 12px;
+    }
+
+    .five-reasons {
+        font-size: 10px;
+        margin-left: 35%;
+    }
+}
+
+@media all and (max-width: 600px) {
+
+    .med-container .first-title h1 {
+        font-size: 3rem;
+        padding-left: 100px;
+    }
+
+    .med-2-image {
+        height: 11rem;
+        justify-content: center;
+        padding-right: 20px;
+    }
+
+    .med-paragraph {
+        font-size: 11px;
+    }
+
+    .med-paragraph2 {
+        font-size: 11px;
+    }
+
+    .five-reasons {
+        font-size: 8px;
+        margin-left: 30%;
+    }
+}
+
+@media all and (max-width: 480px) {
+
+    nav ul li a {
+        font-size: 9px;
+    }
+
+    .med-container .first-title h1 {
+        padding-left: 100px;
+    }
+
+    .med-2-image {
+        height: 10rem;
+
+    }
+
+    .five-reasons {
+        font-size: 10px;
+        margin-left: 28%;
+    }
+
+    .footer-list {
+        font-size: 9px;
+    }
+
+    .copyright {
+        font-size: 9px;
+    }
+}
+
+@media all and (max-width: 460px) {
+
+    .card-container {
+        padding: 10px;
+        margin-top: 200px;
+        padding-bottom: 200px;
+    }
+
+    .med-container .first-title {
+        top: 20%;
+    }
+
+    .med-container .first-title h1 {
+        font-size: 2rem;
+        padding-right: 150px;
+    }
+
+    .med-paragraph {
+        font-size: 9px;
+    }
+
+    .med-paragraph2 {
+        font-size: 9px;
+    }
+
+    .five-reasons {
+        font-size: 10px;
+        margin-left: 26%;
+    }
+}
+
+@media all and (max-width: 380px) {
+
+    .card-container {
+        padding: 10px;
+        margin-top: 250px;
+        padding-bottom: 200px;
+    }
+
+    .med-container .first-title {
+        top: 21%;
+    }
+
+    .med-container .first-title h1 {
+        font-size: 2rem;
+
+        padding-right: 80px;
+    }
+
+    .med-2-image {
+        height: 8rem;
+    }
+
+    .five-reasons {
+        font-size: 10px;
+        margin-left: 20%;
+    }
+}
