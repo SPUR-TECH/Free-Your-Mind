@@ -685,77 +685,6 @@ h1 {
     font-size: 13px;
 }
 
-/* About page styling */
-
-.about-container {
-    font-family: Libre Baskerville, sans-serif;
-    overflow: hidden;
-    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
-    padding: 20px;
-}
-
-.about-container h1 {
-    font-size: 6rem;
-    position: absolute;
-    top: 23%;
-    line-height: 100px;
-}
-
-.about-container p h4 {
-    line-height: 100px;
-}
-
-.about-card-container {
-    width: 100%;
-    height: 100vh;
-    background: transparent;
-    display: flex;
-    align-items: center;
-    justify-content: center;
-    margin-bottom: 70px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.about-card {
-    width: 80%;
-    min-height: 80vh;
-    background: rgba(131, 131, 131, 0.9);
-    display: flex;
-    border-radius: 10px;
-    padding-top: 100px;
-    padding-bottom: 50px;
-    margin-bottom: 200px;
-    margin-top: 200px;
-    flex: 1;
-}
-
-.about-image {
-    max-width: 80%;
-    height: 30rem;
-    display: flex;
-    padding-left: 100px;
-}
-
-.about-paragraph {
-    color: rgb(58, 1, 110);
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    padding: 20px;
-    padding-left: 50px;
-    padding-right: 50px;
-}
-
-.about-paragraph2 {
-    color: rgb(58, 1, 110);
-    justify-content: center;
-    align-items: center;
-    list-style-type: none;
-    padding: 20px;
-    padding-right: 50px;
-}
-
 /* Thank you page */
 
 .thank-you-container {
@@ -965,20 +894,6 @@ h1 {
     .health-paragraph {
         font-size: 13px;
     }
-
-    /* About page */
-
-    .about-image {
-        height: 25rem;
-    }
-
-    .about-paragraph {
-        font-size: 12px;
-    }
-
-    .about-paragraph2 {
-        font-size: 12px;
-    }
 }
 
 @media all and (max-width: 1500px) {
@@ -1178,29 +1093,6 @@ h1 {
         font-size: 12px;
     }
 
-    /* About page */
-
-    .about-container .footer {
-        margin-top: 200px;
-    }
-
-    .about-card-container {
-        padding-top: 100px;
-        padding-bottom: 100px;
-    }
-
-    .about-card {
-        display: inline-block;
-    }
-
-    .about-title h1 {
-        font-size: 5rem;
-    }
-
-    .about-image {
-        height: 25rem;
-    }
-
     /* welcome back page */
 
     .welcome-back-container h1 {
@@ -1318,31 +1210,6 @@ h1 {
         margin-left: 8%;
     }
 
-    /* About page */
-
-    .about-image {
-        height: 20rem;
-        margin-left: 10%;
-    }
-
-    form .user-details .input-box {
-        width: 100%;
-    }
-
-    .user-details .input-box .details {
-        font-size: 16px;
-    }
-
-    .user-details .input-box input {
-        height: 30px;
-        font-size: 15px;
-    }
-
-    form .user-details .button {
-        height: 35px;
-        margin-top: 20px;
-    }
-
     /* thank you page */
 
     .thank-you-container h1 {
@@ -1360,31 +1227,6 @@ h1 {
     .welcome-back-container h1 {
         font-size: 6rem;
         left: 20%;
-    }
-
-    /* Your account page */
-
-    .trial-video {
-        margin-top: 500px;
-    }
-
-    .med-video-container .med-video {
-        height: 10rem;
-        width: 20rem;
-    }
-
-    .your-account-card form .user-details3 {
-        display: flex;
-        flex-direction: column;
-        padding: 15%;
-        padding-top: 20px;
-    }
-
-    .user-details3 .input-box3 textarea {
-        font-size: 18px;
-        padding-bottom: 80px;
-        height: 150px;
-        width: 80vw;
     }
 }
 
@@ -1504,34 +1346,12 @@ h1 {
         top: 25%;
     }
 
-    /* About page */
-
-    .about-title h1 {
-        font-size: 4rem;
-    }
-
-    .about-image {
-        height: 20rem;
-        margin-left: 0%;
-    }
-
     /* welcome page */
 
     .welcome-back-container h1 {
         font-size: 5rem;
     }
 
-    /* your account page */
-
-    .your-account-card form .user-details3 {
-        font-size: 15px;
-        width: 100%;
-        margin-left: 8%;
-    }
-
-    .logout {
-        margin-left: 30%;
-    }
 }
 
 @media all and (max-width: 800px) {
@@ -1578,18 +1398,6 @@ h1 {
 
     .five-healthy-foods {
         margin-left: 38%;
-    }
-
-    /* About page */
-
-    .about-title h1 {
-        font-size: 4rem;
-        line-height: 80px;
-    }
-
-    .about-image {
-        height: 15rem;
-        margin-left: 8%;
     }
 
     /* welcome back page */
@@ -1737,19 +1545,6 @@ h1 {
         margin-left: 33%;
     }
 
-    /* About page */
-
-    .about-title h1 {
-        font-size: 3rem;
-        line-height: 60px;
-    }
-
-    .about-image {
-        height: 15rem;
-        margin-left: 10%;
-        padding-left: 0px;
-    }
-
     /* welcome page */
 
     .welcome-back-card {
@@ -1775,18 +1570,6 @@ h1 {
 
     .thank-you-card .button input {
         font-size: 15px;
-    }
-
-    /* your account page */
-
-    .your-account-card form .user-details3 {
-        font-size: 15px;
-        width: 100%;
-        padding-left: 20%;
-    }
-
-    .logout {
-        margin-left: 25%;
     }
 }
 
@@ -1905,22 +1688,6 @@ h1 {
         font-size: 10px;
     }
 
-    /* About page */
-
-    .about-title h1 {
-        line-height: 50px;
-    }
-
-    .about-image {
-        height: 12rem;
-        margin-left: 10%;
-    }
-
-    .about-card-container {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
     /* Thank you page */
 
     .thank-you-container h1 {
@@ -1936,38 +1703,6 @@ h1 {
     .welcome-back-card {
         height: 19rem;
         width: 19rem;
-    }
-
-    /* Your account page */
-
-    .your-account-card-container h1 {
-        left: 10%;
-    }
-
-    .your-account-card form .user-details3 {
-        font-size: 10px;
-        line-height: 30px;
-    }
-
-    .user-details3 .input-box3 input {
-        margin-left: 20px;
-        width: 80vw;
-    }
-
-    .your-account-card form .user-details3 {
-        font-size: 15px;
-        width: 100%;
-        padding-left: 25%;
-        line-height: 60px;
-    }
-
-    .logout {
-        height: 30px;
-        margin-left: 18%;
-    }
-
-    .logout input {
-        font-size: 15px;
     }
 }
 
@@ -2128,31 +1863,6 @@ h1 {
         margin-left: 32%;
     }
 
-    /* About page */
-
-    .about-paragraph {
-        font-size: 10px;
-    }
-
-    .about-paragraph2 {
-        font-size: 8px;
-    }
-
-    .about-title h1 {
-        font-size: 2.5rem;
-        line-height: 40px;
-    }
-
-    .about-image {
-        height: 11rem;
-        margin-left: 10%;
-    }
-
-    .about-card-container {
-        padding-left: 20px;
-        padding-right: 20px;
-    }
-
     /* welcome back page */
 
     .welcome-back-container h1 {
@@ -2163,17 +1873,6 @@ h1 {
         height: 30px;
         width: 120px;
     }
-
-    /* your account page */
-
-    .your-account-container h1 {
-        font-size: 3rem;
-    }
-
-    .user-details3 .input-box3 input {
-        width: 90vw;
-        right: 10%;
-    }
 }
 
 @media all and (max-width: 460px) {
@@ -2183,8 +1882,6 @@ h1 {
     nav ul li a {
         font-size: 0.6rem;
     }
-
-
 
     .header h1 {
 
@@ -2283,51 +1980,11 @@ h1 {
         padding-top: 50px;
     }
 
-    /* About page */
-
-    .about-card {
-        padding-top: 50px;
-    }
-
-    .about-title h1 {
-        top: 25%;
-        font-size: 2.5rem;
-        line-height: 40px;
-    }
-
-    .about-image {
-        height: 9rem;
-    }
-
-    .about-paragraph {
-        font-size: 8px;
-    }
-
-    .about-paragraph2 {
-        font-size: 6px;
-    }
-
     /* Thank you page */
 
     .thank-you-container h1 {
         font-size: 3rem;
         line-height: 50px;
-    }
-
-    /* your account page */
-
-    .user-details3 .input-box3 input {
-        width: 70vw;
-    }
-
-    .your-account-card form .user-details3 {
-        font-size: 15px;
-        width: 100%;
-        padding-left: 30%;
-    }
-
-    .logout {
-        margin-left: 12%;
     }
 }
 
@@ -2543,18 +2200,6 @@ h1 {
         padding: 0px;
     }
 
-    .about-title h1 {
-        top: 18%;
-        font-size: 3rem;
-        line-height: 55px;
-        right: 5%;
-    }
-
-    .about-image {
-        height: 9rem;
-        margin-left: 15%;
-    }
-
     /* Thank you page */
 
     .thank-you-container h1 {
@@ -2582,45 +2227,5 @@ h1 {
 
     .welcome-back-card .button input {
         font-size: 14px;
-    }
-
-    /* your account page */
-
-    .your-account-container h1 {
-        font-size: 2.5rem;
-        left: 5%;
-        top: 15%;
-    }
-
-    .your-account-card-container h4 {
-        font-size: 15px;
-    }
-
-    .your-account-card-container h2 {
-        font-size: 20px;
-        padding-bottom: 20px;
-    }
-
-    .med-video-container .med-video {
-        width: 18rem;
-    }
-
-    .library-wrapper {
-        width: 20%;
-        padding-bottom: 20px;
-        margin-left: 2%;
-    }
-
-    .user-details3 .input-box3 input {
-        width: 70vw;
-    }
-
-    .your-account-card form .user-details3 {
-        padding-left: 33%;
-    }
-
-    .logout {
-        margin-left: 8%;
-        margin-bottom: 200px;
     }
 }

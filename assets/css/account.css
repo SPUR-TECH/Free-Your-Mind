@@ -384,8 +384,8 @@ form .user-details3 .input-box3 {
 @media all and (max-width: 600px) {
 
     .your-account-card-container {
-        margin-top: 25%;
-        margin-bottom: 55%;
+        margin-top: 55%;
+        margin-bottom: 75%;
     }
 
     .your-account-container h1 {
@@ -398,10 +398,10 @@ form .user-details3 .input-box3 {
         margin-left: 8%;
     }
 
-
     .user-details3 .input-box3 textarea {
         width: 70%;
-        height: 25vh;
+        height: 40vh;
+        margin-left: 10%;
     }
 
     .logout {
@@ -440,12 +440,6 @@ form .user-details3 .input-box3 {
 
     .your-account-card form .user-details3 {
         font-size: 20px;
-        margin-left: 10%;
-    }
-
-    .user-details3 .input-box3 textarea {
-        width: 70%;
-        height: 40vh;
         margin-left: 10%;
     }
 
