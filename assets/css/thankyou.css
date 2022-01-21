@@ -1,0 +1,287 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Smooch&display=swap');
+
+/* Main page reset default settings */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+b {
+    color: rgb(153, 0, 0);
+}
+
+/* nav styling */
+
+nav {
+    display: flex;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    padding: 20px;
+    background-color: rgba(131, 131, 131, 0.9);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+
+nav ul {
+    font-family: Libre Baskerville, sans-serif;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    justify-content: space-between;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    border-radius: 20px;
+    z-index: 10;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul li {
+    padding: 10px;
+    z-index: 10;
+}
+
+nav ul li a {
+    color: rgb(24, 158, 192);
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+nav a:hover {
+    color: rgb(0, 204, 255);
+}
+
+.active {
+    color: rgb(0, 204, 255);
+}
+
+/* Header styling */
+
+.header {
+    padding-top: 100px;
+}
+
+.header h1 {
+    font-size: 10rem;
+    color: rgb(24, 158, 192);
+    font-weight: 200;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+/* H1 styling */
+
+h1 {
+    font-size: 8rem;
+    font-family: smooch, san-serif;
+    text-align: center;
+    color: rgb(24, 158, 192);
+    font-weight: 200;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+/* Thank you page styling */
+
+.thank-you-container {
+    font-family: Libre Baskerville, sans-serif;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    padding: 20px;
+}
+
+.thank-you-card-container {
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-you-card {
+    width: 40%;
+    height: 60vh;
+    background: rgba(131, 131, 131, 0.9);
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+}
+
+.thank-you-container h1 {
+    font-size: 7rem;
+    padding-bottom: 50px;
+    line-height: 90px;
+}
+
+.thank-you-card .button {
+    height: 40px;
+    width: 100px;
+    border-radius: 50px;
+    border: none;
+    box-shadow: 0 .5rem .5rem rgba(0, 0, 0, .5);
+    align-items: center;
+    justify-content: center;
+}
+
+.thank-you-card .button input {
+    height: 100%;
+    width: 100%;
+    border-radius: 50px;
+    border: none;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    color: rgb(24, 158, 192);
+    font-size: 20px;
+    font-family: Libre Baskerville, sans-serif;
+
+}
+
+.thank-you-card .button input:hover {
+    transform: scale(1.1);
+    background-image: linear-gradient(rgb(175, -59, 241), rgb(0, 0, 0));
+}
+
+/* Footer styling */
+
+.footer {
+    width: 100%;
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+
+.footer-padding {
+    padding: 20px;
+}
+
+.footer-list {
+    color: rgb(24, 158, 192);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+}
+
+.footer-list li a {
+    font-weight: 400;
+    color: rgb(24, 158, 192);
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: rgb(0, 204, 255);
+    ;
+}
+
+.copyright {
+    background-color: rgba(131, 131, 131, 0.9);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+@media all and (max-width: 1000px) {
+
+    nav {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    .thank-you-container h1 {
+        font-size: 4rem;
+        line-height: 60px;
+    }
+
+    .thank-you-card {
+        height: 400px;
+        width: 60%;
+    }
+
+    .footer-list {
+        font-size: 1rem;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width: 680px) {
+
+    .thank-you-container h1 {
+        left: 30%;
+        font-size: 3rem;
+        line-height: 60px;
+    }
+
+    .thank-you-card {
+        height: 300px;
+        width: 60%;
+    }
+
+    .thank-you-card .button {
+        height: 22px;
+    }
+
+    .thank-you-card .button input {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 600px) {
+
+    .thank-you-container h1 {
+        left: 25%;
+    }
+}
+
+@media all and (max-width: 480px) {
+
+    nav ul li a {
+        font-size: 9px;
+    }
+
+    .footer-list {
+        font-size: 9px;
+    }
+
+    .copyright {
+        font-size: 9px;
+    }
+}
+
+@media all and (max-width: 460px) {
+
+    .thank-you-container h1 {
+        font-size: 3rem;
+        line-height: 50px;
+    }
+}
+
+@media all and (max-width: 380px) {
+
+    .thank-you-container h1 {
+        font-size: 3rem;
+    }
+
+    .thank-you-card {
+        width: 80%;
+        margin-bottom: 200px;
+    }
+}
