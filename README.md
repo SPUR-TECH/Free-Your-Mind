@@ -25,3 +25,10 @@ As a returning user I would like to access all my saved recipes, meditation vide
 
 ## Wireframes:
 ---
+The wire frames for the pages.
+
+- [Landing Page](assets/images/wireframe-landing-page.png)
+- [About Page](assets/images/wireframe-about-page.png)
+- [Sign up and Sign in Pages](assets/images/wireframe-signing-pages.png)
+- [Thank you and welcome Pages](assets/images/wireframe-thankyou-and-welcome-page.png)
+- 
