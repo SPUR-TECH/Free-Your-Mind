@@ -1,0 +1,449 @@
+@import url('https://fonts.googleapis.com/css2?family=Smooch&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Libre+Baskerville:ital@1&family=Smooch&display=swap');
+
+/* Main page reset default settings */
+
+* {
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+b {
+    color: rgb(153, 0, 0);
+}
+
+/* nav styling */
+
+nav {
+    display: flex;
+    width: 100%;
+    position: relative;
+    text-align: center;
+    z-index: 10;
+    padding: 20px;
+    background-color: rgba(131, 131, 131, 0.9);
+    padding: 20px;
+    margin-top: 20px;
+    margin-left: 0px;
+
+}
+
+nav ul {
+    font-family: Libre Baskerville, sans-serif;
+    width: 100%;
+    display: flex;
+    list-style-type: none;
+    justify-content: center;
+    justify-content: space-between;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    border-radius: 20px;
+    z-index: 10;
+    padding-left: 20px;
+    padding-right: 20px;
+}
+
+nav ul li {
+    padding: 10px;
+    z-index: 10;
+}
+
+nav ul li a {
+    color: rgb(24, 158, 192);
+    font-size: 1.6rem;
+    letter-spacing: 1px;
+    text-decoration: none;
+    z-index: 10;
+}
+
+nav a:hover {
+    color: rgb(0, 204, 255);
+}
+
+.active {
+    color: rgb(0, 204, 255);
+}
+
+/* Header styling */
+
+.header {
+    padding-top: 100px;
+}
+
+.header h1 {
+    font-size: 10rem;
+    color: rgb(24, 158, 192);
+    font-weight: 200;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+.third-title {
+    position: absolute;
+    justify-content: center;
+    top: 44%;
+    width: 100%;
+    z-index: 10;
+}
+
+/* H1 styling */
+
+h1 {
+    font-size: 8rem;
+    font-family: smooch, san-serif;
+    text-align: center;
+    color: rgb(24, 158, 192);
+    font-weight: 200;
+    text-shadow: 0 .5rem .5rem rgba(0, 0, 0);
+}
+
+/* Healthy food page */
+
+.health-container {
+    font-family: Libre Baskerville, sans-serif;
+    overflow: hidden;
+    background-image: linear-gradient(rgb(175, 59, 241), rgb(0, 0, 0));
+    padding: 20px;
+}
+
+.health-card-container {
+    width: 100%;
+    height: 100vh;
+    background: transparent;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin-bottom: 70px;
+    margin-top: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.health-container .third-title {
+    top: 15%;
+}
+
+.health-card {
+    width: 80%;
+    min-height: 80vh;
+    background: rgba(131, 131, 131, 0.9);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border-radius: 10px;
+    object-fit: cover;
+    padding-top: 50px;
+    padding-bottom: 50px;
+    flex: 1;
+}
+
+.healthy-food-page-image {
+    max-width: 80%;
+    height: 35rem;
+    display: flex;
+    padding-left: 100px;
+}
+
+.health-paragraph {
+    color: rgb(58, 1, 110);
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px;
+    padding-left: 50px;
+    padding-right: 50px;
+}
+
+.health-paragraph2 {
+    color: rgb(58, 1, 110);
+    justify-content: center;
+    align-items: center;
+    list-style-type: none;
+    padding: 20px;
+    padding-right: 50px;
+}
+
+.five-healthy-foods {
+    width: 300px;
+    max-height: 300px;
+    background: rgba(131, 131, 131, 0.9);
+    color: rgb(58, 1, 110);
+    font-size: 15px;
+    justify-content: center;
+    align-items: center;
+    padding: 20px;
+    padding-left: 30px;
+    border-radius: 10px;
+    margin-left: 40%;
+    margin-bottom: 40px;
+}
+
+.five-healthy-foods li {
+    font-size: 15px;
+}
+
+/* Footer styling */
+
+.footer {
+    width: 100%;
+    margin-top: auto;
+    background-color: rgba(0, 0, 0, 0.9);
+    padding: 20px;
+}
+
+.footer-padding {
+    padding: 20px;
+}
+
+.footer-list {
+    color: rgb(24, 158, 192);
+    list-style: none;
+    display: flex;
+    justify-content: center;
+    justify-content: space-around;
+    font-size: 1.7rem;
+    padding-bottom: 10px;
+}
+
+.footer-list li a {
+    font-weight: 400;
+    color: rgb(24, 158, 192);
+    text-decoration: none;
+}
+
+.footer-list a:hover {
+    color: rgb(0, 204, 255);
+    ;
+}
+
+.copyright {
+    background-color: rgba(131, 131, 131, 0.9);
+    text-align: center;
+    padding: 10px;
+    margin: 0;
+    font-size: 1.5rem;
+}
+
+@media all and (max-width: 4000px) {
+
+    .health-container .third-title {
+        top: 17%;
+    }
+
+    .health-container h1 {
+        font-size: 7rem;
+    }
+
+    .health-container {
+        font-size: 15px;
+    }
+}
+
+@media all and (max-width: 1600px) {
+
+    .health-card-container {
+        margin-top: 100px;
+    }
+
+    .health-container h1 {
+        font-size: 7rem;
+    }
+
+    .health-paragraph {
+        font-size: 13px;
+    }
+}
+
+@media all and (max-width: 1500px) {
+
+    .health-container .third-title {
+        top: 20%;
+    }
+
+    .health-container h1 {
+        font-size: 6rem;
+    }
+}
+
+@media all and (max-width: 1280px) {
+
+    .health-container .third-title {
+        top: 25%;
+        right: 20%;
+    }
+
+    .healthy-food-page-image {
+        height: 30rem;
+        padding-left: 50px;
+    }
+
+    .health-paragraph {
+        font-size: 11px;
+    }
+}
+
+@media all and (max-width: 1000px) {
+    nav {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    .footer-list {
+        font-size: 1rem;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+}
+
+@media all and (max-width: 880px) {
+
+    .health-card-container {
+        margin-top: 400px;
+        padding-bottom: 400px;
+    }
+
+    .health-card {
+        display: inline-block;
+        margin-top: 300px;
+        margin-bottom: 100px;
+        padding-top: 50px;
+    }
+
+    .health-container .third-title {
+        top: 25%;
+        right: 20%;
+    }
+
+    .healthy-food-page-image {
+        height: 35rem;
+        justify-content: center;
+        margin-left: 5%;
+    }
+
+    .health-paragraph {
+        font-size: 10px;
+    }
+
+    .five-healthy-foods {
+        margin-top: 200px;
+        margin-left: 38%;
+        font-size: 11px;
+        width: 180px;
+    }
+
+    .five-healthy-foods li {
+        font-size: 8px;
+    }
+}
+
+@media all and (max-width: 680px) {
+
+    .healthy-food-page-image {
+        height: 30rem;
+    }
+
+    .health-container .third-title h1 {
+        font-size: 5rem;
+    }
+}
+
+@media all and (max-width: 600px) {
+
+    .health-card-container {
+        padding-left: 0px;
+        padding-right: 0px;
+    }
+
+    .health-card {
+        padding-top: 100px;
+    }
+
+    .health-container .third-title {
+        top: 25%;
+        margin-left: 0%;
+        padding-right: 25px;
+    }
+
+    .five-healthy-foods {
+        margin-left: 35%;
+    }
+}
+
+@media all and (max-width: 480px) {
+
+    nav {
+        padding: 10px;
+    }
+
+    nav ul li a {
+        font-size: 9px;
+    }
+
+    .health-container .third-title {
+        top: 18%;
+    }
+
+    .health-container .third-title h1 {
+        font-size: 5rem;
+    }
+
+    .healthy-food-page-image {
+        height: 26rem;
+    }
+
+    .five-healthy-foods {
+        margin-left: 30%;
+    }
+
+    .footer-list {
+        font-size: 9px;
+    }
+
+    .copyright {
+        font-size: 9px;
+    }
+}
+
+@media all and (max-width: 460px) {
+
+    .health-card {
+        padding-top: 50px;
+    }
+}
+
+@media all and (max-width: 380px) {
+
+    .health-card-container {
+        margin-top: 500px;
+        padding-bottom: 600px;
+    }
+
+    .health-card .third-title h1 {
+        margin-left: 20%;
+        margin-top: 12%;
+        font-size: 4rem;
+    }
+
+    .healthy-food-page-image {
+        height: 20rem;
+        padding-left: 25px;
+    }
+
+    .health-paragraph {
+        font-size: 8px;
+    }
+
+    .five-healthy-foods {
+        margin-left: 20%;
+        margin-bottom: 100px;
+    }
+
+    .five-healthy-foods li {
+        font-size: 8px;
+    }
+}
