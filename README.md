@@ -166,6 +166,195 @@ All fonts were used from https://fonts.google.com/ and they were Libre Baskervil
 4. Sign in page links to welcome back page before account page.
 ![](assets/images/mindful-welcome-back.png)
 
+## Account Page:
+----
+![](assets/images/mindful-account-page.png)
+![](assets/images/mindful-account-page-scroll1.png)
+
+![](assets/images/mindful-account-page-scroll3.png)
+
+## format changes due to screen size.
+
+![](assets/images/mindful-account-page-small1.png)
+![](assets/images/mindful-account-page-small2.png)
+![](assets/images/mindful-account-page-small3.png)
+![](assets/images/mindful-account-page-small4.png)
+
+1. continued colour flow,  navbar  and footer throughout all pages.
+2. A sample guided meditation video.
+3. A small library of other meditation videos.
+4. A save your favorite video section.
+5. A save your diet schedule section.
+6. A save your healthy recipes section.
+7. A save your exercise schedule section.
+8. A logout button to take you back to the home page.
+
+## Meditation Page:
+----
+![](assets/images/mindful-meditation-page.png)
+![](assets/images/mindful-meditation-bottom-page.png)
+
+## format changes due to screen size.
+
+![](assets/images/mindful-meditation-small-page.png)
+![](assets/images/mindful-meditation-small-bottom-page.png)
+
+
+1. continued colour flow,  navbar  and footer throughout all pages.
+2. Each page has five different pointers at the bottom.
+
+## Relaxation Page:
+----
+![](assets/images/mindful-relaxation-page.png)
+![](assets/images/mindful-relaxation-bottom-page.png)
+
+## format changes due to screen size.
+
+![](assets/images/mindful-relaxation-small-page.png)
+![](assets/images/mindful-relaxation-small-bottom-page.png)
+
+
+1. continued colour flow,  navbar  and footer throughout all pages.
+2. Each page has five different pointers at the bottom.
+
+## Healthy food Page:
+----
+![](assets/images/mindful-health-page.png)
+![](assets/images/mindful-health-bottom-page.png)
+
+## format changes due to screen size.
+
+![](assets/images/mindful-health-small-page.png)
+![](assets/images/mindful-health-small-bottom-page.png)
+
+
+1. continued colour flow,  navbar  and footer throughout all pages.
+2. Each page has five different pointers at the bottom.
+
+## Fitness Page:
+----
+![](assets/images/mindful-fitness-page.png)
+![](assets/images/mindful-fitness-bottom-page.png)
+
+## format changes due to screen size.
+
+![](assets/images/mindful-fitness-small-page.png)
+![](assets/images/mindful-fitness-small-bottom-page.png)
+
+
+1. continued colour flow,  navbar  and footer throughout all pages.
+2. Each page has five different pointers at the bottom.
+
+# Testing:
+
+- First line of testing was to make sure links to each page worked in the NAVBAR, footer and quick links button links to other pages.
+
+- Then tested responsive effects on my phone, Ipad, laptop and pc all worked efficiently.
+![](assets/images/image-of-site-on-devices.png)
+ ![](assets/images/mixture-of-pages.png)
+ ![](assets/images/signing-and-welcoming-pages.png)
+
+- I also tested for accessibility on https://wave.webaim.org/  and lighthouse 
+ ![](assets/images/wave-test-results.png)
+ ![](assets/images/lighthouse-result.png)
+
+
+- My testing for my css was performed on https://jigsaw.w3.org/css-validator/validator
+![](assets/images/css-results.png)
+
+- My testing for my html was performed on https://validator.w3.org/ 
+![](assets/images/html-results.png)
+
+- I tested Java script on https://esprima.org/demo/validate.html
+![](assets/images/js-results.png)
+
+- I then put my site up on Slack for scrutiny and received a lot of compliments.
+
+- spell check README.md on https://www.online-spellcheck.com/
+
+# Bugs and Fixes:
+
+- I had many issues with various areas as the site is so big. the first was the video background aligning and playing and staying behind all other elements so I did top and left 50% then transform translate 50%, 50% and that seemed to work.
+
+- I had issues with image sizing and centering which I dealt with in media queries.
+
+- I had issues with contrast so I adjusted accordingly.
+
+- I had issues with aria labels and adjusted accordingly.
+
+- I had issues with javascript as normal but pressed on and achieved what was necessary.
+
+- I had issues with creating a box to save your favorite items in then thought, This just a demo site and the idea is all thats needed for that to make an account page look like an account page.
+
+- I had issues with click buttons on front page as they had a button with a paragraph in so I turned it into an a tag.
+
+- I had issues with quick scroll to th right place on the page so I created an invisible div, positioned it absolute but a new error was it needed a title so I changed it to a span.
+
+# Credits:
+
+I would like to say thank you to everyone on Slack and especially Dave Horrocks for taking time to sit through some of the page linking faults I had and get me back on my feet.
+
+A big thank you to my mentor Jack for explaining form validations in Java script and taking a call to screen share with me.
+
+I would like to credit youtube for the hours each night and day watching random videos on techniques and strategies on different aspects of web development. also I downloaded the meditation videos from there.
+
+Thank you to stack overflow for email regular expressions as I put in the code.
+
+Thank you to code institute for the readme.md template.
+
+Thank you to Google fonts .
+
+Thank you to font awesome.
+
+Thank you to Balsamiq wireframes.
+
+Thank you to ami responsive and lighthouse.
+
+## A credit to the following:
+
+https://validator.w3.org/
+
+https://jigsaw.w3.org/css-validator/
+
+https://esprima.org/demo/validate.html
+
+https://wave.webaim.org/
+
+https://fonts.google.com/
+
+https://fontawesome.com/v5.15/icons?d=gallery&p=2&m=free
+
+https://www.youtube.com/
+
+https://github.com/Code-Institute-Solutions/readme-template
+
+https://balsamiq.com/?gclid=Cj0KCQiA-qGNBhD3ARIsAO_o7ylOuN35WvS_a9h5lct3MRm73f2QkWIiy-HHSgxwuLB5U5yQZlcm8kwaAp6IEALw_wcB
+
+http://ami.responsivedesign.is/
+
+# Deployment:
+
+This site was developed in Gitpod, committed and pushed to Github, and deployed on GitHub Pages.
+
+## How to deploy this site:
+
+- Log in to Github then go to the repository you would like to deploy.
+- Click on Settings in the toolbar.
+- Click on Pages.
+- Click on the Branch in the dropdown menu, and select Main.
+- Click on Save.
+- Click on the URL to navigate to the live site.
+
+
+
+
+
+
+
+
+
+
+
 
 
 
