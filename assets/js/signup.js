@@ -41,7 +41,7 @@ function isFormValid() {
 function validateForm() {
 
     if (firstName.value.trim() == '') {
-        setError(firstName, 'Name can not be empty')
+        setError(firstName, 'Name can not be empty');
     } else {
         setSuccess(firstName);
     }
@@ -68,7 +68,7 @@ function validateForm() {
     //First name
 
     if (firstName.value.trim() == '') {
-        setError(firstName, 'Please enter Name')
+        setError(firstName, 'Please enter Name');
     } else {
         setSuccess(firstName);
     }
@@ -76,7 +76,7 @@ function validateForm() {
     //Last name
 
     if (lastName.value.trim() == '') {
-        setError(lastName, 'Please enter last name')
+        setError(lastName, 'Please enter last name');
     } else {
         setSuccess(lastName);
     }
@@ -95,7 +95,7 @@ function validateForm() {
     // Username
 
     if (username.value.trim() == '') {
-        setError(username, 'Please enter Username')
+        setError(username, 'Please enter Username');
     } else {
         setSuccess(username);
     }
@@ -103,7 +103,7 @@ function validateForm() {
     // Password
 
     if (password.value.trim() == '') {
-        setError(password, 'Please create Password')
+        setError(password, 'Please create Password');
     } else {
         setSuccess(password);
     }
