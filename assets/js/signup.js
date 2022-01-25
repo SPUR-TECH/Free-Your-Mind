@@ -5,7 +5,7 @@
 var form = document.querySelector('#form');
 var firstName = document.querySelector('#first-name');
 var lastName = document.querySelector('#last-name');
-var emailInput = document.querySelector('#email');
+var email = document.querySelector('#email');
 var username = document.querySelector('#username');
 var password = document.querySelector('#password');
 var password2 = document.querySelector('#password2');
@@ -16,7 +16,7 @@ form.addEventListener('submit', function (event) {
 
     validateForm();
 
-    if (isFormValid() == true) {
+    if (isFormValid() === true) {
         form.submit();
     } else {
         event.preventDefault();
@@ -53,11 +53,18 @@ function setSuccess(element) {
     parent.classList.add('success');
 }
 
+// Email validation retrieved from stack overflow https://stackoverflow.com/questions/201323/how-can-i-validate-an-email-address-using-a-regular-expression
+
+function isEmailValid(email) {
+    var reg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
+    return reg.test(email);
+}
+
 function validateForm() {
 
     //First name
 
-    if (firstName.value.trim() == '') {
+    if (firstName.value.trim() === '') {
         setError(firstName, 'Please enter Name');
     } else {
         setSuccess(firstName);
@@ -65,7 +72,7 @@ function validateForm() {
 
     //Last name
 
-    if (lastName.value.trim() == '') {
+    if (lastName.value.trim() === '') {
         setError(lastName, 'Please enter last name');
     } else {
         setSuccess(lastName);
@@ -73,17 +80,17 @@ function validateForm() {
 
     // Email
 
-    if (emailInput.value.trim() == '') {
-        setError(emailInput, 'Please enter Email');
-    } else if (isEmailValid(emailInput.value)) {
-        setSuccess(emailInput);
+    if (email.value.trim() === '') {
+        setError(email, 'Please enter Email');
+    } else if (!isEmailValid(email.value)) {
+        setError(email, 'Invalid email');
     } else {
-        setError(emailInput, 'Invalid email');
+        setSuccess(email);
     }
 
     // Username
 
-    if (username.value.trim() == '') {
+    if (username.value.trim() === '') {
         setError(username, 'Please enter Username');
     } else {
         setSuccess(username);
@@ -91,15 +98,19 @@ function validateForm() {
 
     // Password
 
-    if (password.value.trim() == '') {
+    if (password.value.trim() === '') {
         setError(password, 'Please create Password');
+    } else if (password.value.length < 8) {
+        setError(password, 'minimum of 8 letters');
+    } else if (password.value.length > 15) {
+        setError(password, 'maximum of 15 letters');
     } else {
         setSuccess(password);
     }
 
     // Confirm password
 
-    if (password2.value.trim() == '') {
+    if (password2.value.trim() === '') {
         setError(password2, 'Please confirm password');
     } else if (password2.value !== password.value) {
         setError(password2, 'Passwords must match');
@@ -128,11 +139,4 @@ function setSuccess(element) {
         parent.classList.remove('error');
     }
     parent.classList.add('success');
-}
-
-// Email validation retrieved from stack overflow https://stackoverflow.com/questions/201323/how-can-i-validate-an-email-address-using-a-regular-expression
-
-function isEmailValid(email) {
-    var reg = /^(([^<>()\[\]\\.,;:\s@"]+(\.[^<>()\[\]\\.,;:\s@"]+)*)|(".+"))@((\[[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}\.[0-9]{1,3}])|(([a-zA-Z\-0-9]+\.)+[a-zA-Z]{2,}))$/;
-    return reg.test(email);
 }
