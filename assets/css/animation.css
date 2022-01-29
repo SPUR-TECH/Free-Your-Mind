@@ -1,15 +1,23 @@
- body {
-     animation: transitionIn 1.5s;
+ .container,
+ .about-card-container,
+ .your-account-card-container,
+ .card-container,
+ .relax-card-container,
+ .health-card-container,
+ .fitness-card-container,
+ .sign-in-card-container,
+ .sign-up-card-container,
+ .welcome-back-card-container,
+ .thank-you-card-container {
+     animation: transitionIn 2s;
  }
 
  @keyframes transitionIn {
      from {
          opacity: 0;
-         transition: translateY -10px;
      }
 
      to {
          opacity: 1;
-         transition: translateY 0px;
      }
  }
