@@ -9,7 +9,7 @@
  .sign-up-card-container,
  .welcome-back-card-container,
  .thank-you-card-container {
-     animation: transitionIn 2s;
+     animation: transitionIn 3s;
  }
 
  @keyframes transitionIn {
