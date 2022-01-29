@@ -1,5 +1,3 @@
-'use strict';
-
 // sign up form validation 
 
 var form = document.querySelector('#form');
@@ -60,6 +58,8 @@ function isEmailValid(email) {
     return reg.test(email);
 }
 
+console.log(isEmailValid);
+
 function validateForm() {
 
     //First name
@@ -73,7 +73,7 @@ function validateForm() {
     //Last name
 
     if (lastName.value.trim() === '') {
-        setError(lastName, 'Please enter last name');
+        setError(lastName, 'Please enter Last Name');
     } else {
         setSuccess(lastName);
     }
@@ -83,7 +83,7 @@ function validateForm() {
     if (email.value.trim() === '') {
         setError(email, 'Please enter Email');
     } else if (!isEmailValid(email.value)) {
-        setError(email, 'Invalid email');
+        setError(email, 'Invalid Email');
     } else {
         setSuccess(email);
     }
@@ -111,7 +111,7 @@ function validateForm() {
     // Confirm password
 
     if (password2.value.trim() === '') {
-        setError(password2, 'Please confirm password');
+        setError(password2, 'Please confirm Password');
     } else if (password2.value !== password.value) {
         setError(password2, 'Passwords must match');
     } else {
