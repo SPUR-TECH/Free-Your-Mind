@@ -58,8 +58,6 @@ function isEmailValid(email) {
     return reg.test(email);
 }
 
-console.log(isEmailValid);
-
 function validateForm() {
 
     //First name
@@ -117,6 +115,8 @@ function validateForm() {
     } else {
         setSuccess(password2);
     }
+    localStorage.setItem('username', username.value);
+    localStorage.setItem('password', password.value);
 }
 
 // Call error class
