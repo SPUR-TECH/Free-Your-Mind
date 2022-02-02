@@ -320,6 +320,67 @@ form .user-details3 .input-box3 {
     font-size: 1.5rem;
 }
 
+@media all and (max-width: 1000px) {
+
+    form .user-details2 .input-box2 {
+        width: 100%;
+    }
+}
+
+@media all and (max-width: 680px) {
+
+    nav ul li a {
+        font-size: 1rem;
+    }
+
+    .sign-in-card-container {
+        padding-left: 0px;
+        padding-right: 0px;
+        margin-left: 10%;
+    }
+
+    .sign-in-container h1 {
+        left: 20%;
+        top: 25%;
+        font-size: 6rem;
+    }
+
+    .sign-in-card {
+        height: 25rem;
+        padding-bottom: 50px;
+        padding-right: 20%;
+    }
+
+    form .user-details2 .input-box2 {
+        line-height: 30px;
+    }
+
+    .user-details2 .input-box2 input {
+        height: 25px;
+        font-size: 13px;
+    }
+
+    form .user-details2 .button {
+        height: 30px;
+        margin-top: 30px;
+        line-height: 0px;
+        margin-left: 45%;
+        margin-right: 25%;
+    }
+
+    form .user-details2 .button input {
+        font-size: 15px;
+    }
+
+    .footer-list {
+        font-size: 1.3rem;
+    }
+
+    .copyright {
+        font-size: 1rem;
+    }
+}
+
 @media all and (max-width: 4000px) {
 
     .your-account-container h1 {
